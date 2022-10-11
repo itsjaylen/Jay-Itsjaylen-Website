@@ -1,0 +1,9 @@
+Flask
+Flask-SQLAlchemy
+flask-login
+Flask-WTF
+flask-bcrypt
+Flask-Admin
+cloudscraper
+BeautifulSoup4
+requests
