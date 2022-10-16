@@ -98,6 +98,22 @@
         "documentation": {}
     },
     {
+        "label": "Admin",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
+        "isExtraImport": true,
+        "detail": "flask_admin",
+        "documentation": {}
+    },
+    {
+        "label": "ModelView",
+        "importPath": "flask_admin.contrib.sqla",
+        "description": "flask_admin.contrib.sqla",
+        "isExtraImport": true,
+        "detail": "flask_admin.contrib.sqla",
+        "documentation": {}
+    },
+    {
         "label": "Bcrypt",
         "importPath": "flask_bcrypt",
         "description": "flask_bcrypt",
@@ -218,27 +234,11 @@
         "documentation": {}
     },
     {
-        "label": "Admin",
-        "importPath": "flask_admin",
-        "description": "flask_admin",
+        "label": "GetToDoList",
+        "importPath": "util.FlaskDev",
+        "description": "util.FlaskDev",
         "isExtraImport": true,
-        "detail": "flask_admin",
-        "documentation": {}
-    },
-    {
-        "label": "ModelView",
-        "importPath": "flask_admin.contrib.sqla",
-        "description": "flask_admin.contrib.sqla",
-        "isExtraImport": true,
-        "detail": "flask_admin.contrib.sqla",
-        "documentation": {}
-    },
-    {
-        "label": "scrap_twitch",
-        "importPath": "util.scraper",
-        "description": "util.scraper",
-        "isExtraImport": true,
-        "detail": "util.scraper",
+        "detail": "util.FlaskDev",
         "documentation": {}
     },
     {
@@ -250,11 +250,36 @@
         "documentation": {}
     },
     {
+        "label": "is_live",
+        "importPath": "util.scraper",
+        "description": "util.scraper",
+        "isExtraImport": true,
+        "detail": "util.scraper",
+        "documentation": {}
+    },
+    {
+        "label": "scrap_twitch",
+        "importPath": "util.scraper",
+        "description": "util.scraper",
+        "isExtraImport": true,
+        "detail": "util.scraper",
+        "documentation": {}
+    },
+    {
+        "label": "GetToDoList",
+        "kind": 2,
+        "importPath": ".flask-data.util.FlaskDev",
+        "description": ".flask-data.util.FlaskDev",
+        "peekOfCode": "def GetToDoList():\n    ToDoList = [\"Add darkmode to website\", \"Finish backend\",\n                \"finish kai pocket watching\", \"Automate page updating\",\n                \"Create auto calculation\", \"Get latest video from channel\",\n                \"Get latest tweet\", \"Admin portal\", \"Redo login portal\"]\n    return ToDoList",
+        "detail": ".flask-data.util.FlaskDev",
+        "documentation": {}
+    },
+    {
         "label": "scrap_twitch",
         "kind": 2,
         "importPath": ".flask-data.util.scraper",
         "description": ".flask-data.util.scraper",
-        "peekOfCode": "def scrap_twitch():\n    scraper = cloudscraper.create_scraper(delay=10, browser='chrome') \n    url = \"https://twitchtracker.com/subscribers\"\n    info = scraper.get(url).text\n    soup = BeautifulSoup(info, \"html.parser\")\n    streamers = soup.find_all('td')\n    top_20 = []\n    for streamer in streamers:\n        #print(streamer.get_text().strip())\n        top_20.append(streamer.get_text().strip())",
+        "peekOfCode": "def scrap_twitch():\n    scraper = cloudscraper.create_scraper(delay=10, browser='chrome')\n    url = \"https://twitchtracker.com/subscribers\"\n    info = scraper.get(url).text\n    soup = BeautifulSoup(info, \"html.parser\")\n    streamers = soup.find_all('td')\n    top_20 = []\n    for streamer in streamers:\n        # print(streamer.get_text().strip())\n        top_20.append(streamer.get_text().strip())",
         "detail": ".flask-data.util.scraper",
         "documentation": {}
     },
@@ -268,11 +293,20 @@
         "documentation": {}
     },
     {
+        "label": "is_live",
+        "kind": 2,
+        "importPath": ".flask-data.util.scraper",
+        "description": ".flask-data.util.scraper",
+        "peekOfCode": "def is_live(channel):\n    URL = f'https://www.twitch.tv/{channel.lower()}'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        if 'isLiveBroadcast' in soup:\n            return True\n        else:",
+        "detail": ".flask-data.util.scraper",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "kind": 6,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -281,7 +315,7 @@
         "kind": 6,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "class RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(username=username.data).first()\n        if existing_user_name:\n            raise ValidationError(\"Username already exists. Please choose a different one.\")\nclass LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Username\"})",
+        "peekOfCode": "class RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(\n            username=username.data).first()\n        if existing_user_name:",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -290,7 +324,7 @@
         "kind": 6,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@app.route(\"/\")\n@app.route(\"/home/\")\ndef index():\n    return render_template(\"index.html\")\n@app.route(\"/dev/dev/\")\ndef dev():",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@app.route(\"/\")\n@app.route(\"/home/\")\ndef index():\n    return render_template(\"index.html\")",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -299,7 +333,7 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Username\"})",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -308,7 +342,7 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def index():\n    return render_template(\"index.html\")\n@app.route(\"/dev/dev/\")\ndef dev():\n    return render_template(\"dev.html\")\n@app.route(\"/dev/dev-A/\")\ndef dev_():\n    return render_template(\"dev1.html\")\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required",
+        "peekOfCode": "def index():\n    return render_template(\"index.html\")\n@app.route(\"/dev/dev/\")\ndef dev():\n    return render_template(\"dev.html\")\n@app.route(\"/dev/dev-A/\")\ndef dev_():\n    subs = get_subs_from_tracker(\"adinross\")\n    return render_template(\"dev1.html\", subs=subs)\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -317,7 +351,7 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def dev():\n    return render_template(\"dev.html\")\n@app.route(\"/dev/dev-A/\")\ndef dev_():\n    return render_template(\"dev1.html\")\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/logout/\", methods=[\"GET\", \"POST\"])",
+        "peekOfCode": "def dev():\n    return render_template(\"dev.html\")\n@app.route(\"/dev/dev-A/\")\ndef dev_():\n    subs = get_subs_from_tracker(\"adinross\")\n    return render_template(\"dev1.html\", subs=subs)\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -326,7 +360,7 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def dev_():\n    return render_template(\"dev1.html\")\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/logout/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef logout():\n    logout_user()",
+        "peekOfCode": "def dev_():\n    subs = get_subs_from_tracker(\"adinross\")\n    return render_template(\"dev1.html\", subs=subs)\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/logout/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef logout():",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -371,7 +405,16 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def pocket_watch():\n    return render_template(\"Pocket-Watch.html\")\n@app.route(\"/dynamic_page/\")\ndef dynamic_page():\n    return get_subs_from_tracker(\"yourragegaming\")\n@app.route(\"/dynamic_page2/\")\ndef dynamic_page2():\n    return scrap_twitch()",
+        "peekOfCode": "def pocket_watch():\n    kai_subs = get_subs_from_tracker(\"KaiCenat\")\n    rage_subs = get_subs_from_tracker(\"yourragegaming\")\n    return render_template(\"Pocket-Watch.html\", kai_subs=(format(int(kai_subs), ',d')), rage_subs=rage_subs)\n@app.route(\"/dev/todo/\")\ndef todo():\n    GetToDoList()\n    return render_template(\"todo.html\", todo_list=GetToDoList())\n@app.route(\"/dynamic_page/<channel>\")\ndef dynamic_page(channel):",
+        "detail": ".flask-data.views",
+        "documentation": {}
+    },
+    {
+        "label": "todo",
+        "kind": 2,
+        "importPath": ".flask-data.views",
+        "description": ".flask-data.views",
+        "peekOfCode": "def todo():\n    GetToDoList()\n    return render_template(\"todo.html\", todo_list=GetToDoList())\n@app.route(\"/dynamic_page/<channel>\")\ndef dynamic_page(channel):\n    return get_subs_from_tracker(channel)\n@app.route(\"/dynamic_page2/\")\ndef dynamic_page2():\n    return scrap_twitch()",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -380,7 +423,7 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def dynamic_page():\n    return get_subs_from_tracker(\"yourragegaming\")\n@app.route(\"/dynamic_page2/\")\ndef dynamic_page2():\n    return scrap_twitch()",
+        "peekOfCode": "def dynamic_page(channel):\n    return get_subs_from_tracker(channel)\n@app.route(\"/dynamic_page2/\")\ndef dynamic_page2():\n    return scrap_twitch()",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -479,7 +522,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "admin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(username=username.data).first()\n        if existing_user_name:\n            raise ValidationError(\"Username already exists. Please choose a different one.\")",
+        "peekOfCode": "admin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(",
         "detail": ".flask-data.views",
         "documentation": {}
     }

@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block content %} {% endblock %} {% block main %}
+
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/todo.css') }}"
+/>
+
+<div class="todo-container">
+  <ul class="list-group">
+    {% for x in todo_list %}
+    <li class="list-group-item">{{x}}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}

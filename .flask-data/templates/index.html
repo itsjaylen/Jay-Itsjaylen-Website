@@ -24,6 +24,36 @@
   <div class="welcome">
     <h1>Welcome to the Home page.</h1>
   </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Notice</h4>
+        </div>
+        <div class="modal-body">
+          <p>This website does not contain loggers/tracking. This website is open source.
+            Active source code can be found at <a href="https://github.com/itsjaylen/Jay-Itsjaylen-Website" target="_blank" rel="noreferrer noopener">Source Code</a>
+          </p>
+          <img src="/static/images/Skidy-pocketwatch.png" class="rounded" alt="...">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="btnModeClose">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
 </body>
 
 {% endblock %}
