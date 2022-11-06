@@ -7,3 +7,11 @@ Flask-Admin
 cloudscraper
 BeautifulSoup4
 requests
+Flask[async]
+snscrape
+pandas
+pytube
+Flask-APScheduler
+loguru
+gunicorn
+ffmpeg

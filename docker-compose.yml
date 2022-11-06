@@ -4,10 +4,11 @@ services:
   website:
     build:
       context: .
+    command: gunicorn -w 4 -b 0.0.0.0:8001 views:app
     volumes:
         - .flask-data:/flask  
     ports:
-      - "8001:8000"
+      - "8001:8001"
 
     container_name: ${CONTAINER_NAME}
     

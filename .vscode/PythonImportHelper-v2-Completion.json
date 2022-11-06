@@ -8,6 +8,22 @@
         "documentation": {}
     },
     {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -26,6 +42,134 @@
         "documentation": {}
     },
     {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "snscrape.modules.twitter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "snscrape.modules.twitter",
+        "description": "snscrape.modules.twitter",
+        "detail": "snscrape.modules.twitter",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "views",
+        "description": "views",
+        "isExtraImport": true,
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "views",
+        "description": "views",
+        "isExtraImport": true,
+        "detail": "views",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "views",
+        "description": "views",
+        "isExtraImport": true,
+        "detail": "views",
+        "documentation": {}
+    },
+    {
         "label": "Flask",
         "importPath": "flask",
         "description": "flask",
@@ -35,6 +179,14 @@
     },
     {
         "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -66,6 +218,14 @@
         "documentation": {}
     },
     {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "url_for",
         "importPath": "flask",
         "description": "flask",
@@ -82,19 +242,28 @@
         "documentation": {}
     },
     {
-        "label": "app",
-        "importPath": "views",
-        "description": "views",
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "detail": "views",
+        "detail": "flask",
         "documentation": {}
     },
     {
-        "label": "app",
-        "importPath": "views",
-        "description": "views",
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
         "isExtraImport": true,
-        "detail": "views",
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -111,6 +280,22 @@
         "description": "flask_admin.contrib.sqla",
         "isExtraImport": true,
         "detail": "flask_admin.contrib.sqla",
+        "documentation": {}
+    },
+    {
+        "label": "APScheduler",
+        "importPath": "flask_apscheduler",
+        "description": "flask_apscheduler",
+        "isExtraImport": true,
+        "detail": "flask_apscheduler",
+        "documentation": {}
+    },
+    {
+        "label": "APScheduler",
+        "importPath": "flask_apscheduler",
+        "description": "flask_apscheduler",
+        "isExtraImport": true,
+        "detail": "flask_apscheduler",
         "documentation": {}
     },
     {
@@ -186,6 +371,14 @@
         "documentation": {}
     },
     {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
         "label": "PasswordField",
         "importPath": "wtforms",
         "description": "wtforms",
@@ -250,7 +443,7 @@
         "documentation": {}
     },
     {
-        "label": "is_live",
+        "label": "get_tweets",
         "importPath": "util.scraper",
         "description": "util.scraper",
         "isExtraImport": true,
@@ -266,11 +459,126 @@
         "documentation": {}
     },
     {
+        "label": "get_videos",
+        "importPath": "util.youtube_video_download",
+        "description": "util.youtube_video_download",
+        "isExtraImport": true,
+        "detail": "util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "video_function",
+        "importPath": "util.youtube_video_download",
+        "description": "util.youtube_video_download",
+        "isExtraImport": true,
+        "detail": "util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "process_channel",
+        "importPath": "tools.video",
+        "description": "tools.video",
+        "isExtraImport": true,
+        "detail": "tools.video",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "demojize",
+        "importPath": "emoji",
+        "description": "emoji",
+        "isExtraImport": true,
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "demojize",
+        "importPath": "emoji",
+        "description": "emoji",
+        "isExtraImport": true,
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ffmpeg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ffmpeg",
+        "description": "ffmpeg",
+        "detail": "ffmpeg",
+        "documentation": {}
+    },
+    {
+        "label": "HttpUser",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "task",
+        "importPath": "locust",
+        "description": "locust",
+        "isExtraImport": true,
+        "detail": "locust",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": ".flask-data.instance.config",
+        "description": ".flask-data.instance.config",
+        "peekOfCode": "SECRET_KEY = '8127baf4454a4cf3a376c5d49907ab70cd0d2f6d750bd8133c534abd176339f9'",
+        "detail": ".flask-data.instance.config",
+        "documentation": {}
+    },
+    {
         "label": "GetToDoList",
         "kind": 2,
         "importPath": ".flask-data.util.FlaskDev",
         "description": ".flask-data.util.FlaskDev",
-        "peekOfCode": "def GetToDoList():\n    ToDoList = [\"Add darkmode to website\", \"Finish backend\",\n                \"finish kai pocket watching\", \"Automate page updating\",\n                \"Create auto calculation\", \"Get latest video from channel\",\n                \"Get latest tweet\", \"Admin portal\", \"Redo login portal\"]\n    return ToDoList",
+        "peekOfCode": "def GetToDoList():\n    ToDoList = [\"Add darkmode to website\", \"Finish backend\",\n                \"finish kai pocket watching\", \"Automate page updating\",\n                \"Create auto calculation\", \"Get latest video from channel\",\n                \"Get latest tweet\", \"Admin portal\", \"Redo login portal\",\n                \"Make sure the site is secure\", \"Integrate video scapper\", \"Nice About page\"]\n    return ToDoList",
         "detail": ".flask-data.util.FlaskDev",
         "documentation": {}
     },
@@ -288,7 +596,7 @@
         "kind": 2,
         "importPath": ".flask-data.util.scraper",
         "description": ".flask-data.util.scraper",
-        "peekOfCode": "def get_subs_from_tracker(channel):\n    URL = f'https://twitchtracker.com/{channel.lower()}/subscribers'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        subs_counter = soup.find(\"span\", {\"class\": \"to-number\"}).getText()\n        return subs_counter\n    except:",
+        "peekOfCode": "def get_subs_from_tracker(channel):\n    URL = f'https://twitchtracker.com/{channel.lower()}/subscribers'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS, timeout=5)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        subs_counter = soup.find(\n            \"span\", {\"class\": \"to-number\"}).getText()  # type: ignore\n        return subs_counter",
         "detail": ".flask-data.util.scraper",
         "documentation": {}
     },
@@ -297,8 +605,71 @@
         "kind": 2,
         "importPath": ".flask-data.util.scraper",
         "description": ".flask-data.util.scraper",
-        "peekOfCode": "def is_live(channel):\n    URL = f'https://www.twitch.tv/{channel.lower()}'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        if 'isLiveBroadcast' in soup:\n            return True\n        else:",
+        "peekOfCode": "def is_live(channel):\n    URL = f'https://www.twitch.tv/{channel.lower()}'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS, timeout=5)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        if 'isLiveBroadcast' in soup:\n            return True\n        else:",
         "detail": ".flask-data.util.scraper",
+        "documentation": {}
+    },
+    {
+        "label": "process_channel",
+        "kind": 2,
+        "importPath": ".flask-data.util.youtube_video_download",
+        "description": ".flask-data.util.youtube_video_download",
+        "peekOfCode": "def process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text\n        info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()",
+        "detail": ".flask-data.util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "process_video",
+        "kind": 2,
+        "importPath": ".flask-data.util.youtube_video_download",
+        "description": ".flask-data.util.youtube_video_download",
+        "peekOfCode": "def process_video(url):\n    blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                         \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n    video = YouTube(\n        url,\n        on_complete_callback=None,\n        on_progress_callback=None)\n    title = video.title\n    for char in blacklisted_chars:\n        title = title.replace(char, \"\")",
+        "detail": ".flask-data.util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "video_function",
+        "kind": 2,
+        "importPath": ".flask-data.util.youtube_video_download",
+        "description": ".flask-data.util.youtube_video_download",
+        "peekOfCode": "def video_function():\n    try:\n        with open(\"channels.txt\", encoding=\"utf-8\") as channels:\n            for channel in channels:\n                for link in valid_links:\n                    if channel.startswith(link):\n                        try:\n                            print(f\"Processing {channel}\")\n                            process_channel(channel)\n                        except Exception:",
+        "detail": ".flask-data.util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "get_videos",
+        "kind": 2,
+        "importPath": ".flask-data.util.youtube_video_download",
+        "description": ".flask-data.util.youtube_video_download",
+        "peekOfCode": "def get_videos():\n    paths = []\n    paths_clean = []\n    channel_names = []\n    for root, dirs, files in os.walk(f'{os.getcwd()}/.flask-data/static/videos/'):\n        for file in files:\n            if file.lower().endswith(\".mp4\".lower()):\n                paths.append(os.path.join(root, file))\n                for path in paths:\n                    path_list = path.split(os.path.sep)[-4:]",
+        "detail": ".flask-data.util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "valid_links",
+        "kind": 5,
+        "importPath": ".flask-data.util.youtube_video_download",
+        "description": ".flask-data.util.youtube_video_download",
+        "peekOfCode": "valid_links = [\"https://www.youtube.com/c/\", \"https://www.youtube.com/channel/\",\n               \"https://www.youtube.com/feeds/videos.xml?channel_id=\"]\nrequest.default_range_size = 10485760\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")",
+        "detail": ".flask-data.util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "request.default_range_size",
+        "kind": 5,
+        "importPath": ".flask-data.util.youtube_video_download",
+        "description": ".flask-data.util.youtube_video_download",
+        "peekOfCode": "request.default_range_size = 10485760\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:",
+        "detail": ".flask-data.util.youtube_video_download",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": ".flask-data.views",
+        "description": ".flask-data.views",
+        "peekOfCode": "class Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)",
+        "detail": ".flask-data.views",
         "documentation": {}
     },
     {
@@ -306,7 +677,7 @@
         "kind": 6,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(",
+        "peekOfCode": "class User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -324,7 +695,7 @@
         "kind": 6,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@app.route(\"/\")\n@app.route(\"/home/\")\ndef index():\n    return render_template(\"index.html\")",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@logger.catch\n@scheduler.task(\"interval\", id=\"do_job_1\", minutes=45)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -333,106 +704,16 @@
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(",
         "detail": ".flask-data.views",
         "documentation": {}
     },
     {
-        "label": "index",
+        "label": "job1",
         "kind": 2,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "def index():\n    return render_template(\"index.html\")\n@app.route(\"/dev/dev/\")\ndef dev():\n    return render_template(\"dev.html\")\n@app.route(\"/dev/dev-A/\")\ndef dev_():\n    subs = get_subs_from_tracker(\"adinross\")\n    return render_template(\"dev1.html\", subs=subs)\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "dev",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def dev():\n    return render_template(\"dev.html\")\n@app.route(\"/dev/dev-A/\")\ndef dev_():\n    subs = get_subs_from_tracker(\"adinross\")\n    return render_template(\"dev1.html\", subs=subs)\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "dev_",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def dev_():\n    subs = get_subs_from_tracker(\"adinross\")\n    return render_template(\"dev1.html\", subs=subs)\n@app.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/logout/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef logout():",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "dashboard",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def dashboard():\n    return render_template(\"dashboard.html\")\n@app.route(\"/logout/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef logout():\n    logout_user()\n    flash(\"You have been logged out.\", category=\"info\")\n    return redirect(url_for(\"index\"))\n@app.route(\"/login/\", methods=[\"GET\", \"POST\"])\ndef login():",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "logout",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def logout():\n    logout_user()\n    flash(\"You have been logged out.\", category=\"info\")\n    return redirect(url_for(\"index\"))\n@app.route(\"/login/\", methods=[\"GET\", \"POST\"])\ndef login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"dashboard\"))\n    form = LoginForm()\n    if form.validate_on_submit():",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "login",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"dashboard\"))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(username=form.username.data).first()\n        if user:\n            if bcrypt.check_password_hash(user.password, form.password.data):\n                login_user(user)\n                return redirect(url_for(\"dashboard\"))",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "register",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def register():\n    form = RegisterForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data)\n        new_user = User(username=form.username.data, password=hashed_password)\n        db.session.add(new_user)\n        db.session.commit()\n        flash('Your account has been created! You are now able to log in', 'success')\n        return redirect(url_for('login'))\n    return render_template(\"register.html\", form=form)",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "pocket_watch",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def pocket_watch():\n    kai_subs = get_subs_from_tracker(\"KaiCenat\")\n    rage_subs = get_subs_from_tracker(\"yourragegaming\")\n    return render_template(\"Pocket-Watch.html\", kai_subs=(format(int(kai_subs), ',d')), rage_subs=rage_subs)\n@app.route(\"/dev/todo/\")\ndef todo():\n    GetToDoList()\n    return render_template(\"todo.html\", todo_list=GetToDoList())\n@app.route(\"/dynamic_page/<channel>\")\ndef dynamic_page(channel):",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "todo",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def todo():\n    GetToDoList()\n    return render_template(\"todo.html\", todo_list=GetToDoList())\n@app.route(\"/dynamic_page/<channel>\")\ndef dynamic_page(channel):\n    return get_subs_from_tracker(channel)\n@app.route(\"/dynamic_page2/\")\ndef dynamic_page2():\n    return scrap_twitch()",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "dynamic_page",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def dynamic_page(channel):\n    return get_subs_from_tracker(channel)\n@app.route(\"/dynamic_page2/\")\ndef dynamic_page2():\n    return scrap_twitch()",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "dynamic_page2",
-        "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def dynamic_page2():\n    return scrap_twitch()",
+        "peekOfCode": "def job1():\n    \"\"\"Sample job 1.\"\"\"\n    #get_videos()\n    video_function()\n@app.route(\"/\")\n@app.route(\"/home/\")\nasync def index():\n    return render_template(\"index.html\")\n@app.route(\"/dev/dev/\")\nasync def dev():",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -441,7 +722,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "app = Flask(__name__)\nbcrypt = Bcrypt(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"",
+        "peekOfCode": "app = Flask(__name__)\nbcrypt = Bcrypt(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db?check_same_thread=False'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -450,7 +731,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "bcrypt = Bcrypt(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader",
+        "peekOfCode": "bcrypt = Bcrypt(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db?check_same_thread=False'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -459,7 +740,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db?check_same_thread=False'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -468,7 +749,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -477,7 +758,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "app.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):",
+        "peekOfCode": "app.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -486,7 +767,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)",
+        "peekOfCode": "app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -495,7 +776,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "db = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)",
+        "peekOfCode": "db = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -504,7 +785,7 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)",
+        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -513,7 +794,16 @@
         "kind": 5,
         "importPath": ".flask-data.views",
         "description": ".flask-data.views",
-        "peekOfCode": "login_manager.login_view = \"login\"\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))",
+        "peekOfCode": "login_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": ".flask-data.views",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "kind": 5,
+        "importPath": ".flask-data.views",
+        "description": ".flask-data.views",
+        "peekOfCode": "scheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))",
         "detail": ".flask-data.views",
         "documentation": {}
     },
@@ -524,6 +814,276 @@
         "description": ".flask-data.views",
         "peekOfCode": "admin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(",
         "detail": ".flask-data.views",
+        "documentation": {}
+    },
+    {
+        "label": "process_channel",
+        "kind": 2,
+        "importPath": "tests.Youtube-Automation.tools.video",
+        "description": "tests.Youtube-Automation.tools.video",
+        "peekOfCode": "def process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text\n        info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()",
+        "detail": "tests.Youtube-Automation.tools.video",
+        "documentation": {}
+    },
+    {
+        "label": "process_video",
+        "kind": 2,
+        "importPath": "tests.Youtube-Automation.tools.video",
+        "description": "tests.Youtube-Automation.tools.video",
+        "peekOfCode": "def process_video(url):\n    blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                         \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n    video = YouTube(\n        url,\n        on_complete_callback=None,\n        on_progress_callback=None)\n    title = video.title\n    for char in blacklisted_chars:\n        title = title.replace(char, \"\")",
+        "detail": "tests.Youtube-Automation.tools.video",
+        "documentation": {}
+    },
+    {
+        "label": "request.default_range_size",
+        "kind": 5,
+        "importPath": "tests.Youtube-Automation.tools.video",
+        "description": "tests.Youtube-Automation.tools.video",
+        "peekOfCode": "request.default_range_size = 10485760\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text",
+        "detail": "tests.Youtube-Automation.tools.video",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "tests.twitch.chat_logger",
+        "description": "tests.twitch.chat_logger",
+        "peekOfCode": "def main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')\n            if resp.startswith('PING'):",
+        "detail": "tests.twitch.chat_logger",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "kind": 5,
+        "importPath": "tests.twitch.chat_logger",
+        "description": "tests.twitch.chat_logger",
+        "peekOfCode": "server = 'irc.chat.twitch.tv'\nport = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))",
+        "detail": "tests.twitch.chat_logger",
+        "documentation": {}
+    },
+    {
+        "label": "port",
+        "kind": 5,
+        "importPath": "tests.twitch.chat_logger",
+        "description": "tests.twitch.chat_logger",
+        "peekOfCode": "port = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))",
+        "detail": "tests.twitch.chat_logger",
+        "documentation": {}
+    },
+    {
+        "label": "nickname",
+        "kind": 5,
+        "importPath": "tests.twitch.chat_logger",
+        "description": "tests.twitch.chat_logger",
+        "peekOfCode": "nickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:",
+        "detail": "tests.twitch.chat_logger",
+        "documentation": {}
+    },
+    {
+        "label": "token",
+        "kind": 5,
+        "importPath": "tests.twitch.chat_logger",
+        "description": "tests.twitch.chat_logger",
+        "peekOfCode": "token = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:",
+        "detail": "tests.twitch.chat_logger",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "tests.twitch.chat_logger",
+        "description": "tests.twitch.chat_logger",
+        "peekOfCode": "channel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')",
+        "detail": "tests.twitch.chat_logger",
+        "documentation": {}
+    },
+    {
+        "label": "get_chat_dataframe",
+        "kind": 2,
+        "importPath": "tests.twitch.chat_parser",
+        "description": "tests.twitch.chat_parser",
+        "peekOfCode": "def get_chat_dataframe(file):\n    data = []\n    with open(file, 'r', encoding='utf-8') as f:\n        lines = [line for line in f]\n        for line in lines:\n            try:\n                #print(line)\n                time_logged = line.split('—')[0].strip()\n                time_logged = datetime.strptime(time_logged, '%Y-%m-%d_%H:%M:%S')\n                username_message = line.split('—')[1:]",
+        "detail": "tests.twitch.chat_parser",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "class Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")\n# cron examples",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "job1",
+        "kind": 2,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "def job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")\n# cron examples\n@scheduler.task(\"cron\", id=\"do_job_2\", minute=1)\ndef job2():\n    \"\"\"Sample job 2.\"\"\"\n    print(f\"Job 2 executed at {current_time}\")\n@scheduler.task(\"cron\", id=\"do_job_3\", week=\"*\", day_of_week=\"sun\")\ndef job3():",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "job2",
+        "kind": 2,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "def job2():\n    \"\"\"Sample job 2.\"\"\"\n    print(f\"Job 2 executed at {current_time}\")\n@scheduler.task(\"cron\", id=\"do_job_3\", week=\"*\", day_of_week=\"sun\")\ndef job3():\n    \"\"\"Sample job 3.\"\"\"\n    print(f\"Job 3 executed at {current_time}\")\n@app.route(\"/\")\n@app.route(\"/home/\")\nasync def index():",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "job3",
+        "kind": 2,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "def job3():\n    \"\"\"Sample job 3.\"\"\"\n    print(f\"Job 3 executed at {current_time}\")\n@app.route(\"/\")\n@app.route(\"/home/\")\nasync def index():\n    return \"<h1>Home</h1>\"\nif __name__ == \"__main__\":\n    app.config.from_object(Config())\n    # it is also possible to enable the API directly",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "app = Flask(__name__)\nnow = datetime.now()\ncurrent_time = now.strftime(\"%H:%M:%S\")\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "kind": 5,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "now = datetime.now()\ncurrent_time = now.strftime(\"%H:%M:%S\")\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "current_time",
+        "kind": 5,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "current_time = now.strftime(\"%H:%M:%S\")\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "kind": 5,
+        "importPath": "tests.backgroundtest",
+        "description": "tests.backgroundtest",
+        "peekOfCode": "scheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")\n# cron examples\n@scheduler.task(\"cron\", id=\"do_job_2\", minute=1)\ndef job2():\n    \"\"\"Sample job 2.\"\"\"",
+        "detail": "tests.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "query",
+        "kind": 5,
+        "importPath": "tests.test123",
+        "description": "tests.test123",
+        "peekOfCode": "query = \"(from:YourRAGEz)\" # Use the link below to make search term more advanced:\n# https://twitter.com/search-advanced\n# example tweets:\n## \"(from:PolestarCars)\"\n## \"sustainability (from:elonmusk) until:2022-10-27 since:2010-01-01\"\ntweets = []\nlimit = 1 # how many tweets you want\nfor tweet in sntwitter.TwitterSearchScraper(query).get_items():\n    #print(vars(tweet))\n    #break",
+        "detail": "tests.test123",
+        "documentation": {}
+    },
+    {
+        "label": "tweets",
+        "kind": 5,
+        "importPath": "tests.test123",
+        "description": "tests.test123",
+        "peekOfCode": "tweets = []\nlimit = 1 # how many tweets you want\nfor tweet in sntwitter.TwitterSearchScraper(query).get_items():\n    #print(vars(tweet))\n    #break\n    if len(tweets) == limit:\n        break\n    else:\n        print(tweet.content)\n        tweets.append([tweet.date, tweet.user.username, tweet.content])",
+        "detail": "tests.test123",
+        "documentation": {}
+    },
+    {
+        "label": "limit",
+        "kind": 5,
+        "importPath": "tests.test123",
+        "description": "tests.test123",
+        "peekOfCode": "limit = 1 # how many tweets you want\nfor tweet in sntwitter.TwitterSearchScraper(query).get_items():\n    #print(vars(tweet))\n    #break\n    if len(tweets) == limit:\n        break\n    else:\n        print(tweet.content)\n        tweets.append([tweet.date, tweet.user.username, tweet.content])\ndf = pd.DataFrame(tweets, columns=['Date', 'User', 'Tweet'])",
+        "detail": "tests.test123",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "tests.test123",
+        "description": "tests.test123",
+        "peekOfCode": "df = pd.DataFrame(tweets, columns=['Date', 'User', 'Tweet'])\nprint(df)\nwith open(\"tweets.txt\", \"a+\") as f:\n    for tweet in tweets:\n        f.write(tweet[2])",
+        "detail": "tests.test123",
+        "documentation": {}
+    },
+    {
+        "label": "compress_video",
+        "kind": 2,
+        "importPath": "tests.test2",
+        "description": "tests.test2",
+        "peekOfCode": "def compress_video(video_full_path, output_file_name, target_size):\n    # Reference: https://en.wikipedia.org/wiki/Bit_rate#Encoding_bit_rate\n    min_audio_bitrate = 32000\n    max_audio_bitrate = 256000\n    probe = ffmpeg.probe(video_full_path)\n    # Video duration, in s.\n    duration = float(probe['format']['duration'])\n    # Audio bitrate, in bps.\n    audio_bitrate = float(next(\n        (s for s in probe['streams'] if s['codec_type'] == 'audio'), None)['bit_rate'])",
+        "detail": "tests.test2",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "tests.twitch",
+        "description": "tests.twitch",
+        "peekOfCode": "def main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')\n            if resp.startswith('PING'):",
+        "detail": "tests.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "kind": 5,
+        "importPath": "tests.twitch",
+        "description": "tests.twitch",
+        "peekOfCode": "server = 'irc.chat.twitch.tv'\nport = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))",
+        "detail": "tests.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "port",
+        "kind": 5,
+        "importPath": "tests.twitch",
+        "description": "tests.twitch",
+        "peekOfCode": "port = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))",
+        "detail": "tests.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "nickname",
+        "kind": 5,
+        "importPath": "tests.twitch",
+        "description": "tests.twitch",
+        "peekOfCode": "nickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:",
+        "detail": "tests.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "token",
+        "kind": 5,
+        "importPath": "tests.twitch",
+        "description": "tests.twitch",
+        "peekOfCode": "token = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:",
+        "detail": "tests.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "channel",
+        "kind": 5,
+        "importPath": "tests.twitch",
+        "description": "tests.twitch",
+        "peekOfCode": "channel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')",
+        "detail": "tests.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "AwesomeApplication",
+        "kind": 6,
+        "importPath": "locustfile",
+        "description": "locustfile",
+        "peekOfCode": "class AwesomeApplication(HttpUser):\n    @task\n    def hello(self):\n        self.client.get(\"/pocket-watch\")\n    @task\n    def world(self):\n        self.client.get(\"/\")",
+        "detail": "locustfile",
         "documentation": {}
     }
 ]
