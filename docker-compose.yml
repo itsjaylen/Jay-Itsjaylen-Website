@@ -1,17 +1,14 @@
 version: '3'
-
 services:
-  website:
-    build:
-      context: .
-    command: gunicorn -w 4 -b 0.0.0.0:8001 views:app
+  app:
+    build: .
     volumes:
-        - .flask-data:/flask  
+      - .:/app
     ports:
-      - "8001:8001"
+      - "${PORT}:${PORT}"
+
+    env_file:
+      - .env
 
     container_name: ${CONTAINER_NAME}
-    
-
-volumes:
-  flask-data:
+    restart: always

@@ -1,0 +1,5 @@
+.navbar-main {
+    display: flex; /* Enable flexbox layout */
+align-items: center; /* Center the element vertically */
+justify-content: center; /* Center the element horizontally */
+  }

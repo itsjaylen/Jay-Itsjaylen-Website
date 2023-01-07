@@ -1,10 +1,12 @@
 FROM python:3.10.6
-FROM ffmpeg:4.4.1
 
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-RUN apt-get install -y ffmpeg
-WORKDIR /flask
+WORKDIR /app
+COPY . /app
 
-#CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:8001", "views:app"]
+
+
+RUN pip install -r requirements.txt
+
+#TODO add github workflow
+CMD ["gunicorn", "app:create_app()", "-b", "0.0.0.0:7000"]

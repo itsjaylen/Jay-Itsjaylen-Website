@@ -8,3 +8,4 @@ tweets.txt
 channels.txt
 locustfile.py
 *.mp4
+tests

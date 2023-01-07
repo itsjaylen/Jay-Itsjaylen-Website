@@ -1,199 +1,5 @@
 [
     {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
-        "label": "cloudscraper",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "cloudscraper",
-        "description": "cloudscraper",
-        "detail": "cloudscraper",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
-        "label": "snscrape.modules.twitter",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "snscrape.modules.twitter",
-        "description": "snscrape.modules.twitter",
-        "detail": "snscrape.modules.twitter",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "urllib.request",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "urllib.request",
-        "description": "urllib.request",
-        "detail": "urllib.request",
-        "documentation": {}
-    },
-    {
-        "label": "YouTube",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "YouTube",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "views",
-        "description": "views",
-        "isExtraImport": true,
-        "detail": "views",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "importPath": "views",
-        "description": "views",
-        "isExtraImport": true,
-        "detail": "views",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "importPath": "views",
-        "description": "views",
-        "isExtraImport": true,
-        "detail": "views",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Flask",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
-        "label": "Response",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
         "label": "flash",
         "importPath": "flask",
         "description": "flask",
@@ -218,14 +24,6 @@
         "documentation": {}
     },
     {
-        "label": "request",
-        "importPath": "flask",
-        "description": "flask",
-        "isExtraImport": true,
-        "detail": "flask",
-        "documentation": {}
-    },
-    {
         "label": "url_for",
         "importPath": "flask",
         "description": "flask",
@@ -234,7 +32,31 @@
         "documentation": {}
     },
     {
-        "label": "Flask",
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -258,12 +80,19 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
+        "label": "BaseView",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "detail": "flask_admin",
+        "documentation": {}
+    },
+    {
+        "label": "expose",
+        "importPath": "flask_admin",
+        "description": "flask_admin",
+        "isExtraImport": true,
+        "detail": "flask_admin",
         "documentation": {}
     },
     {
@@ -272,54 +101,6 @@
         "description": "flask_admin",
         "isExtraImport": true,
         "detail": "flask_admin",
-        "documentation": {}
-    },
-    {
-        "label": "ModelView",
-        "importPath": "flask_admin.contrib.sqla",
-        "description": "flask_admin.contrib.sqla",
-        "isExtraImport": true,
-        "detail": "flask_admin.contrib.sqla",
-        "documentation": {}
-    },
-    {
-        "label": "APScheduler",
-        "importPath": "flask_apscheduler",
-        "description": "flask_apscheduler",
-        "isExtraImport": true,
-        "detail": "flask_apscheduler",
-        "documentation": {}
-    },
-    {
-        "label": "APScheduler",
-        "importPath": "flask_apscheduler",
-        "description": "flask_apscheduler",
-        "isExtraImport": true,
-        "detail": "flask_apscheduler",
-        "documentation": {}
-    },
-    {
-        "label": "Bcrypt",
-        "importPath": "flask_bcrypt",
-        "description": "flask_bcrypt",
-        "isExtraImport": true,
-        "detail": "flask_bcrypt",
-        "documentation": {}
-    },
-    {
-        "label": "LoginManager",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
-        "documentation": {}
-    },
-    {
-        "label": "UserMixin",
-        "importPath": "flask_login",
-        "description": "flask_login",
-        "isExtraImport": true,
-        "detail": "flask_login",
         "documentation": {}
     },
     {
@@ -355,11 +136,139 @@
         "documentation": {}
     },
     {
-        "label": "SQLAlchemy",
-        "importPath": "flask_sqlalchemy",
-        "description": "flask_sqlalchemy",
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
         "isExtraImport": true,
-        "detail": "flask_sqlalchemy",
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "bp",
+        "importPath": "app.auth",
+        "description": "app.auth",
+        "isExtraImport": true,
+        "detail": "app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "bp",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "ModelView",
+        "importPath": "flask_admin.contrib.sqla",
+        "description": "flask_admin.contrib.sqla",
+        "isExtraImport": true,
+        "detail": "flask_admin.contrib.sqla",
+        "documentation": {}
+    },
+    {
+        "label": "ModelView",
+        "importPath": "flask_admin.contrib.sqla",
+        "description": "flask_admin.contrib.sqla",
+        "isExtraImport": true,
+        "detail": "flask_admin.contrib.sqla",
         "documentation": {}
     },
     {
@@ -368,14 +277,6 @@
         "description": "flask_wtf",
         "isExtraImport": true,
         "detail": "flask_wtf",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "loguru",
-        "description": "loguru",
-        "isExtraImport": true,
-        "detail": "loguru",
         "documentation": {}
     },
     {
@@ -427,51 +328,186 @@
         "documentation": {}
     },
     {
-        "label": "GetToDoList",
-        "importPath": "util.FlaskDev",
-        "description": "util.FlaskDev",
-        "isExtraImport": true,
-        "detail": "util.FlaskDev",
-        "documentation": {}
-    },
-    {
-        "label": "get_subs_from_tracker",
-        "importPath": "util.scraper",
-        "description": "util.scraper",
-        "isExtraImport": true,
-        "detail": "util.scraper",
-        "documentation": {}
-    },
-    {
-        "label": "get_tweets",
-        "importPath": "util.scraper",
-        "description": "util.scraper",
-        "isExtraImport": true,
-        "detail": "util.scraper",
-        "documentation": {}
-    },
-    {
-        "label": "scrap_twitch",
-        "importPath": "util.scraper",
-        "description": "util.scraper",
-        "isExtraImport": true,
-        "detail": "util.scraper",
-        "documentation": {}
-    },
-    {
-        "label": "get_videos",
-        "importPath": "util.youtube_video_download",
-        "description": "util.youtube_video_download",
-        "isExtraImport": true,
-        "detail": "util.youtube_video_download",
-        "documentation": {}
-    },
-    {
         "label": "video_function",
-        "importPath": "util.youtube_video_download",
-        "description": "util.youtube_video_download",
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
         "isExtraImport": true,
-        "detail": "util.youtube_video_download",
+        "detail": "app.scrapping.tools.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "importPath": "extensions",
+        "description": "extensions",
+        "isExtraImport": true,
+        "detail": "extensions",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "system",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "bp",
+        "importPath": "app.scrapping",
+        "description": "app.scrapping",
+        "isExtraImport": true,
+        "detail": "app.scrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Bcrypt",
+        "importPath": "flask_bcrypt",
+        "description": "flask_bcrypt",
+        "isExtraImport": true,
+        "detail": "flask_bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "APScheduler",
+        "importPath": "flask_apscheduler",
+        "description": "flask_apscheduler",
+        "isExtraImport": true,
+        "detail": "flask_apscheduler",
+        "documentation": {}
+    },
+    {
+        "label": "APScheduler",
+        "importPath": "flask_apscheduler",
+        "description": "flask_apscheduler",
+        "isExtraImport": true,
+        "detail": "flask_apscheduler",
         "documentation": {}
     },
     {
@@ -480,6 +516,14 @@
         "description": "tools.video",
         "isExtraImport": true,
         "detail": "tools.video",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ctypes",
+        "description": "ctypes",
+        "isExtraImport": true,
+        "detail": "ctypes",
         "documentation": {}
     },
     {
@@ -505,6 +549,15 @@
         "description": "emoji",
         "isExtraImport": true,
         "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -541,279 +594,252 @@
         "documentation": {}
     },
     {
-        "label": "HttpUser",
-        "importPath": "locust",
-        "description": "locust",
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
         "isExtraImport": true,
-        "detail": "locust",
+        "detail": "dotenv",
         "documentation": {}
     },
     {
-        "label": "task",
-        "importPath": "locust",
-        "description": "locust",
-        "isExtraImport": true,
-        "detail": "locust",
-        "documentation": {}
-    },
-    {
-        "label": "randint",
-        "importPath": "random",
-        "description": "random",
-        "isExtraImport": true,
-        "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": ".flask-data.instance.config",
-        "description": ".flask-data.instance.config",
-        "peekOfCode": "SECRET_KEY = '8127baf4454a4cf3a376c5d49907ab70cd0d2f6d750bd8133c534abd176339f9'",
-        "detail": ".flask-data.instance.config",
-        "documentation": {}
-    },
-    {
-        "label": "GetToDoList",
-        "kind": 2,
-        "importPath": ".flask-data.util.FlaskDev",
-        "description": ".flask-data.util.FlaskDev",
-        "peekOfCode": "def GetToDoList():\n    ToDoList = [\"Add darkmode to website\", \"Finish backend\",\n                \"finish kai pocket watching\", \"Automate page updating\",\n                \"Create auto calculation\", \"Get latest video from channel\",\n                \"Get latest tweet\", \"Admin portal\", \"Redo login portal\",\n                \"Make sure the site is secure\", \"Integrate video scapper\", \"Nice About page\"]\n    return ToDoList",
-        "detail": ".flask-data.util.FlaskDev",
-        "documentation": {}
-    },
-    {
-        "label": "scrap_twitch",
-        "kind": 2,
-        "importPath": ".flask-data.util.scraper",
-        "description": ".flask-data.util.scraper",
-        "peekOfCode": "def scrap_twitch():\n    scraper = cloudscraper.create_scraper(delay=10, browser='chrome')\n    url = \"https://twitchtracker.com/subscribers\"\n    info = scraper.get(url).text\n    soup = BeautifulSoup(info, \"html.parser\")\n    streamers = soup.find_all('td')\n    top_20 = []\n    for streamer in streamers:\n        # print(streamer.get_text().strip())\n        top_20.append(streamer.get_text().strip())",
-        "detail": ".flask-data.util.scraper",
-        "documentation": {}
-    },
-    {
-        "label": "get_subs_from_tracker",
-        "kind": 2,
-        "importPath": ".flask-data.util.scraper",
-        "description": ".flask-data.util.scraper",
-        "peekOfCode": "def get_subs_from_tracker(channel):\n    URL = f'https://twitchtracker.com/{channel.lower()}/subscribers'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS, timeout=5)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        subs_counter = soup.find(\n            \"span\", {\"class\": \"to-number\"}).getText()  # type: ignore\n        return subs_counter",
-        "detail": ".flask-data.util.scraper",
-        "documentation": {}
-    },
-    {
-        "label": "is_live",
-        "kind": 2,
-        "importPath": ".flask-data.util.scraper",
-        "description": ".flask-data.util.scraper",
-        "peekOfCode": "def is_live(channel):\n    URL = f'https://www.twitch.tv/{channel.lower()}'\n    HEADERS = {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}\n    response = requests.get(URL, headers=HEADERS, timeout=5)\n    soup = BeautifulSoup(response.content, 'html.parser')\n    try:\n        if 'isLiveBroadcast' in soup:\n            return True\n        else:",
-        "detail": ".flask-data.util.scraper",
-        "documentation": {}
-    },
-    {
-        "label": "process_channel",
-        "kind": 2,
-        "importPath": ".flask-data.util.youtube_video_download",
-        "description": ".flask-data.util.youtube_video_download",
-        "peekOfCode": "def process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text\n        info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()",
-        "detail": ".flask-data.util.youtube_video_download",
-        "documentation": {}
-    },
-    {
-        "label": "process_video",
-        "kind": 2,
-        "importPath": ".flask-data.util.youtube_video_download",
-        "description": ".flask-data.util.youtube_video_download",
-        "peekOfCode": "def process_video(url):\n    blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                         \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n    video = YouTube(\n        url,\n        on_complete_callback=None,\n        on_progress_callback=None)\n    title = video.title\n    for char in blacklisted_chars:\n        title = title.replace(char, \"\")",
-        "detail": ".flask-data.util.youtube_video_download",
-        "documentation": {}
-    },
-    {
-        "label": "video_function",
-        "kind": 2,
-        "importPath": ".flask-data.util.youtube_video_download",
-        "description": ".flask-data.util.youtube_video_download",
-        "peekOfCode": "def video_function():\n    try:\n        with open(\"channels.txt\", encoding=\"utf-8\") as channels:\n            for channel in channels:\n                for link in valid_links:\n                    if channel.startswith(link):\n                        try:\n                            print(f\"Processing {channel}\")\n                            process_channel(channel)\n                        except Exception:",
-        "detail": ".flask-data.util.youtube_video_download",
-        "documentation": {}
-    },
-    {
-        "label": "get_videos",
-        "kind": 2,
-        "importPath": ".flask-data.util.youtube_video_download",
-        "description": ".flask-data.util.youtube_video_download",
-        "peekOfCode": "def get_videos():\n    paths = []\n    paths_clean = []\n    channel_names = []\n    for root, dirs, files in os.walk(f'{os.getcwd()}/.flask-data/static/videos/'):\n        for file in files:\n            if file.lower().endswith(\".mp4\".lower()):\n                paths.append(os.path.join(root, file))\n                for path in paths:\n                    path_list = path.split(os.path.sep)[-4:]",
-        "detail": ".flask-data.util.youtube_video_download",
-        "documentation": {}
-    },
-    {
-        "label": "valid_links",
-        "kind": 5,
-        "importPath": ".flask-data.util.youtube_video_download",
-        "description": ".flask-data.util.youtube_video_download",
-        "peekOfCode": "valid_links = [\"https://www.youtube.com/c/\", \"https://www.youtube.com/channel/\",\n               \"https://www.youtube.com/feeds/videos.xml?channel_id=\"]\nrequest.default_range_size = 10485760\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")",
-        "detail": ".flask-data.util.youtube_video_download",
-        "documentation": {}
-    },
-    {
-        "label": "request.default_range_size",
-        "kind": 5,
-        "importPath": ".flask-data.util.youtube_video_download",
-        "description": ".flask-data.util.youtube_video_download",
-        "peekOfCode": "request.default_range_size = 10485760\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:",
-        "detail": ".flask-data.util.youtube_video_download",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
+        "label": "sys",
         "kind": 6,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "class Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)",
-        "detail": ".flask-data.views",
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAdmin",
+        "kind": 6,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "class CustomAdmin(BaseView):\n    @expose('/')\n    def index(self):\n        return self.render('/admin/CustomAdmin.html')",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app.main.routes",
+        "description": "app.main.routes",
+        "peekOfCode": "def home():\n    return render_template('index.html')\n@bp.route('/about')\ndef about():\n    return render_template('about.html')",
+        "detail": "app.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "app.main.routes",
+        "description": "app.main.routes",
+        "peekOfCode": "def about():\n    return render_template('about.html')",
+        "detail": "app.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "kind": 6,
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "peekOfCode": "class YoutubeChannels(db.Model):\n    youtube_channel_id = db.Column(\n        db.String(255), unique=True, primary_key=True)\nclass Video(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(255), nullable=False)\n    author = db.Column(db.String(255), nullable=False)\n    publish_date = db.Column(db.DateTime, nullable=False)\n    description = db.Column(db.Text, nullable=False)\n    views = db.Column(db.Integer, nullable=False)",
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "kind": 6,
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "peekOfCode": "class Video(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(255), nullable=False)\n    author = db.Column(db.String(255), nullable=False)\n    publish_date = db.Column(db.DateTime, nullable=False)\n    description = db.Column(db.Text, nullable=False)\n    views = db.Column(db.Integer, nullable=False)\n    length = db.Column(db.Integer, nullable=False)",
+        "detail": "app.models.YoutubeScrapping",
         "documentation": {}
     },
     {
         "label": "User",
         "kind": 6,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "class User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(",
-        "detail": ".flask-data.views",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(255), unique=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(255))\n    active = db.Column(db.Boolean(), default=True)\n    is_admin = db.Column(db.Boolean(), default=False)\n    def __repr__(self):\n        return f'<Post \"{self.username}\">'\nclass RegisterForm(FlaskForm):",
+        "detail": "app.models.account",
         "documentation": {}
     },
     {
         "label": "RegisterForm",
         "kind": 6,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
         "peekOfCode": "class RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(\n            username=username.data).first()\n        if existing_user_name:",
-        "detail": ".flask-data.views",
+        "detail": "app.models.account",
         "documentation": {}
     },
     {
         "label": "LoginForm",
         "kind": 6,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@logger.catch\n@scheduler.task(\"interval\", id=\"do_job_1\", minutes=45)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"",
-        "detail": ".flask-data.views",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(user_id)\nclass Controller(ModelView):",
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Controller",
+        "kind": 6,
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "peekOfCode": "class Controller(ModelView):\n    def is_accessible(self):\n        if current_user.is_admin is True:\n            return current_user.is_authenticated\n        else:\n            return abort(404)\n        # return current_user.is_authenticated\n    def not_auth(self):\n        return \"You are not authorized to view this page.\"",
+        "detail": "app.models.account",
         "documentation": {}
     },
     {
         "label": "load_user",
         "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(",
-        "detail": ".flask-data.views",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass Controller(ModelView):\n    def is_accessible(self):\n        if current_user.is_admin is True:\n            return current_user.is_authenticated\n        else:\n            return abort(404)\n        # return current_user.is_authenticated\n    def not_auth(self):",
+        "detail": "app.models.account",
         "documentation": {}
     },
     {
-        "label": "job1",
+        "label": "UserAdminView",
+        "kind": 6,
+        "importPath": "app.models.admin",
+        "description": "app.models.admin",
+        "peekOfCode": "class UserAdminView(ModelView):\n    column_display_pk = True",
+        "detail": "app.models.admin",
+        "documentation": {}
+    },
+    {
+        "label": "async_task",
         "kind": 2,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "def job1():\n    \"\"\"Sample job 1.\"\"\"\n    #get_videos()\n    video_function()\n@app.route(\"/\")\n@app.route(\"/home/\")\nasync def index():\n    return render_template(\"index.html\")\n@app.route(\"/dev/dev/\")\nasync def dev():",
-        "detail": ".flask-data.views",
+        "importPath": "app.scrapping.tools.tasks",
+        "description": "app.scrapping.tools.tasks",
+        "peekOfCode": "def async_task():\n    asyncio.run(video_function())",
+        "detail": "app.scrapping.tools.tasks",
         "documentation": {}
     },
     {
-        "label": "app",
-        "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "app = Flask(__name__)\nbcrypt = Bcrypt(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db?check_same_thread=False'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore",
-        "detail": ".flask-data.views",
+        "label": "process_channel",
+        "kind": 2,
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
+        "peekOfCode": "def process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text\n        info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()",
+        "detail": "app.scrapping.tools.youtube",
         "documentation": {}
     },
     {
-        "label": "bcrypt",
-        "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "bcrypt = Bcrypt(app)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db?check_same_thread=False'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:",
-        "detail": ".flask-data.views",
+        "label": "process_video",
+        "kind": 2,
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
+        "peekOfCode": "def process_video(url):\n    blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                         \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n    video = YouTube(\n        url,\n        on_complete_callback=None,\n        on_progress_callback=None)\n    title = video.title\n    for char in blacklisted_chars:\n        title = title.replace(char, \"\")",
+        "detail": "app.scrapping.tools.youtube",
         "documentation": {}
     },
     {
-        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
-        "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db?check_same_thread=False'\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"",
-        "detail": ".flask-data.views",
+        "label": "video_function",
+        "kind": 2,
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
+        "peekOfCode": "def video_function():\n    try:\n        with open(\"channels.txt\", encoding=\"utf-8\") as channels:\n            for channel in channels:\n                for link in valid_links:\n                    if channel.startswith(link):\n                        try:\n                            print(f\"Processing {channel}\")\n                            process_channel(channel)\n                        except Exception:",
+        "detail": "app.scrapping.tools.youtube",
         "documentation": {}
     },
     {
-        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
-        "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\napp.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True",
-        "detail": ".flask-data.views",
+        "label": "get_videos",
+        "kind": 2,
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
+        "peekOfCode": "def get_videos():\n    paths = []\n    paths_clean = []\n    channel_names = []\n    for root, dirs, files in os.walk(f'{os.getcwd()}/.flask-data/static/videos/'):\n        for file in files:\n            if file.lower().endswith(\".mp4\".lower()):\n                paths.append(os.path.join(root, file))\n                for path in paths:\n                    path_list = path.split(os.path.sep)[-4:]",
+        "detail": "app.scrapping.tools.youtube",
         "documentation": {}
     },
     {
-        "label": "app.config[\"SECRET_KEY\"]",
+        "label": "valid_links",
         "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "app.config[\"SECRET_KEY\"] = \"secret\"\napp.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()",
-        "detail": ".flask-data.views",
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
+        "peekOfCode": "valid_links = [\"https://www.youtube.com/c/\", \"https://www.youtube.com/channel/\",\n               \"https://www.youtube.com/feeds/videos.xml?channel_id=\"]\nrequest.default_range_size = 10485760\n#TODO Clean this code up\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")",
+        "detail": "app.scrapping.tools.youtube",
         "documentation": {}
     },
     {
-        "label": "app.config['FLASK_ADMIN_SWATCH']",
+        "label": "request.default_range_size",
         "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'\ndb = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader",
-        "detail": ".flask-data.views",
+        "importPath": "app.scrapping.tools.youtube",
+        "description": "app.scrapping.tools.youtube",
+        "peekOfCode": "request.default_range_size = 10485760\n#TODO Clean this code up\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])",
+        "detail": "app.scrapping.tools.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "configure_cli",
+        "kind": 2,
+        "importPath": "app.commands",
+        "description": "app.commands",
+        "peekOfCode": "def configure_cli(app):\n    @app.cli.command()\n    def initdb():\n        db.drop_all()\n        db.create_all()\n    @app.cli.command()\n    def build():\n        system(\"pip install -r requirements.txt\")\n    @app.cli.command()\n    def deploy():",
+        "detail": "app.commands",
         "documentation": {}
     },
     {
         "label": "db",
         "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "db = SQLAlchemy(app)\nlogin_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):",
-        "detail": ".flask-data.views",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "db = SQLAlchemy()\nbcrypt = Bcrypt()\nlogin_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()",
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 5,
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "bcrypt = Bcrypt()\nlogin_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()",
+        "detail": "app.extensions",
         "documentation": {}
     },
     {
         "label": "login_manager",
         "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.init_app(app)\nlogin_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "login_manager.login_view",
-        "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "login_manager.login_view = \"login\"  # type: ignore\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)",
-        "detail": ".flask-data.views",
-        "documentation": {}
-    },
-    {
-        "label": "scheduler",
-        "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "scheduler = APScheduler()\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):  # type: ignore\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(80), nullable=False)\nadmin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))",
-        "detail": ".flask-data.views",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "login_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()",
+        "detail": "app.extensions",
         "documentation": {}
     },
     {
         "label": "admin",
         "kind": 5,
-        "importPath": ".flask-data.views",
-        "description": ".flask-data.views",
-        "peekOfCode": "admin = Admin(app, name='Jaylen Site', template_mode='bootstrap4')\nadmin.add_view(ModelView(User, db.session))\nclass RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(",
-        "detail": ".flask-data.views",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "admin = Admin()\nscheduler = APScheduler()",
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "kind": 5,
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "scheduler = APScheduler()",
+        "detail": "app.extensions",
         "documentation": {}
     },
     {
@@ -841,6 +867,24 @@
         "description": "tests.Youtube-Automation.tools.video",
         "peekOfCode": "request.default_range_size = 10485760\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text",
         "detail": "tests.Youtube-Automation.tools.video",
+        "documentation": {}
+    },
+    {
+        "label": "so_file",
+        "kind": 5,
+        "importPath": "tests.cLib.main",
+        "description": "tests.cLib.main",
+        "peekOfCode": "so_file = f\"{os.getcwd()}/tests/cLib/lib.so\"\nprint(so_file)\nmy_functions = CDLL(so_file)\nprint(type(my_functions))\nprint(my_functions.lol())",
+        "detail": "tests.cLib.main",
+        "documentation": {}
+    },
+    {
+        "label": "my_functions",
+        "kind": 5,
+        "importPath": "tests.cLib.main",
+        "description": "tests.cLib.main",
+        "peekOfCode": "my_functions = CDLL(so_file)\nprint(type(my_functions))\nprint(my_functions.lol())",
+        "detail": "tests.cLib.main",
         "documentation": {}
     },
     {
@@ -979,42 +1023,6 @@
         "documentation": {}
     },
     {
-        "label": "query",
-        "kind": 5,
-        "importPath": "tests.test123",
-        "description": "tests.test123",
-        "peekOfCode": "query = \"(from:YourRAGEz)\" # Use the link below to make search term more advanced:\n# https://twitter.com/search-advanced\n# example tweets:\n## \"(from:PolestarCars)\"\n## \"sustainability (from:elonmusk) until:2022-10-27 since:2010-01-01\"\ntweets = []\nlimit = 1 # how many tweets you want\nfor tweet in sntwitter.TwitterSearchScraper(query).get_items():\n    #print(vars(tweet))\n    #break",
-        "detail": "tests.test123",
-        "documentation": {}
-    },
-    {
-        "label": "tweets",
-        "kind": 5,
-        "importPath": "tests.test123",
-        "description": "tests.test123",
-        "peekOfCode": "tweets = []\nlimit = 1 # how many tweets you want\nfor tweet in sntwitter.TwitterSearchScraper(query).get_items():\n    #print(vars(tweet))\n    #break\n    if len(tweets) == limit:\n        break\n    else:\n        print(tweet.content)\n        tweets.append([tweet.date, tweet.user.username, tweet.content])",
-        "detail": "tests.test123",
-        "documentation": {}
-    },
-    {
-        "label": "limit",
-        "kind": 5,
-        "importPath": "tests.test123",
-        "description": "tests.test123",
-        "peekOfCode": "limit = 1 # how many tweets you want\nfor tweet in sntwitter.TwitterSearchScraper(query).get_items():\n    #print(vars(tweet))\n    #break\n    if len(tweets) == limit:\n        break\n    else:\n        print(tweet.content)\n        tweets.append([tweet.date, tweet.user.username, tweet.content])\ndf = pd.DataFrame(tweets, columns=['Date', 'User', 'Tweet'])",
-        "detail": "tests.test123",
-        "documentation": {}
-    },
-    {
-        "label": "df",
-        "kind": 5,
-        "importPath": "tests.test123",
-        "description": "tests.test123",
-        "peekOfCode": "df = pd.DataFrame(tweets, columns=['Date', 'User', 'Tweet'])\nprint(df)\nwith open(\"tweets.txt\", \"a+\") as f:\n    for tweet in tweets:\n        f.write(tweet[2])",
-        "detail": "tests.test123",
-        "documentation": {}
-    },
-    {
         "label": "compress_video",
         "kind": 2,
         "importPath": "tests.test2",
@@ -1078,12 +1086,21 @@
         "documentation": {}
     },
     {
-        "label": "AwesomeApplication",
+        "label": "Config",
         "kind": 6,
-        "importPath": "locustfile",
-        "description": "locustfile",
-        "peekOfCode": "class AwesomeApplication(HttpUser):\n    @task\n    def hello(self):\n        self.client.get(\"/pocket-watch\")\n    @task\n    def world(self):\n        self.client.get(\"/\")",
-        "detail": "locustfile",
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class Config:\n    PORT = os.environ.get('PORT') or 5000\n    SECRET_KEY = os.environ.get('SECRET_KEY')\n    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI')\\\n        or 'sqlite:///' + os.path.join(basedir, 'app.db')\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get('SECURITY_PASSWORD_SALT')\n    SCRAPPED_VIDEOS_PATH = os.environ.get('SCRAPPED_VIDEOS_PATH')\n# FINISH the logger configuration\nlogger.add(sys.stderr,",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# TODO Update variables\nclass Config:\n    PORT = os.environ.get('PORT') or 5000\n    SECRET_KEY = os.environ.get('SECRET_KEY')\n    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI')\\\n        or 'sqlite:///' + os.path.join(basedir, 'app.db')\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get('SECURITY_PASSWORD_SALT')\n    SCRAPPED_VIDEOS_PATH = os.environ.get('SCRAPPED_VIDEOS_PATH')",
+        "detail": "config",
         "documentation": {}
     }
 ]
