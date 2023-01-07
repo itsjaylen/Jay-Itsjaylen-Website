@@ -1,4 +1,4 @@
-name: Deploy Flask App
+name: Deploy Flask App with Blueprints and Docker
 
 on: [push]
 
@@ -9,11 +9,13 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Build app
-        run: python app.py build
+      - name: Build Docker image
+        run: docker build -t website .
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Deploy app
-        run: python app.py deploy
+        run: flask deploy
+      - name: Deploy Docker image
+        run: docker push website
