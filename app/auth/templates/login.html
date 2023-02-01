@@ -1,58 +1,80 @@
 <!DOCTYPE html>
-<!-- #TODO CLEAN THIS UP -->
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='css/login.css') }}"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <title>Login</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <! -- #TODO Put it in its on css file -->
+    <style>
+      .container {
+        width: 50%;
+        margin: 64px auto 0;
+      }
+
+      .custom-navbar-color {
+        background-color: blue;
+      }
+
+      .fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 998;
+      }
+    </style>
   </head>
   <body>
-    <h1>Login</h1>
-    <form method="POST" action="">
-      {{ form.hidden_tag() }} {{form.username}} {{form.password}}
-      {{form.submit}}
-      <a href="{{ url_for('auth.register') }}">Don't have an account Register</a>
-    </form>
-  </body>
-</html>
-
-<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+    <nav class="fixed">
+      <div class="nav-wrapper custom-navbar-color">
+        <a href="#" class="brand-logo center">My Website</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/auth/register">Register</a></li>
+          <li><a href="/auth/login">Login</a></li>
+        </ul>
       </div>
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fas fa-envelope prefix grey-text"></i>
-          <input type="email" id="defaultForm-email" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-        </div>
+    </nav>
 
-        <div class="md-form mb-4">
-          <i class="fas fa-lock prefix grey-text"></i>
-          <input type="password" id="defaultForm-pass" class="form-control validate">
-          <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+    <div class="container">
+      <div class="row">
+        <form method="POST" action="">
+          {{ form.hidden_tag() }}
+          <div class="row">
+            <div class="input-field col s12">
+              {{ form.username(class='validate') }}
+            <label for="username">Username</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              {{ form.password(class='validate') }}
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <button
+                class="btn waves-effect waves-light"
+                type="submit"
+                name="action"
+              >
+                Login
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col s12">
+            <p>
+              Don't have an account? <a href="/auth/register">Create one</a>
+            </p>
+          </div>
         </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-default">Login</button>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">Launch
-    Modal Login Form</a>
-</div>
+  </body>
+</html>

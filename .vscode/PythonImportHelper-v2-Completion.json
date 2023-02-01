@@ -1,5 +1,183 @@
 [
     {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "flash",
         "importPath": "flask",
         "description": "flask",
@@ -56,7 +234,23 @@
         "documentation": {}
     },
     {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
         "importPath": "flask",
         "description": "flask",
         "isExtraImport": true,
@@ -77,6 +271,198 @@
         "description": "flask",
         "isExtraImport": true,
         "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "api",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "get_attr",
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "isExtraImport": true,
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterForm",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Controller",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.account",
+        "description": "app.models.account",
+        "isExtraImport": true,
+        "detail": "app.models.account",
         "documentation": {}
     },
     {
@@ -152,6 +538,14 @@
         "documentation": {}
     },
     {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
         "label": "LoginManager",
         "importPath": "flask_login",
         "description": "flask_login",
@@ -165,86 +559,6 @@
         "description": "app.auth",
         "isExtraImport": true,
         "detail": "app.auth",
-        "documentation": {}
-    },
-    {
-        "label": "bcrypt",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "login_manager",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "LoginForm",
-        "importPath": "app.models.account",
-        "description": "app.models.account",
-        "isExtraImport": true,
-        "detail": "app.models.account",
-        "documentation": {}
-    },
-    {
-        "label": "RegisterForm",
-        "importPath": "app.models.account",
-        "description": "app.models.account",
-        "isExtraImport": true,
-        "detail": "app.models.account",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.account",
-        "description": "app.models.account",
-        "isExtraImport": true,
-        "detail": "app.models.account",
         "documentation": {}
     },
     {
@@ -328,31 +642,6 @@
         "documentation": {}
     },
     {
-        "label": "video_function",
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "isExtraImport": true,
-        "detail": "app.scrapping.tools.youtube",
-        "documentation": {}
-    },
-    {
-        "label": "scheduler",
-        "importPath": "extensions",
-        "description": "extensions",
-        "isExtraImport": true,
-        "detail": "extensions",
-        "documentation": {}
-    },
-    {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -362,28 +651,11 @@
         "documentation": {}
     },
     {
-        "label": "time",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "time",
-        "description": "time",
-        "detail": "time",
-        "documentation": {}
-    },
-    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "os",
         "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "system",
-        "importPath": "os",
-        "description": "os",
-        "isExtraImport": true,
         "detail": "os",
         "documentation": {}
     },
@@ -397,12 +669,30 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "urllib.request",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "urllib.request",
         "description": "urllib.request",
         "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "ffmpeg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ffmpeg",
+        "description": "ffmpeg",
+        "detail": "ffmpeg",
         "documentation": {}
     },
     {
@@ -431,39 +721,79 @@
         "documentation": {}
     },
     {
-        "label": "YouTube",
-        "importPath": "pytube",
-        "description": "pytube",
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
         "isExtraImport": true,
-        "detail": "pytube",
+        "detail": "bs4",
         "documentation": {}
     },
     {
-        "label": "request",
-        "importPath": "pytube",
-        "description": "pytube",
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
         "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "YouTube",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
-        "documentation": {}
-    },
-    {
-        "label": "request",
-        "importPath": "pytube",
-        "description": "pytube",
-        "isExtraImport": true,
-        "detail": "pytube",
+        "detail": "bs4",
         "documentation": {}
     },
     {
         "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "YouTube",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "pytube",
+        "description": "pytube",
+        "isExtraImport": true,
+        "detail": "pytube",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeConfig",
         "importPath": "config",
         "description": "config",
         "isExtraImport": true,
@@ -476,6 +806,82 @@
         "description": "app.scrapping",
         "isExtraImport": true,
         "detail": "app.scrapping",
+        "documentation": {}
+    },
+    {
+        "label": "bp",
+        "importPath": "app.scrapping",
+        "description": "app.scrapping",
+        "isExtraImport": true,
+        "detail": "app.scrapping",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "get_videos",
+        "importPath": "app.scrapping.tools.YoutubeScrapping",
+        "description": "app.scrapping.tools.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.scrapping.tools.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "get_videos",
+        "importPath": "app.scrapping.tools.YoutubeScrapping",
+        "description": "app.scrapping.tools.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.scrapping.tools.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "click",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "click",
+        "description": "click",
+        "detail": "click",
+        "documentation": {}
+    },
+    {
+        "label": "fuzz",
+        "importPath": "fuzzywuzzy",
+        "description": "fuzzywuzzy",
+        "isExtraImport": true,
+        "detail": "fuzzywuzzy",
         "documentation": {}
     },
     {
@@ -508,6 +914,46 @@
         "description": "flask_apscheduler",
         "isExtraImport": true,
         "detail": "flask_apscheduler",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "importPath": "flask_caching",
+        "description": "flask_caching",
+        "isExtraImport": true,
+        "detail": "flask_caching",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -561,64 +1007,6 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "ffmpeg",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "ffmpeg",
-        "description": "ffmpeg",
-        "detail": "ffmpeg",
-        "documentation": {}
-    },
-    {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "loguru",
-        "description": "loguru",
-        "isExtraImport": true,
-        "detail": "loguru",
-        "documentation": {}
-    },
-    {
         "label": "create_app",
         "importPath": "app",
         "description": "app",
@@ -627,12 +1015,165 @@
         "documentation": {}
     },
     {
+        "label": "get_attr",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def get_attr(attr_name, obj) -> str:\n    if hasattr(obj, attr_name):\n        return getattr(obj, attr_name)\n    else:\n        return \"N/A\"",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "check_api_key",
+        "kind": 2,
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "peekOfCode": "def check_api_key(fn):\n    @wraps(fn)\n    def decorated(*args, **kwargs):\n        api_key = request.headers.get(\"Authorization\")\n        api_key = api_key.translate(str.maketrans(\"\", \"\", string.whitespace))\n        user = User.query.filter_by(api_key=api_key).first()\n        if not user or not api_key:\n            return jsonify({\"error\": \"Invalid API key\"}), 401\n        if user.is_admin:\n            user.total_request_count += 1",
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "regenerate_api_key",
+        "kind": 2,
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "peekOfCode": "def regenerate_api_key():\n    \"\"\"This function generates a new API key for a user, by first retrieving the user data associated with the\n    current API key provided by the client. It then uses the user's username and the request time to generate\n    a new API key using the sha256 hashlib algorithm. The new API key is then updated in the database.\n    Returns:\n        str: The current user's API key.\"\"\"\n    if request.method == \"POST\":\n        current_user_api = request.form.get(\"current_user_api_key\")\n        user = User.query.filter_by(api_key=current_user_api).first()\n        username = user.username",
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "change_password",
+        "kind": 2,
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "peekOfCode": "def change_password():\n    if request.method == \"POST\":\n        current_password = request.form.get(\"current_password\")\n        new_password = request.form.get(\"new_password\")\n        confirm_password = request.form.get(\"confirm_password\")\n        with open(\"password.txt\", \"w\") as f:\n            f.write(new_password)\n        # check if new password and confirm password match\n        if new_password != confirm_password:\n            return jsonify(",
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "peekOfCode": "def home():\n    test = []\n    if request.method == \"GET\":\n        api_key = request.headers.get(\"Authorization\")\n        user = User.query.filter_by(api_key=api_key).first()\n        channels = db.session.query(YoutubeChannels).all()\n        for channel in channels:\n            test.append(channel.youtube_channel_id)\n    return jsonify(test)\n@api.route(\"/youtube/<youtube_channel_id>\", methods=[\"GET\"])",
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "youtube",
+        "kind": 2,
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "peekOfCode": "def youtube(youtube_channel_id):\n    if request.method == \"GET\":\n        videos = (\n            Video.query.filter_by(author=youtube_channel_id)\n            .order_by(Video.publish_date.desc())\n            .all()\n        )\n        if videos:\n            video_list = []\n            for video in videos:",
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "deactivate_inactive_accounts",
+        "kind": 2,
+        "importPath": "app.auth.tools.AccountManagement",
+        "description": "app.auth.tools.AccountManagement",
+        "peekOfCode": "def deactivate_inactive_accounts():\n    one_week_ago = datetime.utcnow() - timedelta(weeks=1)\n    inactive_users = User.query.filter(User.last_request_time < one_week_ago).all()\n    for user in inactive_users:\n        user.active = False\n        db.session.commit()",
+        "detail": "app.auth.tools.AccountManagement",
+        "documentation": {}
+    },
+    {
         "label": "CustomAdmin",
         "kind": 6,
         "importPath": "app.auth.routes",
         "description": "app.auth.routes",
-        "peekOfCode": "class CustomAdmin(BaseView):\n    @expose('/')\n    def index(self):\n        return self.render('/admin/CustomAdmin.html')",
+        "peekOfCode": "class CustomAdmin(BaseView):\n    @expose(\"/\")\n    def index(self):\n        return self.render(\"/admin/CustomAdmin.html\")",
         "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "def login():\n    if current_user.is_authenticated:  # type: ignore\n        return redirect(url_for(\"auth.dashboard\"))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(username=form.username.data).first()\n        email = request.form.get(\"email\")\n        password = request.form.get(\"password\")\n        if user:\n            if bcrypt.check_password_hash(user.password, form.password.data):",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "def register():\n    form = RegisterForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data)\n        hash_object = hashlib.sha256()\n        hash_object.update(form.username.data.encode())\n        hash_object.update(form.password.data.encode())\n        api_key = hash_object.hexdigest()\n        new_user = User(\n            username=form.username.data, password=hashed_password, api_key=api_key",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "def logout():\n    logout_user()\n    flash(\"You have been logged out.\", category=\"info\")\n    return redirect(url_for(\"main.home\"))\n@bp.route(\"/dashboard/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef dashboard():\n    if current_user.is_authenticated:\n        return render_template(\"dashboard.html\", id=current_user.id)\n    else:",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "def dashboard():\n    if current_user.is_authenticated:\n        return render_template(\"dashboard.html\", id=current_user.id)\n    else:\n        return \"Not logged in\"\n@bp.route(\"/dashboard/settings/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef settings():\n    return render_template(\"settings.html\", id=current_user.id)\n@bp.route(\"/dashboard/stats/\", methods=[\"GET\", \"POST\"])",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 2,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "def settings():\n    return render_template(\"settings.html\", id=current_user.id)\n@bp.route(\"/dashboard/stats/\", methods=[\"GET\", \"POST\"])\n@login_required\ndef stats():\n    return render_template(\"stats.html\", id=current_user.id)\nclass CustomAdmin(BaseView):\n    @expose(\"/\")\n    def index(self):\n        return self.render(\"/admin/CustomAdmin.html\")",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "stats",
+        "kind": 2,
+        "importPath": "app.auth.routes",
+        "description": "app.auth.routes",
+        "peekOfCode": "def stats():\n    return render_template(\"stats.html\", id=current_user.id)\nclass CustomAdmin(BaseView):\n    @expose(\"/\")\n    def index(self):\n        return self.render(\"/admin/CustomAdmin.html\")",
+        "detail": "app.auth.routes",
+        "documentation": {}
+    },
+    {
+        "label": "page_not_found",
+        "kind": 2,
+        "importPath": "app.main.routes",
+        "description": "app.main.routes",
+        "peekOfCode": "def page_not_found(e):\n    return render_template('errors/404.html'), 404\n@bp.errorhandler(403)\ndef forbidden(e):\n    return render_template('errors/403.html'), 403\n@bp.errorhandler(413)\ndef request_entity_too_large(e):\n    return render_template('errors/413.html'), 413\n@bp.errorhandler(500)\ndef internal_server_error(e):",
+        "detail": "app.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "forbidden",
+        "kind": 2,
+        "importPath": "app.main.routes",
+        "description": "app.main.routes",
+        "peekOfCode": "def forbidden(e):\n    return render_template('errors/403.html'), 403\n@bp.errorhandler(413)\ndef request_entity_too_large(e):\n    return render_template('errors/413.html'), 413\n@bp.errorhandler(500)\ndef internal_server_error(e):\n    return render_template('errors/500.html'), 500\n@bp.route('/')\ndef home():",
+        "detail": "app.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "request_entity_too_large",
+        "kind": 2,
+        "importPath": "app.main.routes",
+        "description": "app.main.routes",
+        "peekOfCode": "def request_entity_too_large(e):\n    return render_template('errors/413.html'), 413\n@bp.errorhandler(500)\ndef internal_server_error(e):\n    return render_template('errors/500.html'), 500\n@bp.route('/')\ndef home():\n    return render_template('index.html')\n@bp.route('/about')\ndef about():",
+        "detail": "app.main.routes",
+        "documentation": {}
+    },
+    {
+        "label": "internal_server_error",
+        "kind": 2,
+        "importPath": "app.main.routes",
+        "description": "app.main.routes",
+        "peekOfCode": "def internal_server_error(e):\n    return render_template('errors/500.html'), 500\n@bp.route('/')\ndef home():\n    return render_template('index.html')\n@bp.route('/about')\ndef about():\n    return render_template('about.html')",
+        "detail": "app.main.routes",
         "documentation": {}
     },
     {
@@ -654,11 +1195,20 @@
         "documentation": {}
     },
     {
+        "label": "SocialMedia",
+        "kind": 6,
+        "importPath": "app.models.SocialScrapper",
+        "description": "app.models.SocialScrapper",
+        "peekOfCode": "class SocialMedia(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    twitter = db.Column(db.String(255), unique=True, nullable=True)\n    instagram = db.Column(db.String(255), unique=True, nullable=True)\n    tiktok = db.Column(db.String(255), unique=True, nullable=True)\n    YouTube = db.Column(db.String(255), unique=True, nullable=True)\n    Twitch = db.Column(db.String(255), unique=True, nullable=True)",
+        "detail": "app.models.SocialScrapper",
+        "documentation": {}
+    },
+    {
         "label": "YoutubeChannels",
         "kind": 6,
         "importPath": "app.models.YoutubeScrapping",
         "description": "app.models.YoutubeScrapping",
-        "peekOfCode": "class YoutubeChannels(db.Model):\n    youtube_channel_id = db.Column(\n        db.String(255), unique=True, primary_key=True)\nclass Video(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(255), nullable=False)\n    author = db.Column(db.String(255), nullable=False)\n    publish_date = db.Column(db.DateTime, nullable=False)\n    description = db.Column(db.Text, nullable=False)\n    views = db.Column(db.Integer, nullable=False)",
+        "peekOfCode": "class YoutubeChannels(db.Model):\n    \"\"\"Youtube Channels to scrape.\"\"\"\n    id = db.Column(\n        db.Integer, unique=True, primary_key=True)\n    youtube_channel_id = db.Column(\n        db.String(255), unique=True, nullable=False)\nclass Video(db.Model):\n    \"\"\"Model for youtube video data.\"\"\"\n    id = db.Column(db.Integer, primary_key=True)\n    url = db.Column(db.Text, nullable=False)",
         "detail": "app.models.YoutubeScrapping",
         "documentation": {}
     },
@@ -667,7 +1217,7 @@
         "kind": 6,
         "importPath": "app.models.YoutubeScrapping",
         "description": "app.models.YoutubeScrapping",
-        "peekOfCode": "class Video(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(255), nullable=False)\n    author = db.Column(db.String(255), nullable=False)\n    publish_date = db.Column(db.DateTime, nullable=False)\n    description = db.Column(db.Text, nullable=False)\n    views = db.Column(db.Integer, nullable=False)\n    length = db.Column(db.Integer, nullable=False)",
+        "peekOfCode": "class Video(db.Model):\n    \"\"\"Model for youtube video data.\"\"\"\n    id = db.Column(db.Integer, primary_key=True)\n    url = db.Column(db.Text, nullable=False)\n    title = db.Column(db.Text, nullable=False)\n    author = db.Column(db.Text, nullable=False)\n    publish_date = db.Column(db.Text, nullable=False)\n    description = db.Column(db.Text, nullable=False)\n    views = db.Column(db.Integer, nullable=False)\n    length = db.Column(db.Float, nullable=False)",
         "detail": "app.models.YoutubeScrapping",
         "documentation": {}
     },
@@ -676,7 +1226,7 @@
         "kind": 6,
         "importPath": "app.models.account",
         "description": "app.models.account",
-        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(255), unique=True)\n    username = db.Column(db.String(20), nullable=False, unique=True)\n    password = db.Column(db.String(255))\n    active = db.Column(db.Boolean(), default=True)\n    is_admin = db.Column(db.Boolean(), default=False)\n    def __repr__(self):\n        return f'<Post \"{self.username}\">'\nclass RegisterForm(FlaskForm):",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    \"\"\"\n    User account model.\n    This class represents the User object and its attributes, which are mapped to columns in a database table using SQLAlchemy.\n    Args:\n        db.Model: base class for all models.\n        UserMixin: provides basic user authentication methods.\n    Attributes:\n        id (db.Integer): primary key, unique identifier for each user.\n        email (db.String): unique email address of the user.",
         "detail": "app.models.account",
         "documentation": {}
     },
@@ -685,7 +1235,7 @@
         "kind": 6,
         "importPath": "app.models.account",
         "description": "app.models.account",
-        "peekOfCode": "class RegisterForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Register\")\n    def validate_username(self, username):\n        existing_user_name = User.query.filter_by(\n            username=username.data).first()\n        if existing_user_name:",
+        "peekOfCode": "class RegisterForm(FlaskForm):\n    username = StringField(\n        label=\"Username\",\n        validators=[DataRequired(), Length(min=4, max=20)],\n        render_kw={\"placeholder\": \"Username\"},\n    )\n    password = PasswordField(\n        label=\"Password\",\n        validators=[DataRequired(), Length(min=4, max=20)],\n        render_kw={\"placeholder\": \"Password\"},",
         "detail": "app.models.account",
         "documentation": {}
     },
@@ -694,7 +1244,7 @@
         "kind": 6,
         "importPath": "app.models.account",
         "description": "app.models.account",
-        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(label=\"Username\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Username\"})\n    password = PasswordField(label=\"Password\", validators=[DataRequired(), Length(\n        min=4, max=20)], render_kw={\"placeholder\": \"Password\"})\n    submit = SubmitField(label=\"Login\")\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(user_id)\nclass Controller(ModelView):",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(\n        label=\"Username\",\n        validators=[DataRequired(), Length(min=4, max=20)],\n        render_kw={\"placeholder\": \"Username\"},\n    )\n    password = PasswordField(\n        label=\"Password\",\n        validators=[DataRequired(), Length(min=4, max=20)],\n        render_kw={\"placeholder\": \"Password\"},",
         "detail": "app.models.account",
         "documentation": {}
     },
@@ -703,7 +1253,7 @@
         "kind": 6,
         "importPath": "app.models.account",
         "description": "app.models.account",
-        "peekOfCode": "class Controller(ModelView):\n    def is_accessible(self):\n        if current_user.is_admin is True:\n            return current_user.is_authenticated\n        else:\n            return abort(404)\n        # return current_user.is_authenticated\n    def not_auth(self):\n        return \"You are not authorized to view this page.\"",
+        "peekOfCode": "class Controller(ModelView):\n    \"\"\"The admin controller\"\"\"\n    def is_accessible(self):\n        if current_user.is_authenticated:\n            if current_user.is_admin is True:\n                return current_user.is_authenticated\n            else:\n                return abort(404)\n            # return current_user.is_authenticated\n        else:",
         "detail": "app.models.account",
         "documentation": {}
     },
@@ -712,7 +1262,7 @@
         "kind": 2,
         "importPath": "app.models.account",
         "description": "app.models.account",
-        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass Controller(ModelView):\n    def is_accessible(self):\n        if current_user.is_admin is True:\n            return current_user.is_authenticated\n        else:\n            return abort(404)\n        # return current_user.is_authenticated\n    def not_auth(self):",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(user_id)\nclass Controller(ModelView):\n    \"\"\"The admin controller\"\"\"\n    def is_accessible(self):\n        if current_user.is_authenticated:\n            if current_user.is_admin is True:\n                return current_user.is_authenticated\n            else:\n                return abort(404)",
         "detail": "app.models.account",
         "documentation": {}
     },
@@ -721,71 +1271,62 @@
         "kind": 6,
         "importPath": "app.models.admin",
         "description": "app.models.admin",
-        "peekOfCode": "class UserAdminView(ModelView):\n    column_display_pk = True",
+        "peekOfCode": "class UserAdminView(ModelView):\n    column_display_pk = True\nclass MyAdminView(Controller, ModelView):\n    template = 'admin/custom.html'\n    def is_accessible(self):\n        if current_user.is_authenticated:\n            if current_user.is_admin is True:\n                return current_user.is_authenticated\n            else:\n                return abort(404)",
         "detail": "app.models.admin",
         "documentation": {}
     },
     {
-        "label": "async_task",
-        "kind": 2,
-        "importPath": "app.scrapping.tools.tasks",
-        "description": "app.scrapping.tools.tasks",
-        "peekOfCode": "def async_task():\n    asyncio.run(video_function())",
-        "detail": "app.scrapping.tools.tasks",
+        "label": "MyAdminView",
+        "kind": 6,
+        "importPath": "app.models.admin",
+        "description": "app.models.admin",
+        "peekOfCode": "class MyAdminView(Controller, ModelView):\n    template = 'admin/custom.html'\n    def is_accessible(self):\n        if current_user.is_authenticated:\n            if current_user.is_admin is True:\n                return current_user.is_authenticated\n            else:\n                return abort(404)\n            # return current_user.is_authenticated\n        else:",
+        "detail": "app.models.admin",
         "documentation": {}
     },
     {
-        "label": "process_channel",
-        "kind": 2,
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "peekOfCode": "def process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text\n        info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()",
-        "detail": "app.scrapping.tools.youtube",
-        "documentation": {}
-    },
-    {
-        "label": "process_video",
-        "kind": 2,
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "peekOfCode": "def process_video(url):\n    blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                         \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n    video = YouTube(\n        url,\n        on_complete_callback=None,\n        on_progress_callback=None)\n    title = video.title\n    for char in blacklisted_chars:\n        title = title.replace(char, \"\")",
-        "detail": "app.scrapping.tools.youtube",
-        "documentation": {}
-    },
-    {
-        "label": "video_function",
-        "kind": 2,
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "peekOfCode": "def video_function():\n    try:\n        with open(\"channels.txt\", encoding=\"utf-8\") as channels:\n            for channel in channels:\n                for link in valid_links:\n                    if channel.startswith(link):\n                        try:\n                            print(f\"Processing {channel}\")\n                            process_channel(channel)\n                        except Exception:",
-        "detail": "app.scrapping.tools.youtube",
+        "label": "YoutubeScraper",
+        "kind": 6,
+        "importPath": "app.scrapping.tools.YoutubeScrapping",
+        "description": "app.scrapping.tools.YoutubeScrapping",
+        "peekOfCode": "class YoutubeScraper:\n    \"\"\"Class for scraping youtube channels\"\"\"\n    def __init__(self):\n        self.valid_links = [\"https://www.youtube.com/c/\", \"https://www.youtube.com/channel/\",\n                            \"https://www.youtube.com/feeds/videos.xml?channel_id=\"]\n        self.blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                                  \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n        # Define a filter function\n        def level_filter(record):\n            return record['level'].name in ['DEBUG', 'INFO', 'ERROR']",
+        "detail": "app.scrapping.tools.YoutubeScrapping",
         "documentation": {}
     },
     {
         "label": "get_videos",
         "kind": 2,
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "peekOfCode": "def get_videos():\n    paths = []\n    paths_clean = []\n    channel_names = []\n    for root, dirs, files in os.walk(f'{os.getcwd()}/.flask-data/static/videos/'):\n        for file in files:\n            if file.lower().endswith(\".mp4\".lower()):\n                paths.append(os.path.join(root, file))\n                for path in paths:\n                    path_list = path.split(os.path.sep)[-4:]",
-        "detail": "app.scrapping.tools.youtube",
+        "importPath": "app.scrapping.tools.YoutubeScrapping",
+        "description": "app.scrapping.tools.YoutubeScrapping",
+        "peekOfCode": "def get_videos():\n    paths = []\n    paths_clean = []\n    channel_names = []\n    for root, dirs, files in os.walk(YoutubeConfig.YOUTUBE_VIDEOS_PATH):\n        for file in files:\n            if file.lower().endswith(\".mp4\".lower()):\n                paths.append(os.path.join(root, file))\n                for path in paths:\n                    path_list = path.split(os.path.sep)[-4:]",
+        "detail": "app.scrapping.tools.YoutubeScrapping",
         "documentation": {}
     },
     {
-        "label": "valid_links",
-        "kind": 5,
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "peekOfCode": "valid_links = [\"https://www.youtube.com/c/\", \"https://www.youtube.com/channel/\",\n               \"https://www.youtube.com/feeds/videos.xml?channel_id=\"]\nrequest.default_range_size = 10485760\n#TODO Clean this code up\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")",
-        "detail": "app.scrapping.tools.youtube",
+        "label": "configure_tasks",
+        "kind": 2,
+        "importPath": "app.scrapping.tools.tasks",
+        "description": "app.scrapping.tools.tasks",
+        "peekOfCode": "def configure_tasks(app):\n    @scheduler.task('interval', id='scrape_videos', minutes=5,)\n    def scrape_channels():\n       pass",
+        "detail": "app.scrapping.tools.tasks",
         "documentation": {}
     },
     {
-        "label": "request.default_range_size",
-        "kind": 5,
-        "importPath": "app.scrapping.tools.youtube",
-        "description": "app.scrapping.tools.youtube",
-        "peekOfCode": "request.default_range_size = 10485760\n#TODO Clean this code up\n@logger.catch\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])",
-        "detail": "app.scrapping.tools.youtube",
+        "label": "videos",
+        "kind": 2,
+        "importPath": "app.scrapping.routes",
+        "description": "app.scrapping.routes",
+        "peekOfCode": "def videos(filename):\n    return render_template('videos.html', video_file=filename)",
+        "detail": "app.scrapping.routes",
+        "documentation": {}
+    },
+    {
+        "label": "level_filter",
+        "kind": 2,
+        "importPath": "app.commands",
+        "description": "app.commands",
+        "peekOfCode": "def level_filter(record):\n    return record[\"level\"].name in [\"DEBUG\", \"INFO\", \"ERROR\"]\n# FINISH the logger configuration\nlogger.add(\n    sys.stderr,\n    format=\"{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}\",\n    filter=level_filter,\n    level=\"INFO\",\n    enqueue=True,\n    backtrace=True,",
+        "detail": "app.commands",
         "documentation": {}
     },
     {
@@ -793,7 +1334,7 @@
         "kind": 2,
         "importPath": "app.commands",
         "description": "app.commands",
-        "peekOfCode": "def configure_cli(app):\n    @app.cli.command()\n    def initdb():\n        db.drop_all()\n        db.create_all()",
+        "peekOfCode": "def configure_cli(app):\n    @app.cli.command()\n    def init_db():\n        \"\"\"Initializes the database.\"\"\"\n        db.drop_all()\n        db.create_all()\n    @app.cli.command()\n    def create_db():\n        \"\"\"Creates the database.\"\"\"\n        db.create_all()",
         "detail": "app.commands",
         "documentation": {}
     },
@@ -802,7 +1343,7 @@
         "kind": 5,
         "importPath": "app.extensions",
         "description": "app.extensions",
-        "peekOfCode": "db = SQLAlchemy()\nbcrypt = Bcrypt()\nlogin_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()",
+        "peekOfCode": "db = SQLAlchemy()\nbcrypt = Bcrypt()\nlogin_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()\ncache = Cache(config={'CACHE_TYPE': 'SimpleCache'})\nmigrate = Migrate()",
         "detail": "app.extensions",
         "documentation": {}
     },
@@ -811,7 +1352,7 @@
         "kind": 5,
         "importPath": "app.extensions",
         "description": "app.extensions",
-        "peekOfCode": "bcrypt = Bcrypt()\nlogin_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()",
+        "peekOfCode": "bcrypt = Bcrypt()\nlogin_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()\ncache = Cache(config={'CACHE_TYPE': 'SimpleCache'})\nmigrate = Migrate()",
         "detail": "app.extensions",
         "documentation": {}
     },
@@ -820,7 +1361,7 @@
         "kind": 5,
         "importPath": "app.extensions",
         "description": "app.extensions",
-        "peekOfCode": "login_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()",
+        "peekOfCode": "login_manager = LoginManager()\nadmin = Admin()\nscheduler = APScheduler()\ncache = Cache(config={'CACHE_TYPE': 'SimpleCache'})\nmigrate = Migrate()",
         "detail": "app.extensions",
         "documentation": {}
     },
@@ -829,7 +1370,7 @@
         "kind": 5,
         "importPath": "app.extensions",
         "description": "app.extensions",
-        "peekOfCode": "admin = Admin()\nscheduler = APScheduler()",
+        "peekOfCode": "admin = Admin()\nscheduler = APScheduler()\ncache = Cache(config={'CACHE_TYPE': 'SimpleCache'})\nmigrate = Migrate()",
         "detail": "app.extensions",
         "documentation": {}
     },
@@ -838,251 +1379,467 @@
         "kind": 5,
         "importPath": "app.extensions",
         "description": "app.extensions",
-        "peekOfCode": "scheduler = APScheduler()",
+        "peekOfCode": "scheduler = APScheduler()\ncache = Cache(config={'CACHE_TYPE': 'SimpleCache'})\nmigrate = Migrate()",
         "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "kind": 5,
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "cache = Cache(config={'CACHE_TYPE': 'SimpleCache'})\nmigrate = Migrate()",
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "peekOfCode": "migrate = Migrate()",
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except TypeError:\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\n# add your model's MetaData object here\n# for 'autogenerate' support",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
         "documentation": {}
     },
     {
         "label": "process_channel",
         "kind": 2,
-        "importPath": "tests.Youtube-Automation.tools.video",
-        "description": "tests.Youtube-Automation.tools.video",
+        "importPath": "test.Youtube-Automation.tools.video",
+        "description": "test.Youtube-Automation.tools.video",
         "peekOfCode": "def process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text\n        info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()",
-        "detail": "tests.Youtube-Automation.tools.video",
+        "detail": "test.Youtube-Automation.tools.video",
         "documentation": {}
     },
     {
         "label": "process_video",
         "kind": 2,
-        "importPath": "tests.Youtube-Automation.tools.video",
-        "description": "tests.Youtube-Automation.tools.video",
+        "importPath": "test.Youtube-Automation.tools.video",
+        "description": "test.Youtube-Automation.tools.video",
         "peekOfCode": "def process_video(url):\n    blacklisted_chars = [\"<\", \">\", \":\", '\"', \"/\",\n                         \"backslash\", \"|\", \"?\", \"*\", \".\", \"..\"]\n    video = YouTube(\n        url,\n        on_complete_callback=None,\n        on_progress_callback=None)\n    title = video.title\n    for char in blacklisted_chars:\n        title = title.replace(char, \"\")",
-        "detail": "tests.Youtube-Automation.tools.video",
+        "detail": "test.Youtube-Automation.tools.video",
         "documentation": {}
     },
     {
         "label": "request.default_range_size",
         "kind": 5,
-        "importPath": "tests.Youtube-Automation.tools.video",
-        "description": "tests.Youtube-Automation.tools.video",
+        "importPath": "test.Youtube-Automation.tools.video",
+        "description": "test.Youtube-Automation.tools.video",
         "peekOfCode": "request.default_range_size = 10485760\ndef process_channel(channel):\n    if channel.startswith(\"https://www.youtube.com/feeds/videos.xml?channel_id=\"):\n        html = requests.get(channel)\n        soup = BeautifulSoup(html.text, \"xml\")\n        entry = soup.find(\"entry\")\n        link = entry.find(\"link\")\n        process_video(link[\"href\"])\n    try:\n        html = requests.get(channel + \"/videos\").text",
-        "detail": "tests.Youtube-Automation.tools.video",
+        "detail": "test.Youtube-Automation.tools.video",
         "documentation": {}
     },
     {
         "label": "so_file",
         "kind": 5,
-        "importPath": "tests.cLib.main",
-        "description": "tests.cLib.main",
+        "importPath": "test.cLib.main",
+        "description": "test.cLib.main",
         "peekOfCode": "so_file = f\"{os.getcwd()}/tests/cLib/lib.so\"\nprint(so_file)\nmy_functions = CDLL(so_file)\nprint(type(my_functions))\nprint(my_functions.lol())",
-        "detail": "tests.cLib.main",
+        "detail": "test.cLib.main",
         "documentation": {}
     },
     {
         "label": "my_functions",
         "kind": 5,
-        "importPath": "tests.cLib.main",
-        "description": "tests.cLib.main",
+        "importPath": "test.cLib.main",
+        "description": "test.cLib.main",
         "peekOfCode": "my_functions = CDLL(so_file)\nprint(type(my_functions))\nprint(my_functions.lol())",
-        "detail": "tests.cLib.main",
+        "detail": "test.cLib.main",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "tests.twitch.chat_logger",
-        "description": "tests.twitch.chat_logger",
+        "importPath": "test.twitch.chat_logger",
+        "description": "test.twitch.chat_logger",
         "peekOfCode": "def main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')\n            if resp.startswith('PING'):",
-        "detail": "tests.twitch.chat_logger",
+        "detail": "test.twitch.chat_logger",
         "documentation": {}
     },
     {
         "label": "server",
         "kind": 5,
-        "importPath": "tests.twitch.chat_logger",
-        "description": "tests.twitch.chat_logger",
+        "importPath": "test.twitch.chat_logger",
+        "description": "test.twitch.chat_logger",
         "peekOfCode": "server = 'irc.chat.twitch.tv'\nport = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))",
-        "detail": "tests.twitch.chat_logger",
+        "detail": "test.twitch.chat_logger",
         "documentation": {}
     },
     {
         "label": "port",
         "kind": 5,
-        "importPath": "tests.twitch.chat_logger",
-        "description": "tests.twitch.chat_logger",
+        "importPath": "test.twitch.chat_logger",
+        "description": "test.twitch.chat_logger",
         "peekOfCode": "port = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))",
-        "detail": "tests.twitch.chat_logger",
+        "detail": "test.twitch.chat_logger",
         "documentation": {}
     },
     {
         "label": "nickname",
         "kind": 5,
-        "importPath": "tests.twitch.chat_logger",
-        "description": "tests.twitch.chat_logger",
+        "importPath": "test.twitch.chat_logger",
+        "description": "test.twitch.chat_logger",
         "peekOfCode": "nickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:",
-        "detail": "tests.twitch.chat_logger",
+        "detail": "test.twitch.chat_logger",
         "documentation": {}
     },
     {
         "label": "token",
         "kind": 5,
-        "importPath": "tests.twitch.chat_logger",
-        "description": "tests.twitch.chat_logger",
+        "importPath": "test.twitch.chat_logger",
+        "description": "test.twitch.chat_logger",
         "peekOfCode": "token = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:",
-        "detail": "tests.twitch.chat_logger",
+        "detail": "test.twitch.chat_logger",
         "documentation": {}
     },
     {
         "label": "channel",
         "kind": 5,
-        "importPath": "tests.twitch.chat_logger",
-        "description": "tests.twitch.chat_logger",
+        "importPath": "test.twitch.chat_logger",
+        "description": "test.twitch.chat_logger",
         "peekOfCode": "channel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')",
-        "detail": "tests.twitch.chat_logger",
+        "detail": "test.twitch.chat_logger",
         "documentation": {}
     },
     {
         "label": "get_chat_dataframe",
         "kind": 2,
-        "importPath": "tests.twitch.chat_parser",
-        "description": "tests.twitch.chat_parser",
+        "importPath": "test.twitch.chat_parser",
+        "description": "test.twitch.chat_parser",
         "peekOfCode": "def get_chat_dataframe(file):\n    data = []\n    with open(file, 'r', encoding='utf-8') as f:\n        lines = [line for line in f]\n        for line in lines:\n            try:\n                #print(line)\n                time_logged = line.split('—')[0].strip()\n                time_logged = datetime.strptime(time_logged, '%Y-%m-%d_%H:%M:%S')\n                username_message = line.split('—')[1:]",
-        "detail": "tests.twitch.chat_parser",
+        "detail": "test.twitch.chat_parser",
         "documentation": {}
     },
     {
         "label": "Config",
         "kind": 6,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "class Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")\n# cron examples",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "job1",
         "kind": 2,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "def job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")\n# cron examples\n@scheduler.task(\"cron\", id=\"do_job_2\", minute=1)\ndef job2():\n    \"\"\"Sample job 2.\"\"\"\n    print(f\"Job 2 executed at {current_time}\")\n@scheduler.task(\"cron\", id=\"do_job_3\", week=\"*\", day_of_week=\"sun\")\ndef job3():",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "job2",
         "kind": 2,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "def job2():\n    \"\"\"Sample job 2.\"\"\"\n    print(f\"Job 2 executed at {current_time}\")\n@scheduler.task(\"cron\", id=\"do_job_3\", week=\"*\", day_of_week=\"sun\")\ndef job3():\n    \"\"\"Sample job 3.\"\"\"\n    print(f\"Job 3 executed at {current_time}\")\n@app.route(\"/\")\n@app.route(\"/home/\")\nasync def index():",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "job3",
         "kind": 2,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "def job3():\n    \"\"\"Sample job 3.\"\"\"\n    print(f\"Job 3 executed at {current_time}\")\n@app.route(\"/\")\n@app.route(\"/home/\")\nasync def index():\n    return \"<h1>Home</h1>\"\nif __name__ == \"__main__\":\n    app.config.from_object(Config())\n    # it is also possible to enable the API directly",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "app = Flask(__name__)\nnow = datetime.now()\ncurrent_time = now.strftime(\"%H:%M:%S\")\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "now",
         "kind": 5,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "now = datetime.now()\ncurrent_time = now.strftime(\"%H:%M:%S\")\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "current_time",
         "kind": 5,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "current_time = now.strftime(\"%H:%M:%S\")\nclass Config:\n    \"\"\"App configuration.\"\"\"\n    SCHEDULER_API_ENABLED = True\nscheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
         "documentation": {}
     },
     {
         "label": "scheduler",
         "kind": 5,
-        "importPath": "tests.backgroundtest",
-        "description": "tests.backgroundtest",
+        "importPath": "test.backgroundtest",
+        "description": "test.backgroundtest",
         "peekOfCode": "scheduler = APScheduler()\n# interval examples\n@scheduler.task(\"interval\", id=\"do_job_1\", seconds=1, misfire_grace_time=5)\ndef job1():\n    \"\"\"Sample job 1.\"\"\"\n    print(f\"Job 1 executed at {current_time}\")\n# cron examples\n@scheduler.task(\"cron\", id=\"do_job_2\", minute=1)\ndef job2():\n    \"\"\"Sample job 2.\"\"\"",
-        "detail": "tests.backgroundtest",
+        "detail": "test.backgroundtest",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "test.scrape",
+        "description": "test.scrape",
+        "peekOfCode": "url = 'https://www.sslproxies.org/'\n# Make a request to the website\nresponse = requests.get(url)\n# Parse the HTML content\nsoup = BeautifulSoup(response.text, 'html.parser')\n# Find the table containing the proxy information\ntable = soup.find('table', {'id': 'proxylisttable'})\n# Iterate through the rows of the table\nfor row in table.tbody.find_all('tr'):\n    # Extract the columns of the row",
+        "detail": "test.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "test.scrape",
+        "description": "test.scrape",
+        "peekOfCode": "response = requests.get(url)\n# Parse the HTML content\nsoup = BeautifulSoup(response.text, 'html.parser')\n# Find the table containing the proxy information\ntable = soup.find('table', {'id': 'proxylisttable'})\n# Iterate through the rows of the table\nfor row in table.tbody.find_all('tr'):\n    # Extract the columns of the row\n    columns = row.find_all('td')\n    # Extract the proxy information",
+        "detail": "test.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "soup",
+        "kind": 5,
+        "importPath": "test.scrape",
+        "description": "test.scrape",
+        "peekOfCode": "soup = BeautifulSoup(response.text, 'html.parser')\n# Find the table containing the proxy information\ntable = soup.find('table', {'id': 'proxylisttable'})\n# Iterate through the rows of the table\nfor row in table.tbody.find_all('tr'):\n    # Extract the columns of the row\n    columns = row.find_all('td')\n    # Extract the proxy information\n    ip = columns[0].text\n    port = columns[1].text",
+        "detail": "test.scrape",
+        "documentation": {}
+    },
+    {
+        "label": "table",
+        "kind": 5,
+        "importPath": "test.scrape",
+        "description": "test.scrape",
+        "peekOfCode": "table = soup.find('table', {'id': 'proxylisttable'})\n# Iterate through the rows of the table\nfor row in table.tbody.find_all('tr'):\n    # Extract the columns of the row\n    columns = row.find_all('td')\n    # Extract the proxy information\n    ip = columns[0].text\n    port = columns[1].text\n    protocol = columns[5].text.lower()\n    # Print the proxy information",
+        "detail": "test.scrape",
         "documentation": {}
     },
     {
         "label": "compress_video",
         "kind": 2,
-        "importPath": "tests.test2",
-        "description": "tests.test2",
+        "importPath": "test.test2",
+        "description": "test.test2",
         "peekOfCode": "def compress_video(video_full_path, output_file_name, target_size):\n    # Reference: https://en.wikipedia.org/wiki/Bit_rate#Encoding_bit_rate\n    min_audio_bitrate = 32000\n    max_audio_bitrate = 256000\n    probe = ffmpeg.probe(video_full_path)\n    # Video duration, in s.\n    duration = float(probe['format']['duration'])\n    # Audio bitrate, in bps.\n    audio_bitrate = float(next(\n        (s for s in probe['streams'] if s['codec_type'] == 'audio'), None)['bit_rate'])",
-        "detail": "tests.test2",
+        "detail": "test.test2",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "def my_function(x):\n    if x > 5:\n        return x*2\n    else:\n        return x+2\nmy_variable = my_function(3)\nprint(my_variable)",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "my_variable",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "my_variable = my_function(3)\nprint(my_variable)",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "debug_filter",
+        "kind": 2,
+        "importPath": "test.tests3",
+        "description": "test.tests3",
+        "peekOfCode": "def debug_filter(record):\n    return app.debug\n# Configure the logger to use the filter\nlogger.add(sink='app.log', filter=debug_filter)\n@app.route('/')\ndef index():\n    logger.debug('This message will be logged in debug mode')\n    logger.info('This message will be logged in debug mode')\n    logger.error('This message will be logged in debug mode')\n    return 'Hello, World!'",
+        "detail": "test.tests3",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "test.tests3",
+        "description": "test.tests3",
+        "peekOfCode": "def index():\n    logger.debug('This message will be logged in debug mode')\n    logger.info('This message will be logged in debug mode')\n    logger.error('This message will be logged in debug mode')\n    return 'Hello, World!'\nif __name__ == '__main__':\n    app.run(debug=False)",
+        "detail": "test.tests3",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "test.tests3",
+        "description": "test.tests3",
+        "peekOfCode": "app = Flask(__name__)\n# Define a filter function\ndef debug_filter(record):\n    return app.debug\n# Configure the logger to use the filter\nlogger.add(sink='app.log', filter=debug_filter)\n@app.route('/')\ndef index():\n    logger.debug('This message will be logged in debug mode')\n    logger.info('This message will be logged in debug mode')",
+        "detail": "test.tests3",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "tests.twitch",
-        "description": "tests.twitch",
+        "importPath": "test.twitch",
+        "description": "test.twitch",
         "peekOfCode": "def main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')\n            if resp.startswith('PING'):",
-        "detail": "tests.twitch",
+        "detail": "test.twitch",
         "documentation": {}
     },
     {
         "label": "server",
         "kind": 5,
-        "importPath": "tests.twitch",
-        "description": "tests.twitch",
+        "importPath": "test.twitch",
+        "description": "test.twitch",
         "peekOfCode": "server = 'irc.chat.twitch.tv'\nport = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))",
-        "detail": "tests.twitch",
+        "detail": "test.twitch",
         "documentation": {}
     },
     {
         "label": "port",
         "kind": 5,
-        "importPath": "tests.twitch",
-        "description": "tests.twitch",
+        "importPath": "test.twitch",
+        "description": "test.twitch",
         "peekOfCode": "port = 6667\nnickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))",
-        "detail": "tests.twitch",
+        "detail": "test.twitch",
         "documentation": {}
     },
     {
         "label": "nickname",
         "kind": 5,
-        "importPath": "tests.twitch",
-        "description": "tests.twitch",
+        "importPath": "test.twitch",
+        "description": "test.twitch",
         "peekOfCode": "nickname = 'thugbot'\ntoken = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:",
-        "detail": "tests.twitch",
+        "detail": "test.twitch",
         "documentation": {}
     },
     {
         "label": "token",
         "kind": 5,
-        "importPath": "tests.twitch",
-        "description": "tests.twitch",
+        "importPath": "test.twitch",
+        "description": "test.twitch",
         "peekOfCode": "token = 'oauth:tisxtqv1o2e69stq52085lmle4g64b'\nchannel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:",
-        "detail": "tests.twitch",
+        "detail": "test.twitch",
         "documentation": {}
     },
     {
         "label": "channel",
         "kind": 5,
-        "importPath": "tests.twitch",
-        "description": "tests.twitch",
+        "importPath": "test.twitch",
+        "description": "test.twitch",
         "peekOfCode": "channel = '#adinross'\ndef main():\n    sock = socket.socket()\n    sock.connect((server, port))\n    sock.send(f\"PASS {token}\\r\\n\".encode('utf-8'))\n    sock.send(f\"NICK {nickname}\\r\\n\".encode('utf-8'))\n    sock.send(f\"JOIN {channel}\\r\\n\".encode('utf-8'))\n    try:\n        while True:\n            resp = sock.recv(2048).decode('utf-8')",
-        "detail": "tests.twitch",
+        "detail": "test.twitch",
+        "documentation": {}
+    },
+    {
+        "label": "channel_id",
+        "kind": 5,
+        "importPath": "test.youtube",
+        "description": "test.youtube",
+        "peekOfCode": "channel_id = 'https://www.youtube.com/@playback1949'\nfeed_url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'\nhtml = requests.get(channel_id + \"/videos\").text\ninfo = re.search('(?<={\"label\":\").*?(?=\"})', html).group()\n#date = re.search('\\d+ \\w+ ago.*seconds ', info).group()\nurl = \"https://www.youtube.com/watch?v=\" + \\\nre.search('(?<=\"videoId\":\").*?(?=\")', html).group()\nprint(url)",
+        "detail": "test.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "feed_url",
+        "kind": 5,
+        "importPath": "test.youtube",
+        "description": "test.youtube",
+        "peekOfCode": "feed_url = f'https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}'\nhtml = requests.get(channel_id + \"/videos\").text\ninfo = re.search('(?<={\"label\":\").*?(?=\"})', html).group()\n#date = re.search('\\d+ \\w+ ago.*seconds ', info).group()\nurl = \"https://www.youtube.com/watch?v=\" + \\\nre.search('(?<=\"videoId\":\").*?(?=\")', html).group()\nprint(url)",
+        "detail": "test.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "html",
+        "kind": 5,
+        "importPath": "test.youtube",
+        "description": "test.youtube",
+        "peekOfCode": "html = requests.get(channel_id + \"/videos\").text\ninfo = re.search('(?<={\"label\":\").*?(?=\"})', html).group()\n#date = re.search('\\d+ \\w+ ago.*seconds ', info).group()\nurl = \"https://www.youtube.com/watch?v=\" + \\\nre.search('(?<=\"videoId\":\").*?(?=\")', html).group()\nprint(url)",
+        "detail": "test.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "test.youtube",
+        "description": "test.youtube",
+        "peekOfCode": "info = re.search('(?<={\"label\":\").*?(?=\"})', html).group()\n#date = re.search('\\d+ \\w+ ago.*seconds ', info).group()\nurl = \"https://www.youtube.com/watch?v=\" + \\\nre.search('(?<=\"videoId\":\").*?(?=\")', html).group()\nprint(url)",
+        "detail": "test.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "#date",
+        "kind": 5,
+        "importPath": "test.youtube",
+        "description": "test.youtube",
+        "peekOfCode": "#date = re.search('\\d+ \\w+ ago.*seconds ', info).group()\nurl = \"https://www.youtube.com/watch?v=\" + \\\nre.search('(?<=\"videoId\":\").*?(?=\")', html).group()\nprint(url)",
+        "detail": "test.youtube",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "test.youtube",
+        "description": "test.youtube",
+        "peekOfCode": "url = \"https://www.youtube.com/watch?v=\" + \\\nre.search('(?<=\"videoId\":\").*?(?=\")', html).group()\nprint(url)",
+        "detail": "test.youtube",
         "documentation": {}
     },
     {
@@ -1090,7 +1847,16 @@
         "kind": 6,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "class Config:\n    PORT = os.environ.get('PORT') or 5000\n    SECRET_KEY = os.environ.get('SECRET_KEY')\n    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI')\\\n        or 'sqlite:///' + os.path.join(basedir, 'app.db')\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get('SECURITY_PASSWORD_SALT')\n    SCRAPPED_VIDEOS_PATH = os.environ.get('SCRAPPED_VIDEOS_PATH')\n# FINISH the logger configuration\nlogger.add(sys.stderr,",
+        "peekOfCode": "class Config:\n    \"\"\"Config For the main app\"\"\"\n    PORT = os.environ.get(\"PORT\") or 5000\n    SECRET_KEY = \"SECRET_KEY\"\n    SQLALCHEMY_DATABASE_URI = \"sqlite:///../instance/database.db?check_same_thread=False\"\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get(\"SECURITY_PASSWORD_SALT\")\n    SCRAPPED_VIDEOS_PATH = os.environ.get(\"SCRAPPED_VIDEOS_PATH\")\n    SCRAPPING_ENABLED = False\nclass YoutubeConfig:",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeConfig",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class YoutubeConfig:\n    \"\"\"Configuration for youtube\"\"\"\n    YOUTUBE_VIDEOS_PATH = \"./instance/videos\"\n    YOUTUBE_VIDEO_DELAY = 1",
         "detail": "config",
         "documentation": {}
     },
@@ -1099,7 +1865,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# TODO Update variables\nclass Config:\n    PORT = os.environ.get('PORT') or 5000\n    SECRET_KEY = os.environ.get('SECRET_KEY')\n    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URI')\\\n        or 'sqlite:///' + os.path.join(basedir, 'app.db')\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get('SECURITY_PASSWORD_SALT')\n    SCRAPPED_VIDEOS_PATH = os.environ.get('SCRAPPED_VIDEOS_PATH')",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\n# TODO Update variables for .env file with venv using python-dotenv make interchangeable inside a database config\nclass Config:\n    \"\"\"Config For the main app\"\"\"\n    PORT = os.environ.get(\"PORT\") or 5000\n    SECRET_KEY = \"SECRET_KEY\"\n    SQLALCHEMY_DATABASE_URI = \"sqlite:///../instance/database.db?check_same_thread=False\"\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get(\"SECURITY_PASSWORD_SALT\")\n    SCRAPPED_VIDEOS_PATH = os.environ.get(\"SCRAPPED_VIDEOS_PATH\")",
         "detail": "config",
         "documentation": {}
     }

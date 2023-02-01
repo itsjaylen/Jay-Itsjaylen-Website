@@ -1,7 +1,12 @@
-from app.scrapping.tools.youtube import video_function
-from extensions import scheduler
+from app.scrapping import bp
+from app.extensions import scheduler, db
 import asyncio
 
-@scheduler.task('interval', id='do_async_task', minutes=45)
-def async_task():
-    asyncio.run(video_function())
+
+def configure_tasks(app):
+    @scheduler.task('interval', id='scrape_videos', minutes=5,)
+    def scrape_channels():
+       pass
+    
+    
+

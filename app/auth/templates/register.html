@@ -1,24 +1,76 @@
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    {% with messages = get_flashed_messages() %} {% if messages %} {% for msg in
+    messages %}
+    <div class="alert alert-success" role="alert">{{ msg }}</div>
+    {% endfor %} {% endif %} {% endwith %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <style>
+      .custom-navbar-color {
+        background-color: blue;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>Sign Up</title>
-</head>
+  </head>
+  <body>
+    <!-- #TODO Make navbar universal -->
+    <nav class="fixed">
+      <div class="nav-wrapper custom-navbar-color">
+        <a href="#" class="brand-logo center">My Website</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="/auth/register">Register</a></li>
+          <li><a href="/auth/login">Login</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-    <h1>Register</h1>
-    <form method="POST" action="">
-        {{form.hidden_tag()}}
-        {{form.username}}
-        {{form.password}}
-        {{form.submit}}
-        <a href="{{ url_for('auth.login') }}">Already have an account login</a>
-    </form>
-</body>
-
+    <div class="container">
+      <div class="row">
+        <form method="POST" action="" class="col s12">
+          {{form.hidden_tag()}}
+          <div class="row">
+            <div class="input-field col s12">
+              {{form.username(class='validate')}}
+              <label for="username">Username</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              {{form.password(class='validate')}}
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <button
+                class="btn waves-effect waves-light"
+                type="submit"
+                name="action"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col s12">
+            <p>
+              Already have an account?
+              <a href="{{ url_for('auth.login') }}">Login</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

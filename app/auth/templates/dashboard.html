@@ -1,36 +1,49 @@
-<html>
 
-<style>
-    /* Style the navbar */
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #333;
-      color: white;
-      padding: 10px 20px;
-    }
-  
-    /* Style the navbar links */
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-    }
-  </style>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
-    <nav class="navbar">
-        <!-- Navbar brand -->
-        <a href="#">Brand</a>
-        <!-- Navbar links -->
-        <div>
-            <h1>Logged in as {{ current_user}}</h1>
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </nav>
+    <! -- #TODO MAKE THE NAVBAR A TEMPLATE -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Navbar</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Logged in as: {{current_user.username}}<span id="username"></span></a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="stats">Stats</a></li>
+          <li><a href="settings">Settings</a></li>
+          {% if current_user.is_admin %}
+          <li><a href="/admin">Admin</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+        <h1>Dashboard Settings</h1>
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">API Key</span>
+                <p id="api-key" class="blurred">a</p>
+              </div>
+              <div class="card-action">
+                <p>A</p>
+              </div>
+            </div>
+          </div>
   </body>
 </html>

@@ -28,6 +28,7 @@
 <body>
   
   <!-- Navbar Starts here -->
+  {% block navbar %}
   <div class="navbar-main">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
@@ -45,13 +46,16 @@
               <a class="nav-link" href="/about/">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="/login/">Login</a>
+              <a class="nav-link" href="/auth/login/">Login</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="/logout/">Logout</a>
+              <a class="nav-link" href="/auth/logout/">Logout</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/misc/pocket-watch/">Twitch Pocket watching</a>
+              <a class="nav-link" href="/auth/dashboard/">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/scrapping/">Scrapping</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -68,12 +72,12 @@
                 </li>
               </ul>
             </li>
-
           </ul>
         </div>
       </div>
     </nav>
   </div>
+  {% endblock %}
 
   {% block title %}<title>Light Jaylen Website</title>{% endblock %}
   <p>{% block main %}{% endblock %}</p>

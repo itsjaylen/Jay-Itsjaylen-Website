@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Settings</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/settings.css') }}"
+    />
+
+    <!-- #TODO Put the javascript in its own file -->
+    <script>
+      $(document).ready(function () {
+        $("#api-key").data("api-key", "{{current_user.api_key}}");
+        $("#show-api-key-btn").click(function () {
+          $("#api-key").text($("#api-key").data("api-key"));
+          $("#api-key").removeClass("blurred");
+          console.log("Removed blurred class");
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#api-key").data("api-key", "{{current_user.api_key}}");
+        $("#hide-api-key-btn").click(function () {
+          $("#api-key").text($("#api-key").data("api-key"));
+          $("#api-key").addClass("blurred");
+          console.log("Added blurred class");
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $("#regenerate-api-key-btn").click(function () {
+          var current_user_api_key = $(this).data("current_user_api_key");
+          console.log(current_user_api_key);
+          regenerate_api_key(current_user_api_key);
+        });
+      });
+
+      function regenerate_api_key(current_user_api_key) {
+        // Make an AJAX call to your Flask route that regenerates the API key
+        // and pass the userId as a parameter
+        $.ajax({
+          type: "POST",
+          url: "/api/regenerate-api-key",
+          data: {
+            current_user_api_key: current_user_api_key,
+          },
+          success: function (response) {
+            // Update the API key on the page with the new key from the response
+            $("#api-key").text(response.new_api_key);
+          },
+        });
+      }
+    </script>
+        
+    <script>
+      window.onload = function() {
+        document.getElementById("reset-password-btn").addEventListener("click", function() {
+          var currentPassword = document.getElementById("current_password").value;
+          console.log(currentPassword);
+          //reset_password(current_password, new_password, confirm_password);
+        });
+      };
+      
+      function reset_password(current_password, new_password, confirm_password) {
+        // Make an AJAX call to your Flask route that resets the password
+        // and pass the userId as a parameter
+        $.ajax({
+          type: "POST",
+          url: "/api/change-password",
+          data: {
+            current_password: current_password,
+            new_password: new_password,
+            confirm_password: confirm_password,
+          },
+          success: function (response) {
+            // Update the API key on the page with the new key from the response
+            $("#api-key").text(response.new_password);
+          },
+        });
+      }
+
+      
+    </script>
+
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Navbar</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="#"
+              >Logged in as: {{current_user.username}}<span id="username"></span
+            ></a>
+          </li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/auth/dashboard/">Dashboard</a></li>
+          <li><a href="/auth/dashboard/settings">Settings</a></li>
+          <li><a href="/auth/dashboard/stats">Stats</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Dashboard Settings</h1>
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">API Key</span>
+              <p id="api-key" class="blurred">a</p>
+            </div>
+            <div class="card-action">
+              <a
+                href="#"
+                class="btn waves-effect waves-light"
+                id="show-api-key-btn"
+                >Show</a
+              >
+              <a
+                href="#"
+                class="btn waves-effect waves-light"
+                id="hide-api-key-btn"
+                >Hide</a
+              >
+              <a
+                href="#"
+                class="btn waves-effect waves-light"
+                id="regenerate-api-key-btn"
+                data-current_user_api_key="{{current_user.api_key}}"
+                >Regenerate
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- #TODO Finish the password resetting -->
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Change Password</span>
+              <form action="" method="post">
+                <div class="input-field">
+                  <input
+                    type="password"
+                    id="current_password"
+                    name="current_password"
+                  />
+                  <label for="current_password">Current Password</label>
+                </div>
+                <div class="input-field">
+                  <input
+                    type="password"
+                    id="new_password"
+                    name="new_password"
+                  />
+                  <label for="new_password">New Password</label>
+                </div>
+                <div class="input-field">
+                  <input
+                    type="password"
+                    id="confirm_password"
+                    name="confirm_password"
+                  />
+                  <label for="confirm_password">Confirm Password</label>
+                </div>
+                <a
+                    href="#"
+                    class="btn waves-effect waves-light"
+                    id="reset-password-btn"
+                    >Change (DISABLED)</a
+                  >
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+  </body>
+</html>

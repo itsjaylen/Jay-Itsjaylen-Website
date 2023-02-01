@@ -1,11 +1,12 @@
 __pycache__
 *.db
 videos
-tests
 *.log
 *.mbtree
 tweets.txt
 channels.txt
 locustfile.py
 *.mp4
-tests
+test
+env
+migrations
