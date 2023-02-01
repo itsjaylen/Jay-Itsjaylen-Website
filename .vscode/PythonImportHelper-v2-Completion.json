@@ -793,7 +793,7 @@
         "kind": 2,
         "importPath": "app.commands",
         "description": "app.commands",
-        "peekOfCode": "def configure_cli(app):\n    @app.cli.command()\n    def initdb():\n        db.drop_all()\n        db.create_all()\n    @app.cli.command()\n    def build():\n        system(\"pip install -r requirements.txt\")\n    @app.cli.command()\n    def deploy():",
+        "peekOfCode": "def configure_cli(app):\n    @app.cli.command()\n    def initdb():\n        db.drop_all()\n        db.create_all()",
         "detail": "app.commands",
         "documentation": {}
     },

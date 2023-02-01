@@ -8,11 +8,3 @@ def configure_cli(app):
     def initdb():
         db.drop_all()
         db.create_all()
-        
-    @app.cli.command()
-    def build():
-        system("pip install -r requirements.txt")
-        
-    @app.cli.command()
-    def deploy():
-        print("deploy")
