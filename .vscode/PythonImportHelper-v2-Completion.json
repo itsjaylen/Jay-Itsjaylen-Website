@@ -1,75 +1,36 @@
 [
     {
-        "label": "Video",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "YoutubeChannels",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "Video",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "YoutubeChannels",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "Video",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "YoutubeChannels",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "Video",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "YoutubeChannels",
-        "importPath": "app.models.YoutubeScrapping",
-        "description": "app.models.YoutubeScrapping",
-        "isExtraImport": true,
-        "detail": "app.models.YoutubeScrapping",
-        "documentation": {}
-    },
-    {
-        "label": "string",
+        "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "string",
-        "description": "string",
-        "detail": "string",
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "StreamReader",
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "isExtraImport": true,
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "StreamWriter",
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "isExtraImport": true,
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -113,6 +74,22 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -134,6 +111,378 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "importPath": "twitchio.ext",
+        "description": "twitchio.ext",
+        "isExtraImport": true,
+        "detail": "twitchio.ext",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "importPath": "twitchio.ext",
+        "description": "twitchio.ext",
+        "isExtraImport": true,
+        "detail": "twitchio.ext",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "importPath": "twitchio.ext",
+        "description": "twitchio.ext",
+        "isExtraImport": true,
+        "detail": "twitchio.ext",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "importPath": "twitchio.ext",
+        "description": "twitchio.ext",
+        "isExtraImport": true,
+        "detail": "twitchio.ext",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "importPath": "twitchio.ext",
+        "description": "twitchio.ext",
+        "isExtraImport": true,
+        "detail": "twitchio.ext",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_stats",
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "isExtraImport": true,
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "hash_sha256",
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "isExtraImport": true,
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "get_attr",
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "isExtraImport": true,
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchChannels",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchMessages",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchUsers",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchMessages",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchUsers",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchChannels",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchMessages",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchUsers",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchMessages",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchUsers",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchMessages",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchChannels",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchMessages",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchUsers",
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "isExtraImport": true,
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "scheduler",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "importPath": "app.extensions",
+        "description": "app.extensions",
+        "isExtraImport": true,
+        "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "fuzz",
+        "importPath": "fuzzywuzzy",
+        "description": "fuzzywuzzy",
+        "isExtraImport": true,
+        "detail": "fuzzywuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "fuzz",
+        "importPath": "fuzzywuzzy",
+        "description": "fuzzywuzzy",
+        "isExtraImport": true,
+        "detail": "fuzzywuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
         "documentation": {}
     },
     {
@@ -151,6 +500,275 @@
         "importPath": "hashlib",
         "description": "hashlib",
         "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "Video",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeChannels",
+        "importPath": "app.models.YoutubeScrapping",
+        "description": "app.models.YoutubeScrapping",
+        "isExtraImport": true,
+        "detail": "app.models.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "zlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zlib",
+        "description": "zlib",
+        "detail": "zlib",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "loguru",
+        "description": "loguru",
+        "isExtraImport": true,
+        "detail": "loguru",
+        "documentation": {}
+    },
+    {
+        "label": "emoji",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emoji",
+        "description": "emoji",
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "demojize",
+        "importPath": "emoji",
+        "description": "emoji",
+        "isExtraImport": true,
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "demojize",
+        "importPath": "emoji",
+        "description": "emoji",
+        "isExtraImport": true,
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "add_user",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "list_channels",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "list_users",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "remove_user",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "force_update",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "message_count",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "find_message",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "sysinfo",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "total_messages",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "optin",
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "isExtraImport": true,
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "YoutubeConfig",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
         "documentation": {}
     },
     {
@@ -250,6 +868,22 @@
         "documentation": {}
     },
     {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "current_app",
         "importPath": "flask",
         "description": "flask",
@@ -282,131 +916,19 @@
         "documentation": {}
     },
     {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
         "label": "api",
         "importPath": "app.api",
         "description": "app.api",
         "isExtraImport": true,
         "detail": "app.api",
-        "documentation": {}
-    },
-    {
-        "label": "get_attr",
-        "importPath": "app.api.tools.apitool",
-        "description": "app.api.tools.apitool",
-        "isExtraImport": true,
-        "detail": "app.api.tools.apitool",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "cache",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "bcrypt",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "login_manager",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "scheduler",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "bcrypt",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "db",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
-        "documentation": {}
-    },
-    {
-        "label": "migrate",
-        "importPath": "app.extensions",
-        "description": "app.extensions",
-        "isExtraImport": true,
-        "detail": "app.extensions",
         "documentation": {}
     },
     {
@@ -642,6 +1164,24 @@
         "documentation": {}
     },
     {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -657,24 +1197,6 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
         "documentation": {}
     },
     {
@@ -696,15 +1218,6 @@
         "documentation": {}
     },
     {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
-        "documentation": {}
-    },
-    {
         "label": "BeautifulSoup",
         "importPath": "bs4",
         "description": "bs4",
@@ -734,38 +1247,6 @@
         "description": "bs4",
         "isExtraImport": true,
         "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "loguru",
-        "description": "loguru",
-        "isExtraImport": true,
-        "detail": "loguru",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "loguru",
-        "description": "loguru",
-        "isExtraImport": true,
-        "detail": "loguru",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "loguru",
-        "description": "loguru",
-        "isExtraImport": true,
-        "detail": "loguru",
-        "documentation": {}
-    },
-    {
-        "label": "logger",
-        "importPath": "loguru",
-        "description": "loguru",
-        "isExtraImport": true,
-        "detail": "loguru",
         "documentation": {}
     },
     {
@@ -793,14 +1274,6 @@
         "documentation": {}
     },
     {
-        "label": "YoutubeConfig",
-        "importPath": "config",
-        "description": "config",
-        "isExtraImport": true,
-        "detail": "config",
-        "documentation": {}
-    },
-    {
         "label": "bp",
         "importPath": "app.scrapping",
         "description": "app.scrapping",
@@ -817,15 +1290,6 @@
         "documentation": {}
     },
     {
-        "label": "asyncio",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "asyncio",
-        "description": "asyncio",
-        "detail": "asyncio",
-        "documentation": {}
-    },
-    {
         "label": "get_videos",
         "importPath": "app.scrapping.tools.YoutubeScrapping",
         "description": "app.scrapping.tools.YoutubeScrapping",
@@ -839,6 +1303,14 @@
         "description": "app.scrapping.tools.YoutubeScrapping",
         "isExtraImport": true,
         "detail": "app.scrapping.tools.YoutubeScrapping",
+        "documentation": {}
+    },
+    {
+        "label": "generate_top_users_graph",
+        "importPath": "app.scrapping.tools.TwitchScrapping",
+        "description": "app.scrapping.tools.TwitchScrapping",
+        "isExtraImport": true,
+        "detail": "app.scrapping.tools.TwitchScrapping",
         "documentation": {}
     },
     {
@@ -877,19 +1349,19 @@
         "documentation": {}
     },
     {
-        "label": "fuzz",
-        "importPath": "fuzzywuzzy",
-        "description": "fuzzywuzzy",
-        "isExtraImport": true,
-        "detail": "fuzzywuzzy",
-        "documentation": {}
-    },
-    {
         "label": "Bcrypt",
         "importPath": "flask_bcrypt",
         "description": "flask_bcrypt",
         "isExtraImport": true,
         "detail": "flask_bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
         "documentation": {}
     },
     {
@@ -933,6 +1405,47 @@
         "documentation": {}
     },
     {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "with_statement",
         "importPath": "__future__",
         "description": "__future__",
@@ -946,14 +1459,6 @@
         "description": "logging.config",
         "isExtraImport": true,
         "detail": "logging.config",
-        "documentation": {}
-    },
-    {
-        "label": "context",
-        "importPath": "alembic",
-        "description": "alembic",
-        "isExtraImport": true,
-        "detail": "alembic",
         "documentation": {}
     },
     {
@@ -982,28 +1487,46 @@
         "documentation": {}
     },
     {
-        "label": "demojize",
-        "importPath": "emoji",
-        "description": "emoji",
-        "isExtraImport": true,
-        "detail": "emoji",
-        "documentation": {}
-    },
-    {
-        "label": "demojize",
-        "importPath": "emoji",
-        "description": "emoji",
-        "isExtraImport": true,
-        "detail": "emoji",
-        "documentation": {}
-    },
-    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pandas",
         "description": "pandas",
         "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "websocket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "websocket",
+        "description": "websocket",
+        "detail": "websocket",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -1015,12 +1538,111 @@
         "documentation": {}
     },
     {
+        "label": "authorized_users",
+        "kind": 2,
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "peekOfCode": "def authorized_users(command_function):\n    @functools.wraps(command_function)\n    async def wrapper(ctx, *args, **kwargs):\n        auth_users = get_auth_users()\n        if ctx.author.name in auth_users:\n            # The user is authorized to use the command, so execute the command function\n            return await command_function(ctx, *args, **kwargs)\n        else:\n            # The user is not authorized, so send an error message\n            pass",
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth_users",
+        "kind": 2,
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "peekOfCode": "def get_auth_users():\n    return [user.username for user in TwitchUsers.query.all()]\ndef retry(max_retries=3, wait_time=1):\n    def decorator(func):\n        async def wrapper(*args, **kwargs):\n            retries = 0\n            while retries < max_retries:\n                try:\n                    result = await func(*args, **kwargs)\n                    return result",
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "retry",
+        "kind": 2,
+        "importPath": "app.api.tools.twitch.commands",
+        "description": "app.api.tools.twitch.commands",
+        "peekOfCode": "def retry(max_retries=3, wait_time=1):\n    def decorator(func):\n        async def wrapper(*args, **kwargs):\n            retries = 0\n            while retries < max_retries:\n                try:\n                    result = await func(*args, **kwargs)\n                    return result\n                except Exception:\n                    retries += 1",
+        "detail": "app.api.tools.twitch.commands",
+        "documentation": {}
+    },
+    {
+        "label": "level_filter",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def level_filter(record):\n    return record[\"level\"].name in [\"DEBUG\", \"INFO\", \"ERROR\"]\nlogger.add(\n    sys.stderr,\n    format=\"{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}\",\n    filter=level_filter,\n    level=\"INFO\",\n    enqueue=True,\n    backtrace=True,\n    diagnose=True,",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "compress_message",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def compress_message(message):\n    return zlib.compress(message.encode())\ndef decompress_message(compressed_message):\n    return zlib.decompress(compressed_message).decode()\ndef get_attr(attr_name, obj) -> str:\n    if hasattr(obj, attr_name):\n        return getattr(obj, attr_name)\n    else:\n        return \"N/A\"\ndef hash_sha256(string):",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "decompress_message",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def decompress_message(compressed_message):\n    return zlib.decompress(compressed_message).decode()\ndef get_attr(attr_name, obj) -> str:\n    if hasattr(obj, attr_name):\n        return getattr(obj, attr_name)\n    else:\n        return \"N/A\"\ndef hash_sha256(string):\n    string_bytes = string.encode()\n    sha256 = hashlib.sha256()",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
         "label": "get_attr",
         "kind": 2,
         "importPath": "app.api.tools.apitool",
         "description": "app.api.tools.apitool",
-        "peekOfCode": "def get_attr(attr_name, obj) -> str:\n    if hasattr(obj, attr_name):\n        return getattr(obj, attr_name)\n    else:\n        return \"N/A\"",
+        "peekOfCode": "def get_attr(attr_name, obj) -> str:\n    if hasattr(obj, attr_name):\n        return getattr(obj, attr_name)\n    else:\n        return \"N/A\"\ndef hash_sha256(string):\n    string_bytes = string.encode()\n    sha256 = hashlib.sha256()\n    sha256.update(string_bytes)\n    return sha256.hexdigest()",
         "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "hash_sha256",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def hash_sha256(string):\n    string_bytes = string.encode()\n    sha256 = hashlib.sha256()\n    sha256.update(string_bytes)\n    return sha256.hexdigest()\ndef strip_u_e0000(input_str):\n    return re.sub(\"\\U000e0000\", \"\", input_str)\ndef strip_unicode(string):\n    stripped = \"\"\n    for char in string:",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "strip_u_e0000",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def strip_u_e0000(input_str):\n    return re.sub(\"\\U000e0000\", \"\", input_str)\ndef strip_unicode(string):\n    stripped = \"\"\n    for char in string:\n        if ord(char) < 128 or emoji.emojize(char) != char:\n            stripped += char\n            stripped = stripped.strip(\"\")\n            stripped = re.sub(\"\\W+\", \" \", string).strip()\n    return stripped",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "strip_unicode",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def strip_unicode(string):\n    stripped = \"\"\n    for char in string:\n        if ord(char) < 128 or emoji.emojize(char) != char:\n            stripped += char\n            stripped = stripped.strip(\"\")\n            stripped = re.sub(\"\\W+\", \" \", string).strip()\n    return stripped\ndef update_user_stats():\n    # Get distinct usernames from TwitchMessages table",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "update_user_stats",
+        "kind": 2,
+        "importPath": "app.api.tools.apitool",
+        "description": "app.api.tools.apitool",
+        "peekOfCode": "def update_user_stats():\n    # Get distinct usernames from TwitchMessages table\n    users = TwitchMessages.query.with_entities(TwitchMessages.username).distinct()\n    for user in users:\n        # Get messages sent by user\n        messages = TwitchMessages.query.filter_by(username=user[0]).all()\n        if len(messages) > 0:\n            # Calculate average message length\n            total_length = sum([len(message.message) for message in messages])\n            average_length = int(total_length / len(messages))",
+        "detail": "app.api.tools.apitool",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "app.api.tools.twitchbot",
+        "description": "app.api.tools.twitchbot",
+        "peekOfCode": "class Bot(commands.Bot):\n    def __init__(self, app, db):\n        CHANNELS = [channel.channel for channel in TwitchChannels.query.all()]\n        super().__init__(\n            token=TwitchConfig.TOKEN,\n            prefix=TwitchConfig.PREFIX,\n            initial_channels=CHANNELS,\n        )\n        with app.app_context():\n            self.db = db",
+        "detail": "app.api.tools.twitchbot",
         "documentation": {}
     },
     {
@@ -1065,6 +1687,15 @@
         "importPath": "app.api.routes",
         "description": "app.api.routes",
         "peekOfCode": "def youtube(youtube_channel_id):\n    if request.method == \"GET\":\n        videos = (\n            Video.query.filter_by(author=youtube_channel_id)\n            .order_by(Video.publish_date.desc())\n            .all()\n        )\n        if videos:\n            video_list = []\n            for video in videos:",
+        "detail": "app.api.routes",
+        "documentation": {}
+    },
+    {
+        "label": "twitch_messages",
+        "kind": 2,
+        "importPath": "app.api.routes",
+        "description": "app.api.routes",
+        "peekOfCode": "def twitch_messages(username):\n    if request.method == \"GET\":\n        messages = (\n            TwitchMessages.query.filter_by(username=username.lower(),)\n            .order_by(TwitchMessages.timestamp.asc())\n            .all()\n        )\n        if messages:\n            message_list = []\n            for message in messages:",
         "detail": "app.api.routes",
         "documentation": {}
     },
@@ -1204,6 +1835,33 @@
         "documentation": {}
     },
     {
+        "label": "TwitchMessages",
+        "kind": 6,
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "peekOfCode": "class TwitchMessages(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    timestamp = db.Column(db.String(20), nullable=False)\n    channel = db.Column(db.String(50), nullable=False)\n    username = db.Column(db.String(50), nullable=False)\n    message = db.Column(db.String(500), nullable=False)\n    hashed_message = db.Column(db.String(64), nullable=False)\n    def __repr__(self):\n        return f\"Message('{self.timestamp}', '{self.channel}', '{self.username}', '{self.message}', '{self.hashed_message}')\"\nclass TwitchUsers(db.Model):",
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchUsers",
+        "kind": 6,
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "peekOfCode": "class TwitchUsers(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(50), nullable=False)\n    message_count = db.Column(db.Integer, default=0, nullable=False)\n    average_message_length = db.Column(db.Integer, default=0, nullable=False)\n    daily_average_message_count = db.Column(db.Integer, default=0, nullable=False)\nclass TwitchChannels(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    channel = db.Column(db.String(50), nullable=False)\n    message_count = db.Column(db.Integer, default=0, nullable=False)",
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchChannels",
+        "kind": 6,
+        "importPath": "app.models.TwitchScrapper",
+        "description": "app.models.TwitchScrapper",
+        "peekOfCode": "class TwitchChannels(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    channel = db.Column(db.String(50), nullable=False)\n    message_count = db.Column(db.Integer, default=0, nullable=False)",
+        "detail": "app.models.TwitchScrapper",
+        "documentation": {}
+    },
+    {
         "label": "YoutubeChannels",
         "kind": 6,
         "importPath": "app.models.YoutubeScrapping",
@@ -1285,6 +1943,15 @@
         "documentation": {}
     },
     {
+        "label": "generate_top_users_graph",
+        "kind": 2,
+        "importPath": "app.scrapping.tools.TwitchScrapping",
+        "description": "app.scrapping.tools.TwitchScrapping",
+        "peekOfCode": "def generate_top_users_graph():\n    # Query the database to get the top users with the most amount of messages\n    top_users = (\n        TwitchUsers.query.order_by(TwitchUsers.message_count.desc()).limit(10).all()\n    )\n    # Extract the usernames and message counts\n    usernames = [user.username for user in top_users]\n    message_counts = [user.message_count for user in top_users]\n    # Create a bar chart to display the message counts for each user\n    plt.bar(usernames, message_counts)",
+        "detail": "app.scrapping.tools.TwitchScrapping",
+        "documentation": {}
+    },
+    {
         "label": "YoutubeScraper",
         "kind": 6,
         "importPath": "app.scrapping.tools.YoutubeScrapping",
@@ -1316,7 +1983,16 @@
         "kind": 2,
         "importPath": "app.scrapping.routes",
         "description": "app.scrapping.routes",
-        "peekOfCode": "def videos(filename):\n    return render_template('videos.html', video_file=filename)",
+        "peekOfCode": "def videos(filename):\n    return render_template('videos.html', video_file=filename)\nfrom flask import render_template\n@bp.route('/top_users')\ndef top_users():\n    # Generate the graph and save it as an image file\n    generate_top_users_graph()\n    # Render an HTML template that includes the image\n    return render_template('top_users.html')",
+        "detail": "app.scrapping.routes",
+        "documentation": {}
+    },
+    {
+        "label": "top_users",
+        "kind": 2,
+        "importPath": "app.scrapping.routes",
+        "description": "app.scrapping.routes",
+        "peekOfCode": "def top_users():\n    # Generate the graph and save it as an image file\n    generate_top_users_graph()\n    # Render an HTML template that includes the image\n    return render_template('top_users.html')",
         "detail": "app.scrapping.routes",
         "documentation": {}
     },
@@ -1399,6 +2075,168 @@
         "description": "app.extensions",
         "peekOfCode": "migrate = Migrate()",
         "detail": "app.extensions",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.1a082cdfd53f_",
+        "description": "migrations.versions.1a082cdfd53f_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.Column('average_message_length', sa.Integer(), nullable=False),\n    sa.Column('daily_average_message_count', sa.Integer(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "migrations.versions.1a082cdfd53f_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.1a082cdfd53f_",
+        "description": "migrations.versions.1a082cdfd53f_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('twitch_users')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.1a082cdfd53f_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.1a082cdfd53f_",
+        "description": "migrations.versions.1a082cdfd53f_",
+        "peekOfCode": "revision = '1a082cdfd53f'\ndown_revision = '4df99c54c11e'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),",
+        "detail": "migrations.versions.1a082cdfd53f_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.1a082cdfd53f_",
+        "description": "migrations.versions.1a082cdfd53f_",
+        "peekOfCode": "down_revision = '4df99c54c11e'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.Column('average_message_length', sa.Integer(), nullable=False),",
+        "detail": "migrations.versions.1a082cdfd53f_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.1a082cdfd53f_",
+        "description": "migrations.versions.1a082cdfd53f_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.Column('average_message_length', sa.Integer(), nullable=False),\n    sa.Column('daily_average_message_count', sa.Integer(), nullable=False),",
+        "detail": "migrations.versions.1a082cdfd53f_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.1a082cdfd53f_",
+        "description": "migrations.versions.1a082cdfd53f_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.Column('average_message_length', sa.Integer(), nullable=False),\n    sa.Column('daily_average_message_count', sa.Integer(), nullable=False),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.1a082cdfd53f_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.36e428c1c745_",
+        "description": "migrations.versions.36e428c1c745_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_channels',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.36e428c1c745_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.36e428c1c745_",
+        "description": "migrations.versions.36e428c1c745_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('twitch_channels')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.36e428c1c745_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.36e428c1c745_",
+        "description": "migrations.versions.36e428c1c745_",
+        "peekOfCode": "revision = '36e428c1c745'\ndown_revision = '1a082cdfd53f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_channels',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),",
+        "detail": "migrations.versions.36e428c1c745_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.36e428c1c745_",
+        "description": "migrations.versions.36e428c1c745_",
+        "peekOfCode": "down_revision = '1a082cdfd53f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_channels',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.36e428c1c745_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.36e428c1c745_",
+        "description": "migrations.versions.36e428c1c745_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_channels',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "migrations.versions.36e428c1c745_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.36e428c1c745_",
+        "description": "migrations.versions.36e428c1c745_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_channels',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('message_count', sa.Integer(), nullable=False),\n    sa.PrimaryKeyConstraint('id')\n    )\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.36e428c1c745_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.4df99c54c11e_",
+        "description": "migrations.versions.4df99c54c11e_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_messages',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('timestamp', sa.String(length=20), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message', sa.String(length=500), nullable=False),\n    sa.Column('hashed_message', sa.String(length=64), nullable=False),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.4df99c54c11e_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.4df99c54c11e_",
+        "description": "migrations.versions.4df99c54c11e_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('twitch_messages')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.4df99c54c11e_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.4df99c54c11e_",
+        "description": "migrations.versions.4df99c54c11e_",
+        "peekOfCode": "revision = '4df99c54c11e'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_messages',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('timestamp', sa.String(length=20), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),",
+        "detail": "migrations.versions.4df99c54c11e_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.4df99c54c11e_",
+        "description": "migrations.versions.4df99c54c11e_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_messages',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('timestamp', sa.String(length=20), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),",
+        "detail": "migrations.versions.4df99c54c11e_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.4df99c54c11e_",
+        "description": "migrations.versions.4df99c54c11e_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_messages',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('timestamp', sa.String(length=20), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message', sa.String(length=500), nullable=False),",
+        "detail": "migrations.versions.4df99c54c11e_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.4df99c54c11e_",
+        "description": "migrations.versions.4df99c54c11e_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('twitch_messages',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('timestamp', sa.String(length=20), nullable=False),\n    sa.Column('channel', sa.String(length=50), nullable=False),\n    sa.Column('username', sa.String(length=50), nullable=False),\n    sa.Column('message', sa.String(length=500), nullable=False),\n    sa.Column('hashed_message', sa.String(length=64), nullable=False),",
+        "detail": "migrations.versions.4df99c54c11e_",
         "documentation": {}
     },
     {
@@ -1573,6 +2411,150 @@
         "documentation": {}
     },
     {
+        "label": "HOST",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "HOST = \"irc.chat.twitch.tv\"\nPORT = 6667\nNICK = \"icyjaylenn\"\nPASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNELS = [\"#yourragegaming\", \"#kaicenat\", \"#fanum\", \"#sheedfe\"]\nTARGET_USERS = [\n    \"icyjaylenn\",\n    \"yourragegaming\",\n    \"zoidnl\",\n    \"afroakatsuki\",",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "PORT",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "PORT = 6667\nNICK = \"icyjaylenn\"\nPASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNELS = [\"#yourragegaming\", \"#kaicenat\", \"#fanum\", \"#sheedfe\"]\nTARGET_USERS = [\n    \"icyjaylenn\",\n    \"yourragegaming\",\n    \"zoidnl\",\n    \"afroakatsuki\",\n    \"hxrtwell_\",",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "NICK",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "NICK = \"icyjaylenn\"\nPASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNELS = [\"#yourragegaming\", \"#kaicenat\", \"#fanum\", \"#sheedfe\"]\nTARGET_USERS = [\n    \"icyjaylenn\",\n    \"yourragegaming\",\n    \"zoidnl\",\n    \"afroakatsuki\",\n    \"hxrtwell_\",\n    \"kiairuh\",",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "PASS",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "PASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNELS = [\"#yourragegaming\", \"#kaicenat\", \"#fanum\", \"#sheedfe\"]\nTARGET_USERS = [\n    \"icyjaylenn\",\n    \"yourragegaming\",\n    \"zoidnl\",\n    \"afroakatsuki\",\n    \"hxrtwell_\",\n    \"kiairuh\",\n    \"giovannisantana\",",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNELS",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "CHANNELS = [\"#yourragegaming\", \"#kaicenat\", \"#fanum\", \"#sheedfe\"]\nTARGET_USERS = [\n    \"icyjaylenn\",\n    \"yourragegaming\",\n    \"zoidnl\",\n    \"afroakatsuki\",\n    \"hxrtwell_\",\n    \"kiairuh\",\n    \"giovannisantana\",\n    \"odenboiled\",",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "TARGET_USERS",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "TARGET_USERS = [\n    \"icyjaylenn\",\n    \"yourragegaming\",\n    \"zoidnl\",\n    \"afroakatsuki\",\n    \"hxrtwell_\",\n    \"kiairuh\",\n    \"giovannisantana\",\n    \"odenboiled\",\n    \"manithemenace\",",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "executor",
+        "kind": 5,
+        "importPath": "test.twitch.chatlogger",
+        "description": "test.twitch.chatlogger",
+        "peekOfCode": "executor = ThreadPoolExecutor(max_workers=2)\nasync def handle_connection(reader: StreamReader, writer: StreamWriter, channel: str):\n    await join_channel(writer, channel)\n    while True:\n        response = await reader.readline()\n        response = response.decode(\"utf-8\").strip()\n        if response == \"PING :tmi.twitch.tv\":\n            writer.write(\"PONG :tmi.twitch.tv\\r\\n\".encode(\"utf-8\"))\n            await writer.drain()\n        else:",
+        "detail": "test.twitch.chatlogger",
+        "documentation": {}
+    },
+    {
+        "label": "on_message",
+        "kind": 2,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "def on_message(ws, message):\n    data = json.loads(message)\n    if \"data\" in data:\n        chat_message = json.loads(data[\"data\"])\n        print(f\"Message from {chat_message['user_name']}: {chat_message['message']}\")\ndef on_error(ws, error):\n    print(f\"Error: {error}\")\ndef on_close(ws):\n    print(\"Connection closed.\")\ndef on_open(ws):",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "on_error",
+        "kind": 2,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "def on_error(ws, error):\n    print(f\"Error: {error}\")\ndef on_close(ws):\n    print(\"Connection closed.\")\ndef on_open(ws):\n    channel = \"yourragegaming\"\n    ws.send(json.dumps({\n        \"type\": \"LISTEN\",\n        \"data\": {\n            \"topics\": [f\"channel-chat-events-v1.{channel}\"],",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "on_close",
+        "kind": 2,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "def on_close(ws):\n    print(\"Connection closed.\")\ndef on_open(ws):\n    channel = \"yourragegaming\"\n    ws.send(json.dumps({\n        \"type\": \"LISTEN\",\n        \"data\": {\n            \"topics\": [f\"channel-chat-events-v1.{channel}\"],\n            \"auth_token\": token\n        }",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "on_open",
+        "kind": 2,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "def on_open(ws):\n    channel = \"yourragegaming\"\n    ws.send(json.dumps({\n        \"type\": \"LISTEN\",\n        \"data\": {\n            \"topics\": [f\"channel-chat-events-v1.{channel}\"],\n            \"auth_token\": token\n        }\n    }))\nwebsocket.enableTrace(True)",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "client_id",
+        "kind": 5,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "client_id = \"lxvuai3upp1ogwrfusz6z4xbzjf8dg\"\nresponse = requests.post(\n    \"https://id.twitch.tv/oauth2/token\",\n    data={\n        \"client_id\": client_id,\n        \"client_secret\": \"jj42c1w22zenmjzv1f246ct1gzvgo5\",\n        \"grant_type\": \"client_credentials\",\n        \"scope\": \"chat:edit chat:read\"\n    }\n)",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "response = requests.post(\n    \"https://id.twitch.tv/oauth2/token\",\n    data={\n        \"client_id\": client_id,\n        \"client_secret\": \"jj42c1w22zenmjzv1f246ct1gzvgo5\",\n        \"grant_type\": \"client_credentials\",\n        \"scope\": \"chat:edit chat:read\"\n    }\n)\ntoken = response.json()[\"access_token\"]",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "token",
+        "kind": 5,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "token = response.json()[\"access_token\"]\ndef on_message(ws, message):\n    data = json.loads(message)\n    if \"data\" in data:\n        chat_message = json.loads(data[\"data\"])\n        print(f\"Message from {chat_message['user_name']}: {chat_message['message']}\")\ndef on_error(ws, error):\n    print(f\"Error: {error}\")\ndef on_close(ws):\n    print(\"Connection closed.\")",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "ws",
+        "kind": 5,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "ws = websocket.WebSocketApp(\n    \"wss://pubsub-edge.twitch.tv\",\n    on_message=on_message,\n    on_error=on_error,\n    on_close=on_close\n)\nws.on_open = on_open\nws.run_forever()",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
+        "label": "ws.on_open",
+        "kind": 5,
+        "importPath": "test.twitch.logger2",
+        "description": "test.twitch.logger2",
+        "peekOfCode": "ws.on_open = on_open\nws.run_forever()",
+        "detail": "test.twitch.logger2",
+        "documentation": {}
+    },
+    {
         "label": "Config",
         "kind": 6,
         "importPath": "test.backgroundtest",
@@ -1645,6 +2627,96 @@
         "documentation": {}
     },
     {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "test.dbtest",
+        "description": "test.dbtest",
+        "peekOfCode": "class Message(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    timestamp = db.Column(db.String(20), nullable=False)\n    channel = db.Column(db.String(50), nullable=False)\n    username = db.Column(db.String(50), nullable=False)\n    message = db.Column(db.String(500), nullable=False)\n    hashed_message = db.Column(db.String(64), nullable=False)\n    def __repr__(self):\n        return f\"Message('{self.timestamp}', '{self.channel}', '{self.username}', '{self.message}', '{self.hashed_message}')\"\nwith app.app_context():",
+        "detail": "test.dbtest",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "test.dbtest",
+        "description": "test.dbtest",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'\ndb = SQLAlchemy(app)\nclass Message(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    timestamp = db.Column(db.String(20), nullable=False)\n    channel = db.Column(db.String(50), nullable=False)\n    username = db.Column(db.String(50), nullable=False)\n    message = db.Column(db.String(500), nullable=False)\n    hashed_message = db.Column(db.String(64), nullable=False)",
+        "detail": "test.dbtest",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "test.dbtest",
+        "description": "test.dbtest",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'\ndb = SQLAlchemy(app)\nclass Message(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    timestamp = db.Column(db.String(20), nullable=False)\n    channel = db.Column(db.String(50), nullable=False)\n    username = db.Column(db.String(50), nullable=False)\n    message = db.Column(db.String(500), nullable=False)\n    hashed_message = db.Column(db.String(64), nullable=False)\n    def __repr__(self):",
+        "detail": "test.dbtest",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "test.dbtest",
+        "description": "test.dbtest",
+        "peekOfCode": "db = SQLAlchemy(app)\nclass Message(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    timestamp = db.Column(db.String(20), nullable=False)\n    channel = db.Column(db.String(50), nullable=False)\n    username = db.Column(db.String(50), nullable=False)\n    message = db.Column(db.String(500), nullable=False)\n    hashed_message = db.Column(db.String(64), nullable=False)\n    def __repr__(self):\n        return f\"Message('{self.timestamp}', '{self.channel}', '{self.username}', '{self.message}', '{self.hashed_message}')\"",
+        "detail": "test.dbtest",
+        "documentation": {}
+    },
+    {
+        "label": "level_filter",
+        "kind": 2,
+        "importPath": "test.messagecomperssor",
+        "description": "test.messagecomperssor",
+        "peekOfCode": "def level_filter(record):\n    return record[\"level\"].name in [\"DEBUG\", \"INFO\", \"ERROR\"]\nlogger.add(\n    sys.stderr,\n    format=\"{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message}\",\n    filter=level_filter,\n    level=\"INFO\",\n    enqueue=True,\n    backtrace=True,\n    diagnose=True,",
+        "detail": "test.messagecomperssor",
+        "documentation": {}
+    },
+    {
+        "label": "compress_message",
+        "kind": 2,
+        "importPath": "test.messagecomperssor",
+        "description": "test.messagecomperssor",
+        "peekOfCode": "def compress_message(message):\n    return zlib.compress(message.encode())\ndef decompress_message(compressed_message):\n    return zlib.decompress(compressed_message).decode()\nmessage = \"This is a sample message\"\ncompressed_message = compress_message(message)\nprint(\"Compressed message:\", compressed_message)\ndecompressed_message = decompress_message(compressed_message)\nprint(\"Decompressed message:\", decompressed_message)",
+        "detail": "test.messagecomperssor",
+        "documentation": {}
+    },
+    {
+        "label": "decompress_message",
+        "kind": 2,
+        "importPath": "test.messagecomperssor",
+        "description": "test.messagecomperssor",
+        "peekOfCode": "def decompress_message(compressed_message):\n    return zlib.decompress(compressed_message).decode()\nmessage = \"This is a sample message\"\ncompressed_message = compress_message(message)\nprint(\"Compressed message:\", compressed_message)\ndecompressed_message = decompress_message(compressed_message)\nprint(\"Decompressed message:\", decompressed_message)",
+        "detail": "test.messagecomperssor",
+        "documentation": {}
+    },
+    {
+        "label": "message",
+        "kind": 5,
+        "importPath": "test.messagecomperssor",
+        "description": "test.messagecomperssor",
+        "peekOfCode": "message = \"This is a sample message\"\ncompressed_message = compress_message(message)\nprint(\"Compressed message:\", compressed_message)\ndecompressed_message = decompress_message(compressed_message)\nprint(\"Decompressed message:\", decompressed_message)",
+        "detail": "test.messagecomperssor",
+        "documentation": {}
+    },
+    {
+        "label": "compressed_message",
+        "kind": 5,
+        "importPath": "test.messagecomperssor",
+        "description": "test.messagecomperssor",
+        "peekOfCode": "compressed_message = compress_message(message)\nprint(\"Compressed message:\", compressed_message)\ndecompressed_message = decompress_message(compressed_message)\nprint(\"Decompressed message:\", decompressed_message)",
+        "detail": "test.messagecomperssor",
+        "documentation": {}
+    },
+    {
+        "label": "decompressed_message",
+        "kind": 5,
+        "importPath": "test.messagecomperssor",
+        "description": "test.messagecomperssor",
+        "peekOfCode": "decompressed_message = decompress_message(compressed_message)\nprint(\"Decompressed message:\", decompressed_message)",
+        "detail": "test.messagecomperssor",
+        "documentation": {}
+    },
+    {
         "label": "url",
         "kind": 5,
         "importPath": "test.scrape",
@@ -1681,6 +2753,33 @@
         "documentation": {}
     },
     {
+        "label": "cpufreq",
+        "kind": 5,
+        "importPath": "test.sysinfo",
+        "description": "test.sysinfo",
+        "peekOfCode": "cpufreq = psutil.cpu_freq()\nprint(f\"  Max frequency: {cpufreq.max:.2f}Mhz\")\nprint(f\"  Min frequency: {cpufreq.min:.2f}Mhz\")\nprint(f\"  Current frequency: {cpufreq.current:.2f}Mhz\")\n# Get memory information\nprint(\"\\nMemory:\")\nsvmem = psutil.virtual_memory()\nprint(f\"  Total: {svmem.total / (1024**2):.2f} MB\")\nprint(f\"  Available: {svmem.available / (1024**2):.2f} MB\")\nprint(f\"  Used: {svmem.used / (1024**2):.2f} MB\")",
+        "detail": "test.sysinfo",
+        "documentation": {}
+    },
+    {
+        "label": "svmem",
+        "kind": 5,
+        "importPath": "test.sysinfo",
+        "description": "test.sysinfo",
+        "peekOfCode": "svmem = psutil.virtual_memory()\nprint(f\"  Total: {svmem.total / (1024**2):.2f} MB\")\nprint(f\"  Available: {svmem.available / (1024**2):.2f} MB\")\nprint(f\"  Used: {svmem.used / (1024**2):.2f} MB\")\nprint(f\"  Percentage: {svmem.percent}%\")\n# Get disk usage information\nprint(\"\\nDisk usage:\")\npartitions = psutil.disk_partitions()\nfor partition in partitions:\n    print(f\"  Device: {partition.device}\")",
+        "detail": "test.sysinfo",
+        "documentation": {}
+    },
+    {
+        "label": "partitions",
+        "kind": 5,
+        "importPath": "test.sysinfo",
+        "description": "test.sysinfo",
+        "peekOfCode": "partitions = psutil.disk_partitions()\nfor partition in partitions:\n    print(f\"  Device: {partition.device}\")\n    print(f\"  Mountpoint: {partition.mountpoint}\")\n    print(f\"  File system type: {partition.fstype}\")\n    try:\n        partition_usage = psutil.disk_usage(partition.mountpoint)\n    except PermissionError:\n        continue\n    print(f\"  Total size: {partition_usage.total / (1024**3):.2f} GB\")",
+        "detail": "test.sysinfo",
+        "documentation": {}
+    },
+    {
         "label": "compress_video",
         "kind": 2,
         "importPath": "test.test2",
@@ -1690,20 +2789,110 @@
         "documentation": {}
     },
     {
-        "label": "my_function",
+        "label": "send_message",
         "kind": 2,
         "importPath": "test.test4",
         "description": "test.test4",
-        "peekOfCode": "def my_function(x):\n    if x > 5:\n        return x*2\n    else:\n        return x+2\nmy_variable = my_function(3)\nprint(my_variable)",
+        "peekOfCode": "def send_message(sock, message):\n    sock.send(f\"PRIVMSG #{CHANNEL} :{message}\\r\\n\".encode(\"utf-8\"))\ndef receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):\n        sock.send(\"PONG\\r\\n\".encode(\"utf-8\"))\n    return data\ndef handle_message(sock, message, commands):\n    parts = message.split()\n    if len(parts) < 2:",
         "detail": "test.test4",
         "documentation": {}
     },
     {
-        "label": "my_variable",
+        "label": "receive_message",
+        "kind": 2,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "def receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):\n        sock.send(\"PONG\\r\\n\".encode(\"utf-8\"))\n    return data\ndef handle_message(sock, message, commands):\n    parts = message.split()\n    if len(parts) < 2:\n        return\n    command = parts[1].lower()",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "handle_message",
+        "kind": 2,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "def handle_message(sock, message, commands):\n    parts = message.split()\n    if len(parts) < 2:\n        return\n    command = parts[1].lower()\n    if command in commands:\n        commands[command](sock)\ndef send_hello(sock):\n    send_message(sock, \"Hello!\")\ndef send_goodbye(sock):",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "send_hello",
+        "kind": 2,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "def send_hello(sock):\n    send_message(sock, \"Hello!\")\ndef send_goodbye(sock):\n    send_message(sock, \"Goodbye!\")\ncommands = {\n    \"hello\": send_hello,\n    \"goodbye\": send_goodbye,\n    # Add more commands here\n}\nsock = socket.socket()",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "send_goodbye",
+        "kind": 2,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "def send_goodbye(sock):\n    send_message(sock, \"Goodbye!\")\ncommands = {\n    \"hello\": send_hello,\n    \"goodbye\": send_goodbye,\n    # Add more commands here\n}\nsock = socket.socket()\nsock.connect((HOST, PORT))\nsock.send(f\"PASS {PASS}\\r\\n\".encode(\"utf-8\"))",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "HOST",
         "kind": 5,
         "importPath": "test.test4",
         "description": "test.test4",
-        "peekOfCode": "my_variable = my_function(3)\nprint(my_variable)",
+        "peekOfCode": "HOST = \"irc.chat.twitch.tv\"\nPORT = 6667\nNICK = \"icyjaylenn\"\nPASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNEL = \"#yourragegaming\"\ndef send_message(sock, message):\n    sock.send(f\"PRIVMSG #{CHANNEL} :{message}\\r\\n\".encode(\"utf-8\"))\ndef receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "PORT",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "PORT = 6667\nNICK = \"icyjaylenn\"\nPASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNEL = \"#yourragegaming\"\ndef send_message(sock, message):\n    sock.send(f\"PRIVMSG #{CHANNEL} :{message}\\r\\n\".encode(\"utf-8\"))\ndef receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):\n        sock.send(\"PONG\\r\\n\".encode(\"utf-8\"))",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "NICK",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "NICK = \"icyjaylenn\"\nPASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNEL = \"#yourragegaming\"\ndef send_message(sock, message):\n    sock.send(f\"PRIVMSG #{CHANNEL} :{message}\\r\\n\".encode(\"utf-8\"))\ndef receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):\n        sock.send(\"PONG\\r\\n\".encode(\"utf-8\"))\n    return data",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "PASS",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "PASS = \"oauth:p7ufzfxl6xdmmj2f9lcf1l6rmo4v31\"\nCHANNEL = \"#yourragegaming\"\ndef send_message(sock, message):\n    sock.send(f\"PRIVMSG #{CHANNEL} :{message}\\r\\n\".encode(\"utf-8\"))\ndef receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):\n        sock.send(\"PONG\\r\\n\".encode(\"utf-8\"))\n    return data\ndef handle_message(sock, message, commands):",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "CHANNEL = \"#yourragegaming\"\ndef send_message(sock, message):\n    sock.send(f\"PRIVMSG #{CHANNEL} :{message}\\r\\n\".encode(\"utf-8\"))\ndef receive_message(sock):\n    data = sock.recv(1024).decode(\"utf-8\")\n    if data.startswith(\"PING\"):\n        sock.send(\"PONG\\r\\n\".encode(\"utf-8\"))\n    return data\ndef handle_message(sock, message, commands):\n    parts = message.split()",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "commands",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "commands = {\n    \"hello\": send_hello,\n    \"goodbye\": send_goodbye,\n    # Add more commands here\n}\nsock = socket.socket()\nsock.connect((HOST, PORT))\nsock.send(f\"PASS {PASS}\\r\\n\".encode(\"utf-8\"))\nsock.send(f\"NICK {NICK}\\r\\n\".encode(\"utf-8\"))\nsock.send(f\"JOIN #{CHANNEL}\\r\\n\".encode(\"utf-8\"))",
+        "detail": "test.test4",
+        "documentation": {}
+    },
+    {
+        "label": "sock",
+        "kind": 5,
+        "importPath": "test.test4",
+        "description": "test.test4",
+        "peekOfCode": "sock = socket.socket()\nsock.connect((HOST, PORT))\nsock.send(f\"PASS {PASS}\\r\\n\".encode(\"utf-8\"))\nsock.send(f\"NICK {NICK}\\r\\n\".encode(\"utf-8\"))\nsock.send(f\"JOIN #{CHANNEL}\\r\\n\".encode(\"utf-8\"))\nwhile True:\n    message = receive_message(sock)\n    handle_message(sock, message, commands)",
         "detail": "test.test4",
         "documentation": {}
     },
@@ -1789,6 +2978,60 @@
         "documentation": {}
     },
     {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "test.twitchchatbot",
+        "description": "test.twitchchatbot",
+        "peekOfCode": "class Bot(commands.Bot):\n    def __init__(self):\n        super().__init__(token='msmzgz7k0mjn8wdcflist4a0o8ashq', prefix='!', initial_channels=['yourragegaming', 'icyjaylenn', \"scumtk\"])\n    async def event_ready(self):\n        print(f'Logged in as | {self.nick}')\n        print(f'User id is | {self.user_id}')\n    async def event_message(self, message):\n        try:\n            # Check that the message is not from the bot itself to avoid infinite loops\n            if message.author.name.lower() != self.nick.lower():",
+        "detail": "test.twitchchatbot",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "test.twitchchatbot",
+        "description": "test.twitchchatbot",
+        "peekOfCode": "bot = Bot()\nbot.run()",
+        "detail": "test.twitchchatbot",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "test.twitchchatbot2",
+        "description": "test.twitchchatbot2",
+        "peekOfCode": "class Bot(commands.Bot):\n    def __init__(self):\n        # Initialise our Bot with our access token, prefix and a list of channels to join on boot...\n        # prefix can be a callable, which returns a list of strings or a string...\n        # initial_channels can also be a callable which returns a list of strings...\n        super().__init__(token='msmzgz7k0mjn8wdcflist4a0o8ashq', prefix='!', initial_channels=['yourragegaming', 'icyjaylenn', \"scumtk\"])\n    async def event_ready(self):\n        # Notify us when everything is ready!\n        # We are logged in and ready to chat and use commands...\n        print(f'Logged in as | {self.nick}')",
+        "detail": "test.twitchchatbot2",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "test.twitchchatbot2",
+        "description": "test.twitchchatbot2",
+        "peekOfCode": "bot = Bot()\nbot.run()\n# bot.run() is blocking and will stop execution of any below code here until stopped or closed.",
+        "detail": "test.twitchchatbot2",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "test.twitchlogger2",
+        "description": "test.twitchlogger2",
+        "peekOfCode": "class Bot(commands.Bot):\n    def __init__(self):\n        # Initialise our Bot with our access token, prefix and a list of channels to join on boot...\n        # prefix can be a callable, which returns a list of strings or a string...\n        # initial_channels can also be a callable which returns a list of strings...\n        super().__init__(token='msmzgz7k0mjn8wdcflist4a0o8ashq', prefix='?', initial_channels=['yourragegaming', \"icyjaylenn\"])\n    async def event_ready(self):\n        # Notify us when everything is ready!\n        # We are logged in and ready to chat and use commands...\n        print(f'Logged in as | {self.nick}')",
+        "detail": "test.twitchlogger2",
+        "documentation": {}
+    },
+    {
+        "label": "bot",
+        "kind": 5,
+        "importPath": "test.twitchlogger2",
+        "description": "test.twitchlogger2",
+        "peekOfCode": "bot = Bot()\nbot.run()",
+        "detail": "test.twitchlogger2",
+        "documentation": {}
+    },
+    {
         "label": "channel_id",
         "kind": 5,
         "importPath": "test.youtube",
@@ -1847,7 +3090,7 @@
         "kind": 6,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "class Config:\n    \"\"\"Config For the main app\"\"\"\n    PORT = os.environ.get(\"PORT\") or 5000\n    SECRET_KEY = \"SECRET_KEY\"\n    SQLALCHEMY_DATABASE_URI = \"sqlite:///../instance/database.db?check_same_thread=False\"\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get(\"SECURITY_PASSWORD_SALT\")\n    SCRAPPED_VIDEOS_PATH = os.environ.get(\"SCRAPPED_VIDEOS_PATH\")\n    SCRAPPING_ENABLED = False\nclass YoutubeConfig:",
+        "peekOfCode": "class Config:\n    \"\"\"Config For the main app\"\"\"\n    PORT = os.environ.get(\"PORT\") or 5000\n    SECRET_KEY = \"SECRET_KEY\"\n    SQLALCHEMY_DATABASE_URI = \"sqlite:///../instance/database.db?check_same_thread=False\"\n    SQLALCHEMY_TRACK_MODIFICATIONS = False\n    SECURITY_PASSWORD_SALT = os.environ.get(\"SECURITY_PASSWORD_SALT\")\n    SCRAPPED_VIDEOS_PATH = os.environ.get(\"SCRAPPED_VIDEOS_PATH\")\n    SCRAPPING_ENABLED = False\n    TWITCH_LISTENER_ENABLED = True",
         "detail": "config",
         "documentation": {}
     },
@@ -1856,7 +3099,16 @@
         "kind": 6,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "class YoutubeConfig:\n    \"\"\"Configuration for youtube\"\"\"\n    YOUTUBE_VIDEOS_PATH = \"./instance/videos\"\n    YOUTUBE_VIDEO_DELAY = 1",
+        "peekOfCode": "class YoutubeConfig:\n    \"\"\"Configuration for youtube\"\"\"\n    YOUTUBE_VIDEOS_PATH = \"./instance/videos\"\n    YOUTUBE_VIDEO_DELAY = 1\nclass TwitchConfig:\n    \"\"\"Configuration for twitch\"\"\"\n    TOKEN = \"\"\n    PREFIX = \"+\"",
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "TwitchConfig",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class TwitchConfig:\n    \"\"\"Configuration for twitch\"\"\"\n    TOKEN = \"\"\n    PREFIX = \"+\"",
         "detail": "config",
         "documentation": {}
     },

@@ -1,5 +1,9 @@
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 from loguru import logger
 
@@ -17,6 +21,7 @@ class Config:
     SECURITY_PASSWORD_SALT = os.environ.get("SECURITY_PASSWORD_SALT")
     SCRAPPED_VIDEOS_PATH = os.environ.get("SCRAPPED_VIDEOS_PATH")
     SCRAPPING_ENABLED = False
+    TWITCH_LISTENER_ENABLED = True
 
 
 class YoutubeConfig:
@@ -24,3 +29,8 @@ class YoutubeConfig:
 
     YOUTUBE_VIDEOS_PATH = "./instance/videos"
     YOUTUBE_VIDEO_DELAY = 1
+
+class TwitchConfig:
+    """Configuration for twitch"""
+    TOKEN = ""
+    PREFIX = "+"

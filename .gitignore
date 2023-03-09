@@ -10,3 +10,4 @@ locustfile.py
 test
 env
 migrations
+.vscode

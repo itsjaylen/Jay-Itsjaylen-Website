@@ -13,6 +13,7 @@ from app.extensions import bcrypt, db, migrate
 from app.models.account import User
 from app.models.YoutubeScrapping import Video, YoutubeChannels
 from app.scrapping.tools.YoutubeScrapping import get_videos
+from app.models.TwitchScrapper import TwitchChannels, TwitchMessages, TwitchUsers
 
 # TODO UPDATE THE COMMANDS/ADD MORE COMMANDS
 
@@ -278,3 +279,74 @@ def configure_cli(app):
 
         else:
             print(f"Error {response.status_code}")
+
+    @app.cli.command()
+    @click.option("--channel", help="Twitch channel chat that will be scrapped for messages", required=True)
+    def add_twitch_channel(channel):
+        """Adds twitch channel to db."""
+        try:
+            channel = f"#{channel.strip()}"
+            existing_channel = TwitchChannels.query.filter_by(channel=channel).first()
+            if existing_channel:
+                logger.info(f"{channel} already exists in database.")
+                return
+            new_channel = TwitchChannels(channel=channel)
+            db.session.add(new_channel)
+            db.session.commit()
+            logger.info(f"{channel} added to database.")
+        except Exception as e:
+            logger.error(e)
+            db.session.rollback()
+
+    @app.cli.command()
+    @click.option("--channel", help="Remove twitch channel thats being scraped", required=True)
+    def remove_twitch_channel(channel):
+        """Remove twitch channel from db."""
+        try:
+            del_channel = TwitchChannels.query.filter_by(channel=channel.strip()).first()
+            if not del_channel:
+                logger.info(f"{channel} does not exist in database.")
+                return
+            db.session.delete(del_channel)
+            db.session.commit()
+            logger.info(f"{channel} removed from database.")
+        except Exception as e:
+            logger.error(e)
+            db.session.rollback()
+
+    @app.cli.command()
+    @click.option("--username", help="Twitch user that will be scrapped for messages", required=True)
+    def add_twitch_username(username):
+        """Adds twitch user to db."""
+        try:
+            existing_username = TwitchUsers.query.filter_by(username=username.strip()).first()
+            if existing_username:
+                logger.info(f"{username} already exists in database.")
+                return
+            new_username = TwitchUsers(username=username.strip())
+            db.session.add(new_username)
+            db.session.commit()
+            logger.info(f"{username} added to database.")
+        except Exception as e:
+            logger.error(e)
+            db.session.rollback()
+
+    @app.cli.command()
+    @click.option("--username", help="Twitch user that will be scrapped for messages", required=True)
+    def remove_twitch_username(username):
+        """Remove twitch user from db."""
+        try:
+            del_username = TwitchUsers.query.filter_by(username=username.strip()).first()
+            if not del_username:
+                logger.info(f"{username} does not exist in database.")
+                return
+            db.session.delete(del_username)
+            db.session.commit()
+            logger.info(f"{username} removed from database.")
+        except Exception as e:
+            logger.error(e)
+            db.session.rollback()
+
+        
+        
+        

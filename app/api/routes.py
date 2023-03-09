@@ -8,6 +8,7 @@ from flask import jsonify, request, session
 from app.api import api
 from app.api.tools.apitool import get_attr
 from app.extensions import db, cache
+from app.models.TwitchScrapper import TwitchMessages
 from app.models.YoutubeScrapping import Video, YoutubeChannels
 from app.models.account import User
 
@@ -71,7 +72,8 @@ def regenerate_api_key():
 
     return current_user_api
 
-#TODO WORK ON THIS
+
+# TODO WORK ON THIS
 @api.route("/change-password", methods=["POST"])
 def change_password():
     if request.method == "POST":
@@ -129,3 +131,30 @@ def youtube(youtube_channel_id):
             return jsonify(videos=video_list)
         else:
             return jsonify(message="No videos found for this channel"), 404
+
+
+
+@api.route( "/twitch/messages/<username>", methods=["GET"])
+@check_api_key
+@cache.cached(timeout=30)
+def twitch_messages(username):
+    if request.method == "GET":
+        messages = (
+            TwitchMessages.query.filter_by(username=username.lower(),)
+            .order_by(TwitchMessages.timestamp.asc())
+            .all()
+        )
+        if messages:
+            message_list = []
+            for message in messages:
+                message_attributes = {
+                    "id": get_attr("id", message),
+                    "channel": get_attr("channel", message),
+                    "username": get_attr("username", message),
+                    "timestamp": get_attr("timestamp", message),
+                    "message": get_attr("message", message),
+                }
+                message_list.append(message_attributes)
+            return jsonify(messages=message_list)
+        else:
+            return jsonify(message="No messages found for this user"), 404

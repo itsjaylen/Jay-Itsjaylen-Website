@@ -1,24 +1,24 @@
-import sys
+import asyncio
+import concurrent.futures
 import threading
+import multiprocessing
 
-from flask import Flask
 from apscheduler.triggers.cron import CronTrigger
+from flask import Flask
 
+from app.api import api as api_bp
+from app.api.tools.apitool import update_user_stats
+from app.api.tools.twitchbot import Bot
 from app.auth import bp as auth_bp
-from app.auth.tools.AccountManagement import deactivate_inactive_accounts
 from app.commands import configure_cli
-from app.extensions import admin, bcrypt, db, login_manager, scheduler, cache, migrate
+from app.extensions import admin, bcrypt, cache, db, login_manager, migrate, scheduler
 from app.main import bp as main_bp
 from app.models.account import Controller, User
 from app.models.YoutubeScrapping import Video, YoutubeChannels
-from app.models.SocialScrapper import SocialMedia
-from app.models.admin import UserAdminView
 from app.scrapping import bp as scrapping_bp
-from app.api import api as api_bp
-from app.scrapping.tools.YoutubeScrapping import YoutubeScraper
 from app.scrapping.tools.tasks import configure_tasks
-from config import Config, YoutubeConfig
-import concurrent.futures
+from app.scrapping.tools.YoutubeScrapping import YoutubeScraper
+from config import Config
 
 
 # TDDO automate creating database
@@ -48,7 +48,7 @@ def create_app(config_class=Config):
     # Threaded scheduler TODO add better configs
     try:
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            # scheduler.add_job(deactivate_inactive_accounts, "interval", days=7)
+            # scheduler.add_job(deactivate_inactive_accounts, "interval", seconds=604800)
 
             if Config.SCRAPPING_ENABLED == True:
                 executor.submit(
@@ -60,8 +60,44 @@ def create_app(config_class=Config):
                 )
 
                 executor.submit(scheduler.start)
+
     except Exception as e:
         print(e)
+
+    # threads
+
+    if Config.TWITCH_LISTENER_ENABLED:
+
+        async def start_bot(app, db):
+            bot = Bot(app, db)
+            await bot.start()
+
+        def run_event_loop(loop):
+            loop.run_forever()
+
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        loop.create_task(start_bot(app, db))
+
+        process = multiprocessing.Process(target=run_event_loop, args=(loop,))
+        process.start()
+
+        try:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                # scheduler.add_job(deactivate_inactive_accounts, "interval", seconds=604800)
+
+                if Config.SCRAPPING_ENABLED == True:
+                    executor.submit(
+                        scheduler.add_job,
+                        id="update_user_stats",
+                        func=update_user_stats,
+                        trigger=CronTrigger(hour="*", minute="0", second="0"),
+                    )
+
+                    executor.submit(scheduler.start)
+
+        except Exception as e:
+            print(e)
 
     # Register blueprints here
     app.register_blueprint(main_bp)
