@@ -30,7 +30,7 @@ class User(db.Model, UserMixin):
         last_request_time (db.DateTime): timestamp of the last request made by the user.
         is_admin (db.Boolean): status of the user, whether the user is admin or not. default is False.
     """
-
+    __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(255), unique=True)
     username = db.Column(db.String(20), nullable=False, unique=True)

@@ -1,0 +1,5 @@
+twitchio
+sqlalchemy
+psycopg2
+python-dotenv
+loguru

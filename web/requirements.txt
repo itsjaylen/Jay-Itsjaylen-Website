@@ -20,7 +20,6 @@ Flask-Caching
 flask-migrate
 python-dotenv
 emoji
-twitchio
 matplotlib
 psutil
 psycopg2

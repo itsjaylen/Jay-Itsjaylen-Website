@@ -7,8 +7,8 @@ from apscheduler.triggers.cron import CronTrigger
 from flask import Flask
 
 from app.api import api as api_bp
+from app.docs import bp as docs_bp
 from app.api.tools.apitool import update_user_stats
-from app.api.tools.twitchbot import Bot
 from app.auth import bp as auth_bp
 from app.commands import configure_cli
 from app.extensions import admin, bcrypt, cache, db, login_manager, migrate, scheduler
@@ -64,46 +64,14 @@ def create_app(config_class=Config):
     except Exception as e:
         print(e)
 
-    # threads
 
-    if Config.TWITCH_LISTENER_ENABLED:
-
-        async def start_bot(app, db):
-            bot = Bot(app, db)
-            await bot.start()
-
-        def run_event_loop(loop):
-            loop.run_forever()
-
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-        loop.create_task(start_bot(app, db))
-
-        process = multiprocessing.Process(target=run_event_loop, args=(loop,))
-        process.start()
-
-        try:
-            with concurrent.futures.ThreadPoolExecutor() as executor:
-                # scheduler.add_job(deactivate_inactive_accounts, "interval", seconds=604800)
-
-                if Config.SCRAPPING_ENABLED == True:
-                    executor.submit(
-                        scheduler.add_job,
-                        id="update_user_stats",
-                        func=update_user_stats,
-                        trigger=CronTrigger(hour="*", minute="0", second="0"),
-                    )
-
-                    executor.submit(scheduler.start)
-
-        except Exception as e:
-            print(e)
 
     # Register blueprints here
     app.register_blueprint(main_bp)
     app.register_blueprint(auth_bp)
     app.register_blueprint(scrapping_bp)
     app.register_blueprint(api_bp)
+    app.register_blueprint(docs_bp)
 
     # TODO COMPLETELY REDO THE ADMIN PANEL
     admin.add_view(Controller(User, db.session, name="Users", endpoint="users"))

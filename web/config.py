@@ -16,12 +16,12 @@ class Config:
 
     PORT = os.environ.get("PORT") or 5000
     SECRET_KEY = "SECRET_KEY"
-    SQLALCHEMY_DATABASE_URI = "sqlite:///../instance/database.db?check_same_thread=False"
+    SQLALCHEMY_DATABASE_URI = os.environ.get("SQLALCHEMY_DATABASE_URI")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SECURITY_PASSWORD_SALT = os.environ.get("SECURITY_PASSWORD_SALT")
     SCRAPPED_VIDEOS_PATH = os.environ.get("SCRAPPED_VIDEOS_PATH")
     SCRAPPING_ENABLED = False
-    TWITCH_LISTENER_ENABLED = True
+    TWITCH_LISTENER_ENABLED = False
 
 
 class YoutubeConfig:
@@ -32,5 +32,9 @@ class YoutubeConfig:
 
 class TwitchConfig:
     """Configuration for twitch"""
-    TOKEN = ""
-    PREFIX = "+"
+    TOKEN = os.getenv('TOKEN')
+    PREFIX = os.getenv('PREFIX')
+    CLIENT_ID = os.getenv('CLIENT_ID')
+    CLIENT_SECRET = os.getenv('CLIENT_SECRET')
+    
+    

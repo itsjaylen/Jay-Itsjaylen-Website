@@ -133,14 +133,15 @@ def youtube(youtube_channel_id):
             return jsonify(message="No videos found for this channel"), 404
 
 
-
-@api.route( "/twitch/messages/<username>", methods=["GET"])
+@api.route("/twitch/messages/<username>", methods=["GET"])
 @check_api_key
 @cache.cached(timeout=30)
 def twitch_messages(username):
     if request.method == "GET":
         messages = (
-            TwitchMessages.query.filter_by(username=username.lower(),)
+            TwitchMessages.query.filter_by(
+                username=username.lower(),
+            )
             .order_by(TwitchMessages.timestamp.asc())
             .all()
         )

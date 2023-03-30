@@ -1,14 +1,48 @@
 version: '3'
 services:
-  app:
-    build: .
-    volumes:
-      - .:/app
+  twitchbot-blue:
+    build: ./twitchbot
+    container_name: twitchbot-blue
+    restart: always
+    environment:
+      FLASK_DEBUG: "development"
+    networks:
+      - db
+  web-blue:
+      build: ./web
+      container_name: web-blue
+      restart: always
+      networks:
+        - db
+      ports:
+        - "${DEV_PORT}:${DEV_PORT}"
+      env_file:
+        - .env
+      command: "python3 wsgi.py"
+      volumes:
+        - web-data:/web
+  twitchbot-green:
+    build: ./twitchbot
+    container_name: twitchbot-green
+    restart: always
+    environment:
+      FLASK_PROD: "production"
+    networks:
+      - db
+  web-green:
+    build: ./web
+    container_name: web-green
+    restart: always
+    networks:
+      - db
+    command: gunicorn "app:create_app()" -b 0.0.0.0:8001
     ports:
       - "${PORT}:${PORT}"
-
     env_file:
       - .env
+networks:
+  db:
+    external: true
 
-    container_name: ${CONTAINER_NAME}
-    restart: always
+volumes:
+  web-data:

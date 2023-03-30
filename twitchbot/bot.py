@@ -1,43 +1,37 @@
 import asyncio
 import datetime
+import importlib
+import sys
 
-from app.api.tools.apitool import (
-    hash_sha256,
-)
-from app.api.tools.twitch.commands import add_user, list_channels, list_users, remove_user, force_update, message_count, find_message, sysinfo, total_messages, optin
-from app.extensions import db
-from app.models.TwitchScrapper import TwitchChannels, TwitchMessages, TwitchUsers
 from config import TwitchConfig
-
-
+from database import get_session
+from models.TwitchScraping import TwitchChannels, TwitchMessages, TwitchUsers
 from twitchio.ext import commands
+from util.decorators import admin_users
+
+# create the tables in the database if they don't exist
+# Base.metadata.create_all(engine)
 
 
 class Bot(commands.Bot):
-    def __init__(self, app, db):
-        CHANNELS = [channel.channel for channel in TwitchChannels.query.all()]
+    def __init__(self):
+        self.session = get_session()
+        channels = self.session.query(TwitchChannels).all()
+        CHANNELS = [channel.channel for channel in channels]
+
         super().__init__(
             token=TwitchConfig.TOKEN,
             prefix=TwitchConfig.PREFIX,
             initial_channels=CHANNELS,
         )
-        with app.app_context():
-            self.db = db
-            self.add_command(add_user)
-            self.add_command(list_channels)
-            self.add_command(list_users)
-            #self.add_command(remove_user)
-            self.add_command(force_update)
-            self.add_command(message_count)
-            self.add_command(find_message)
-            #self.add_command(sysinfo)
-            self.add_command(total_messages)
-            self.add_command(optin)
-        
+
+        # load initial modules
+        self.load_module("commands.messagecommands")
+        self.load_module("commands.administrative")
+
     async def event_ready(self):
         print(f"Logged in as | {self.nick}")
         print(f"User id is | {self.user_id}")
-
 
     async def event_disconnect(self):
         print("Disconnected from Twitch IRC server. Reconnecting...")
@@ -51,18 +45,17 @@ class Bot(commands.Bot):
 
         try:
             if message.author.name.lower() != self.nick.lower():
-                TARGET_USERS = [user.username for user in TwitchUsers.query.all()]
+                TARGET_USERS = [
+                    user.username for user in self.session.query(TwitchUsers).all()
+                ]
                 if message.author.name.lower() in TARGET_USERS:
                     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    hashed_message = hash_sha256(
-                        f"{timestamp} {message.channel.name} | {message.author.name} SIGNED MESSAGE SHA256: {message.content}"
-                    )
+
                     data = {
                         "timestamp": timestamp,
                         "channel": message.channel.name,
                         "username": message.author.name,
                         "message": message.content,
-                        "hashed_message": hashed_message,
                     }
 
                     print(
@@ -70,12 +63,13 @@ class Bot(commands.Bot):
                     )
 
                     try:
-                        self.db.session.add(TwitchMessages(**data))
-                        self.db.session.commit()
+                        self.session.add(TwitchMessages(**data))
+                        self.session.commit()
+
                     except ConnectionResetError as e:
                         print("Error: 1", e)
-                        self.db.session.rollback()
-                        
+                        self.session.rollback()
+
                     if message.author.name.lower() == "test":
                         pass
 
@@ -86,13 +80,19 @@ class Bot(commands.Bot):
 
         try:
             await self.handle_commands(message)
-        except commands.CommandNotFound:
+        except Exception:
             pass
-        except Exception as e:
-            print(f"Error handling command: {e}")
+
+    @commands.command(name="reload")
+    @admin_users
+    async def reload(self, ctx, module):
+        self.unload_module(module)
+        self.load_module(module)
+        await asyncio.sleep(3)
+        await ctx.send(f"Reloaded {module}")
 
 
-    @commands.command()
-    async def hello(self, ctx: commands.Context):
-        await ctx.send(f"Hello {ctx.author.name}!")
-        
+if __name__ == "__main__":
+    bot = Bot()
+    print("Starting bot...")
+    bot.run()

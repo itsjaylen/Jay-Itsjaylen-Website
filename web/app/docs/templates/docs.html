@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>API Documentation</title>
+  <link rel="stylesheet" href="{{ url_for('docs.static', filename='css/styles.css') }}" />
+</head>
+
+<body>
+  <div class="navbar">
+    <a class="active" href="#">API Documentation</a>
+    <a href="#">Endpoint 1</a>
+  </div>
+  <div class="content">
+    <h1>API Documentation</h1>
+    <div class="endpoint">
+      <h2>Endpoint 1</h2>
+      <p>Description of what the endpoint does.</p>
+
+      <h3>Parameters:</h3>
+      <div class="parameter">
+        <h3>Parameter 1</h3>
+        <p>Description of what this parameter does.</p>
+        <p><strong>Type:</strong> String</p>
+        <p><strong>Required:</strong> Yes</p>
+      </div>
+      <div class="parameter">
+        <h3>Parameter 2</h3>
+        <p>Description of what this parameter does.</p>
+        <p><strong>Type:</strong> Integer</p>
+        <p><strong>Required:</strong> No</p>
+      </div>
+      <h3>Response:</h3>
+      <div class="response">
+        <h3>Success:</h3>
+        <pre>{"result": "success"}</pre>
+        <h3>Error:</h3>
+        <pre>{"result": "error", "message": "Error message goes here"}</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+  <body>
+    <div class="navbar">
+      <a class="active" href="#">API Documentation</a>
+      <a href="#">Endpoint 1</a>
+    </div>
+    <div class="content">
+      <h1>API Documentation</h1>
+      <div class="endpoint">
+        <h2>Endpoint 1</h2>
+        <p>Retrieves a list of videos from a YouTube channel based on the provided YouTube channel ID.</p>
+
+        <h3>Parameters:</h3>
+        <div class="parameter">
+          <h3>youtube_channel_id</h3>
+          <p>The ID of the YouTube channel to retrieve videos from.</p>
+          <p><strong>Type:</strong> String</p>
+          <p><strong>Required:</strong> Yes</p>
+        </div>
+
+        <h3>Response:</h3>
+        <div class="response">
+          <h3>Success:</h3>
+          <pre>{"videos": [{"id": 1, "url": "https://www.youtube.com/watch?v=abc123", "title": "Video Title", "author": "Channel Name", "publish_date": "2022-01-01", "description": "Video description goes here", "views": 1000, "length": "00:05:30"}, {...}]}</pre>
+          <p>Returns a list of video objects, where each object contains the following attributes:</p>
+          <ul>
+            <li><strong>id:</strong> The unique identifier of the video.</li>
+            <li><strong>url:</strong> The URL of the video on YouTube.</li>
+            <li><strong>title:</strong> The title of the video.</li>
+            <li><strong>author:</strong> The name of the YouTube channel that uploaded the video.</li>
+            <li><strong>publish_date:</strong> The date the video was published on YouTube.</li>
+            <li><strong>description:</strong> The description of the video.</li>
+            <li><strong>views:</strong> The number of views the video has received on YouTube.</li>
+            <li><strong>length:</strong> The length of the video in the format HH:MM:SS.</li>
+          </ul>
+
+          <h3>Error:</h3>
+          <pre>{"message": "No videos found for this channel"}</pre>
+          <p>Returns a 404 error message if no videos were found for the provided YouTube channel ID.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  </html>
+
+
+
+
+
+  <div class="navbar">
+    <a class="active" href="#">API Documentation</a>
+    <a href="#">Endpoint 1</a>
+  </div>
+  <div class="content">
+    <h1>Twitch Messages API Documentation</h1>
+
+    <div class="endpoint">
+      <h2>Endpoint 2: Retrieve Twitch Messages</h2>
+      <p>Retrieves all messages for a given Twitch username.</p>
+
+      <h3>URL:</h3>
+      <p><code>/twitch/messages/&lt;username&gt;</code></p>
+
+      <h3>HTTP Method:</h3>
+      <p><code>GET</code></p>
+
+      <h3>Parameters:</h3>
+      <div class="parameter">
+        <h3>username</h3>
+        <p>The Twitch username to retrieve messages for.</p>
+        <p><strong>Type:</strong> String</p>
+        <p><strong>Required:</strong> Yes</p>
+      </div>
+
+      <h3>Response:</h3>
+      <div class="response">
+        <h3>Success:</h3>
+        <pre>{
+  "messages": [
+    {
+      "id": <message_id>,
+      "channel": "<channel_name>",
+      "username": "<username>",
+      "timestamp": "<timestamp>",
+      "message": "<message_text>"
+    },
+    ...
+  ]
+}</pre>
+        <p>Returns a list of messages, where each message is represented as a dictionary with the following keys:</p>
+        <ul>
+          <li><code>id</code>: The unique identifier of the message.</li>
+          <li><code>channel</code>: The name of the Twitch channel the message was posted in.</li>
+          <li><code>username</code>: The username of the message poster.</li>
+          <li><code>timestamp</code>: The timestamp of the message in ISO format.</li>
+          <li><code>message</code>: The text of the message.</li>
+        </ul>
+
+        <h3>Error:</h3>
+        <pre>{
+  "message": "No messages found for this user"
+}</pre>
+        <p>Returns a 404 status code and a JSON object with a single key <code>message</code> if no messages are found
+          for the specified user.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
