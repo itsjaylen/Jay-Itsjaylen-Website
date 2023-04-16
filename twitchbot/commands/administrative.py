@@ -14,8 +14,8 @@ class Administrative(commands.Cog):
         self.session = get_session()
         self.bot = bot
         channels = self.session.query(TwitchChannels).all()
-        CHANNELS = [channel.channel for channel in channels]
-
+    
+    
     @commands.command(name="adduser")
     @admin_users
     async def add_user(self, ctx: commands.Context, username: str):
@@ -24,13 +24,32 @@ class Administrative(commands.Cog):
             try:
                 self.session.add(TwitchUsers(username=username.lower()))
                 self.session.commit()
+                await asyncio.sleep(3)
+                await ctx.send(f"{username} added to database")
             except Exception as e:
                 print(e)
-            await asyncio.sleep(2)
-            await ctx.send(f"{username} added to database")
+                await ctx.send("someone thing broke check logs")
+            
         else:
             await asyncio.sleep(2)
-            await ctx.send(f"{username} already exists in database")
+            await ctx.send(f"{username} already exists in database.")
+            
+    @commands.command(name="addme")
+    async def add_me(self, ctx: commands.Context):
+        user = self.session.query(TwitchUsers).filter_by(username=ctx.author.name.lower()).first()
+        if user is None:
+            try:
+                self.session.add(TwitchUsers(username=ctx.author.name.lower()))
+                self.session.commit()
+                await asyncio.sleep(3)
+                await ctx.send(f"{ctx.author.name} added to database")
+            except Exception as e:
+                print(e)
+                await ctx.send("something broke check logs")
+        else:
+            await asyncio.sleep(2)
+            await ctx.send(f"{ctx.author.name} already exists in database.")
+
 
     @commands.command(name="removeuser")
     @admin_users
@@ -62,11 +81,10 @@ class Administrative(commands.Cog):
             self.session.add(new_channel)
             self.session.commit()
             await asyncio.sleep(3)
-            await self.join_channel(channel)
             await ctx.send(f"{channel} added to database")
 
     @commands.command(name="listusers")
-    @authorized_users
+    @admin_users
     async def list_users(self, ctx: commands.Context):
         users = self.session.query(TwitchUsers).all()
         await asyncio.sleep(3)

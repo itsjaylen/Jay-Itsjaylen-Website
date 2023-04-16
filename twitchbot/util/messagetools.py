@@ -1,4 +1,5 @@
 from models.TwitchScraping import TwitchMessages, TwitchUsers
+from tweety.bot import Twitter
 
 from database import get_session
 
@@ -50,3 +51,11 @@ def update_user_stats():
 
     # close the session
     session.close()
+
+
+def get_tweet(user):
+    # proxy = {'http': '45.162.135.201:999', 'https': '45.162.135.201:999'}
+    app = Twitter(profile_name=user)
+    all_tweets = app.get_tweets(pages=1)
+
+    return all_tweets[0].text

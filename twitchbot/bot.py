@@ -28,6 +28,8 @@ class Bot(commands.Bot):
         # load initial modules
         self.load_module("commands.messagecommands")
         self.load_module("commands.administrative")
+        self.load_module("commands.apis")
+        
 
     async def event_ready(self):
         print(f"Logged in as | {self.nick}")

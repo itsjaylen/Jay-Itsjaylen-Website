@@ -11,7 +11,7 @@ from app.docs import bp as docs_bp
 from app.api.tools.apitool import update_user_stats
 from app.auth import bp as auth_bp
 from app.commands import configure_cli
-from app.extensions import admin, bcrypt, cache, db, login_manager, migrate, scheduler
+from app.extensions import admin, bcrypt, cache, db, login_manager, scheduler
 from app.main import bp as main_bp
 from app.models.account import Controller, User
 from app.models.YoutubeScrapping import Video, YoutubeChannels
@@ -39,7 +39,7 @@ def create_app(config_class=Config):
     configure_tasks(app)
     scheduler.init_app(app)
     cache.init_app(app)
-    migrate.init_app(app, db)
+    #igrate.init_app(app, db)
 
     login_manager.login_view = "login"
     login_manager.login_message = "Please log in to access this page."

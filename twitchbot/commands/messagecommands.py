@@ -8,6 +8,7 @@ from models.TwitchScraping import TwitchMessages, TwitchUsers, TwitchMessagesLeg
 from twitchio.ext import commands
 from util.decorators import authorized_users, log_errors
 from util.messagetools import update_user_stats
+from fuzzywuzzy import fuzz
 from sqlalchemy import func
 
 
@@ -91,9 +92,53 @@ class MessageCommands(commands.Cog):
             TwitchConfig.CLIENT_ID, TwitchConfig.CLIENT_SECRET
         )
         account_age = await get_account_age(username, oauth_token)
-        asyncio.sleep(3)
+        await asyncio.sleep(3)
         await ctx.send(f"{username} was created at {account_age} ")
 
+
+    @commands.command(name="findmessage")
+    @authorized_users
+    async def find_message(self, ctx, search_string, username=None, max_messages=5,*args):
+        threshold = 70  # Adjust this value as needed for matching accuracy
+        if max_messages > 5:
+            max_messages = 5
+
+
+        try:
+            # Query the database for messages
+            query = self.session.query(TwitchMessages)
+
+            # Apply filters for search string and username
+            query = query.filter(TwitchMessages.message.ilike(f"%{search_string}%"))
+            if username:
+                query = query.filter(TwitchMessages.username.ilike(username))
+
+            # Execute the query and retrieve matching messages
+            messages = query.all()
+
+            matching_messages = [
+                msg
+                for msg in messages
+                if fuzz.partial_ratio(search_string, msg.message) >= threshold
+            ]
+
+            if matching_messages:
+                # Send up to max_messages matching messages to the chat channel
+                for i, msg in enumerate(matching_messages[:max_messages]):
+                    message = f"[{msg.timestamp}] {msg.channel} - {msg.username}: {msg.message}"
+                    await ctx.send(message)
+                    await asyncio.sleep(3)
+                    if i == max_messages - 1:
+                        break
+            else:
+                await ctx.send(
+                    f"/me No messages found from user '{username}' that match '{search_string}'."
+                    if username
+                    else f"No messages found that match '{search_string}'."
+                )
+        finally:
+            # Close the session to release database resources
+            self.session.close()
 
 # Export the cog to be loaded in the main file
 def prepare(bot):

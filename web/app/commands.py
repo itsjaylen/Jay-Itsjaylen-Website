@@ -9,7 +9,7 @@ import requests
 from fuzzywuzzy import fuzz
 from loguru import logger
 
-from app.extensions import bcrypt, db, migrate
+from app.extensions import bcrypt, db
 from app.models.account import User
 from app.models.YoutubeScrapping import Video, YoutubeChannels
 from app.scrapping.tools.YoutubeScrapping import get_videos
@@ -51,12 +51,12 @@ def configure_cli(app):
 
     @app.cli.command()
     def db_upgrade():
-        migrate.upgrade()
+        #migrate.upgrade()
         logger.info("Database upgraded.")
 
     @app.cli.command()
     def db_downgrade():
-        migrate.downgrade()
+        #migrate.downgrade()
         logger.info("Database downgraded.")
 
     # TODO add the role type to the command

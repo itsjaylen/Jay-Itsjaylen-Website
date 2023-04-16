@@ -1,9 +1,10 @@
+import json
 import string
 from datetime import datetime, timedelta
 from functools import wraps
 import hashlib
 
-from flask import jsonify, request, session
+from flask import jsonify, render_template, request, session
 
 from app.api import api
 from app.api.tools.apitool import get_attr
@@ -159,3 +160,29 @@ def twitch_messages(username):
             return jsonify(messages=message_list)
         else:
             return jsonify(message="No messages found for this user"), 404
+        
+        
+@api.route("/twitch/messagesviewer/")
+def messagesviewer():
+    messages = (
+        TwitchMessages.query.filter_by(
+            username="zoidnl".lower(),
+        )
+        .order_by(TwitchMessages.timestamp.asc())
+        .all()
+    )
+    if messages:
+        message_list = []
+        for message in messages:
+            message_attributes = {
+                "channel": get_attr("channel", message),
+                "username": get_attr("username", message),
+                "timestamp": get_attr("timestamp", message),
+                "message": get_attr("message", message),
+                "id": get_attr("id", message),
+            }
+            message_list.append(message_attributes)
+    
+    return render_template("twitch.html", jsonData=message_list)
+
+

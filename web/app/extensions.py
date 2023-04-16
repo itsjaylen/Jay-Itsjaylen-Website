@@ -4,7 +4,7 @@ from flask_login import LoginManager
 from flask_sqlalchemy import SQLAlchemy
 from flask_apscheduler import APScheduler
 from flask_caching import Cache
-from flask_migrate import Migrate
+#from flask_migrate import Migrate
 
 
 db = SQLAlchemy()
@@ -13,4 +13,4 @@ login_manager = LoginManager()
 admin = Admin()
 scheduler = APScheduler()
 cache = Cache(config={'CACHE_TYPE': 'SimpleCache'})
-migrate = Migrate()
+#migrate = Migrate()

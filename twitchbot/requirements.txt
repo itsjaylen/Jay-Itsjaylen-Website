@@ -3,3 +3,6 @@ sqlalchemy
 psycopg2
 python-dotenv
 loguru
+tweety-ns
+fuzzywuzzy
+wget
